@@ -25,9 +25,14 @@
 .hero .stats div{font-size:11px;color:#7a8279;text-transform:uppercase;letter-spacing:.12em}
 .hero .stats strong{display:block;font:500 27px 'Playfair Display',Georgia,serif;color:#344e3e;letter-spacing:0;margin-bottom:5px}
 @media(max-width:650px){.hero{padding:65px 18px 70px}.hero .stats{gap:20px}.hero .stats div{font-size:9px}.hero .stats strong{font-size:24px}}
+
+.tree[data-branch="lambson"] .treeinner{min-width:2120px}
+.tree[data-branch="lambson"] .lineage:before{left:87px;right:87px}
+.branch-links button[aria-pressed="true"]{border-color:#6a8b70;background:#dfe9db}
+.story-profile-link[hidden]{display:none}
 </style><style>
 .story-feature{margin:24px auto 38px;max-width:1200px;padding:0 24px}.story-feature-inner{border:1px solid #d7c9b4;border-radius:20px;padding:30px 36px;background:linear-gradient(115deg,#f4ebdb,#e9e1d4);display:flex;justify-content:space-between;align-items:center;gap:25px;box-shadow:0 12px 36px #2c26151a}.story-feature .kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#786448;font-weight:700}.story-feature h2{font-family:Georgia,serif;font-size:clamp(27px,3vw,42px);margin:9px 0;color:#302c26}.story-feature p{max-width:610px;line-height:1.65;color:#655b4f;margin:0}.story-feature a,.story-profile-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:30px;background:#293b34;color:white!important;padding:14px 21px;font-weight:650;white-space:nowrap;transition:transform .2s}.story-feature a:hover,.story-profile-link:hover{transform:translateY(-2px)}.story-profile-link{margin:18px 0 4px;font-size:13px;padding:11px 17px}@media(max-width:700px){.story-feature-inner{display:block;padding:24px}.story-feature a{margin-top:20px}}
-.header-story-link{color:inherit;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.12em;border:1px solid currentColor;border-radius:100px;padding:10px 15px;display:inline-flex;gap:8px;align-items:center;transition:background .2s,color .2s}.header-story-link:hover,.header-story-link:focus-visible{background:#e9dcc4;color:#26372e;outline-offset:3px}@media(max-width:650px){.header-story-link{font-size:9px;letter-spacing:.04em;padding:8px 10px}}</style></head><body><header class="top"><div class="brand">◉   DOWNARD   /   FREESTONE   /   FAMILY ARCHIVE</div><a class="header-story-link" href="stories/downard.html" title="Read the Downard Family Story">THE DOWNARD FAMILY STORY <span aria-hidden="true">↗</span></a></header><section aria-label="Explore family branches" class="branch-expansion"><div class="eyebrow">TWO SIDES · ONE FAMILY STORY</div><h2>Every branch has a story.</h2><p>Follow the Downard &amp; Lambson families through your father’s ancestry, or explore the Freestone &amp; Peterson families through your mother’s ancestry.</p><div class="family-branch-grid"><div class="family-branch-card"><span class="family-branch-kicker">PATERNAL LINE</span><h3>Downard <em>&amp;</em> Lambson</h3><p>George Downard’s journey from England to Utah, the generations that followed, and Norma Lucille Lambson’s family.</p><div class="branch-links"><button data-person="george" type="button">Explore Downard</button><a href="stories/lambson.html">Explore Lambson</a></div></div><div class="family-branch-card"><span class="family-branch-kicker">MATERNAL LINE</span><h3>Freestone <em>&amp;</em> Peterson</h3><p>Begin with Judy Freestone. Her parents and the Peterson connections will join this branch as their names and records are confirmed.</p><div class="branch-links"><button data-person="judy" type="button">Explore Freestone</button><button disabled="" title="Peterson relatives have not yet been identified" type="button">Peterson · Coming soon</button></div></div></div><p class="branch-note">Family branches are grouped for navigation, not as a claim about unverified parentage. We’ll add the Peterson relatives when their identities are established.</p></section><section class="hero"><div class="eyebrow">A LIVING HISTORY · 1862 — 2009</div><h1>Every family has<br/><em>a remarkable story.</em></h1><div class="rule"></div><p>Five generations. An ocean crossed. A new home found. Explore the people, places and small moments that became the Downard family story.</p><div class="stats"><div><strong>05</strong>GENERATIONS</div><div><strong>147</strong>YEARS IN AMERICA</div><div><strong>1862</strong>THE JOURNEY BEGINS</div></div></section><section aria-label="Downard family story" class="story-feature"><div class="story-feature-inner"><div><div class="kicker">FROM THE FAMILY ARCHIVE · A SECOND PAGE</div><h2>The Downard Family Story</h2><p>A richly illustrated, chapter-by-chapter history following George Downard’s crossing from England to Utah and the generations through Robert T. Downard. Read the stories, memories, and historical context behind the family tree.</p></div><a href="stories/downard.html">Read the family story   ↗</a></div></section><main class="wrap"><div class="sectionbar"><div><div class="eyebrow">Explore the lineage</div><h2>The living family tree</h2></div><div class="tools"><input aria-label="Search family members" id="search" placeholder="Search names and stories…" type="search"/><button id="reset" type="button">Return to George</button></div></div><section aria-label="Direct line family tree" class="tree"><div class="treeinner"><div class="lineage" id="lineage"></div><div class="stepnote">DIRECT LINE · GEORGE → JOHN LOUIS → WALTER → THOMAS JOHN → ROBERT T.</div></div></section><div class="details"><article class="sheet"><div class="label" id="role">DIRECT LINE</div><h3 id="name">George Downard</h3><div class="dates" id="dates">1821–1902</div><div aria-label="Birth and death locations" class="placebadges" id="placebadges"></div><div aria-label="Military service" class="servicebadges" id="servicebadges"></div><div aria-label="Birth, marriage and death details" class="vital-records" id="vital-records"></div><p class="story" id="story"></p><div class="groups"><div class="group"><h4>Parents</h4><div id="parents"></div></div><div class="group"><h4>Spouses / partners</h4><div id="spouses"></div></div></div><div class="notice" id="caution">The family connections are drawn from supplied FamilySearch summaries and family research. Conflicting dates and relationships remain marked for review.</div></article><aside class="sheet"><div class="branchhead"><div><div class="label">Family connections</div><h3>Children &amp; branches</h3></div><small id="count"></small></div><div class="branch" id="children"></div><div class="notice">Clace’s three Bradley daughters are shown as Walter’s <strong>stepchildren</strong>, not his biological children. Walter and Clace married September 12, 1921, in Provo, Utah, according to the family information provided.</div></aside></div><div class="foot">An exploratory family archive · Original biographies and period sources should be reviewed against the underlying records.<br/>Living relatives are displayed with limited information.</div></main><script>
+.header-story-link{color:inherit;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.12em;border:1px solid currentColor;border-radius:100px;padding:10px 15px;display:inline-flex;gap:8px;align-items:center;transition:background .2s,color .2s}.header-story-link:hover,.header-story-link:focus-visible{background:#e9dcc4;color:#26372e;outline-offset:3px}@media(max-width:650px){.header-story-link{font-size:9px;letter-spacing:.04em;padding:8px 10px}}</style></head><body><header class="top"><div class="brand">◉   DOWNARD   /   FREESTONE   /   FAMILY ARCHIVE</div><a class="header-story-link" href="stories/downard.html" title="Read the Downard Family Story">THE DOWNARD FAMILY STORY <span aria-hidden="true">↗</span></a></header><section aria-label="Explore family branches" class="branch-expansion"><div class="eyebrow">TWO SIDES · ONE FAMILY STORY</div><h2>Every branch has a story.</h2><p>Follow the Downard &amp; Lambson families through your father’s ancestry, or explore the Freestone &amp; Peterson families through your mother’s ancestry.</p><div class="family-branch-grid"><div class="family-branch-card"><span class="family-branch-kicker">PATERNAL LINE</span><h3>Downard <em>&amp;</em> Lambson</h3><p>George Downard’s journey from England to Utah, the generations that followed, and Norma Lucille Lambson’s family.</p><div class="branch-links"><button aria-pressed="true" data-branch-choice="downard" type="button">Explore Downard</button><button aria-pressed="false" data-branch-choice="lambson" type="button">Explore Lambson</button></div></div><div class="family-branch-card"><span class="family-branch-kicker">MATERNAL LINE</span><h3>Freestone <em>&amp;</em> Peterson</h3><p>Begin with Judy Freestone. Her parents and the Peterson connections will join this branch as their names and records are confirmed.</p><div class="branch-links"><button id="explore-freestone" type="button">Explore Freestone</button><button disabled="" title="Peterson relatives have not yet been identified" type="button">Peterson · Coming soon</button></div></div></div><p class="branch-note">Family branches are grouped for navigation, not as a claim about unverified parentage. We’ll add the Peterson relatives when their identities are established.</p></section><section class="hero"><div class="eyebrow">A LIVING HISTORY · 1862 — 2009</div><h1 tabindex="-1"><span>Every family has</span><br/><em>a remarkable story.</em></h1><div class="rule"></div><p>Five generations. An ocean crossed. A new home found. Explore the people, places and small moments that became the Downard family story.</p><div class="stats"><div><strong>05</strong><span>GENERATIONS</span></div><div><strong>147</strong><span>YEARS IN AMERICA</span></div><div><strong>1862</strong><span>THE JOURNEY BEGINS</span></div></div></section><section aria-label="Downard family story" class="story-feature"><div class="story-feature-inner"><div><div class="kicker">FROM THE FAMILY ARCHIVE · A SECOND PAGE</div><h2>The Downard Family Story</h2><p>A richly illustrated, chapter-by-chapter history following George Downard’s crossing from England to Utah and the generations through Robert T. Downard. Read the stories, memories, and historical context behind the family tree.</p></div><a href="stories/downard.html">Read the family story   ↗</a></div></section><main class="wrap"><div class="sectionbar"><div><div class="eyebrow">Explore the lineage</div><h2 id="tree-title">The living family tree</h2></div><div class="tools"><input aria-label="Search family members" id="search" placeholder="Search names and stories…" type="search"/><button id="reset" type="button">Return to George</button></div></div><section aria-label="Direct line family tree" class="tree"><div class="treeinner"><div class="lineage" id="lineage"></div><div class="stepnote">DIRECT LINE · GEORGE → JOHN LOUIS → WALTER → THOMAS JOHN → ROBERT T.</div></div></section><div class="details"><article class="sheet"><div class="label" id="role">DIRECT LINE</div><h3 id="name">George Downard</h3><div class="dates" id="dates">1821–1902</div><div aria-label="Birth and death locations" class="placebadges" id="placebadges"></div><div aria-label="Military service" class="servicebadges" id="servicebadges"></div><div aria-label="Birth, marriage and death details" class="vital-records" id="vital-records"></div><p class="story" id="story"></p><a class="story-profile-link" id="chapter-link" hidden></a><div class="groups"><div class="group"><h4>Parents</h4><div id="parents"></div></div><div class="group"><h4>Spouses / partners</h4><div id="spouses"></div></div></div><div class="notice" id="caution">The family connections are drawn from supplied FamilySearch summaries and family research. Conflicting dates and relationships remain marked for review.</div></article><aside class="sheet"><div class="branchhead"><div><div class="label">Family connections</div><h3>Children &amp; branches</h3></div><small id="count"></small></div><div class="branch" id="children"></div><div class="notice" id="connection-note">Clace’s three Bradley daughters are shown as Walter’s <strong>stepchildren</strong>, not his biological children. Walter and Clace married September 12, 1921, in Provo, Utah, according to the family information provided.</div></aside></div><div class="foot">An exploratory family archive · Original biographies and period sources should be reviewed against the underlying records.<br/>Living relatives are displayed with limited information.</div></main><script>
 const people=[{"id": "glennlambson", "name": "Glenn Cody Lambson", "dates": "1898–1934", "role": "Norma’s father · Lambson branch", "story": "Father of Norma Lucille Lambson. Further records and photographs to be added.", "parents": [], "spouses": ["marylucille"]},{"id": "marylucille", "name": "Mary Lucille Jamieson Lambson Pedersen", "dates": "1905–1984", "role": "Norma’s mother · Lambson branch", "story": "Mother of Norma Lucille Lambson. Her maiden surname is also transcribed Jameson in some family material; verify against original records.", "parents": [], "spouses": ["glennlambson"]},{"id": "judy", "name": "Judy Maurine Freestone", "dates": "1948–Present", "role": "Maternal family · Freestone branch", "story": "Born February 14, 1948. Your mother. This branch will expand to include her parents, grandparents, records, photographs and stories. Mother of the archive creator and spouse of Robert T. Downard. Marriage date and location have not yet been provided.", "parents": [], "spouses": ["robert"]},{"id": "george", "name": "George Downard", "dates": "1821–1902", "role": "Direct ancestor · Generation I", "story": "Painter from Deptford. Crossed the Atlantic on the William Tapscott in 1862; the passenger transcription records the surname Dowrard.", "parents": ["william", "kitty"], "spouses": ["sarah", "mary"]}, {"id": "sarah", "name": "Sarah Ann Downard", "dates": "1831–1901", "role": "George’s first wife", "story": "Traveled with George and their children in 1862.", "parents": [], "spouses": ["george"]}, {"id": "mary", "name": "Mary Emma Carlisle", "dates": "1833–1897", "role": "George’s second wife · direct ancestor", "story": "Born in Devonport. Married George in Spring City in 1865. Her reported birth year differs from a headstone reading and merits review.", "parents": ["williamc", "jane"], "spouses": ["george"]}, {"id": "alice", "name": "Alice Downard", "dates": "1851–1912", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "georgef", "name": "George Frederick Downard", "dates": "1853–1938", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "johnb", "name": "John B. Downard", "dates": "1855–1862", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "joseph", "name": "Joseph Downard", "dates": "1855–1934", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "hiram", "name": "Hiram Downard", "dates": "1858–1858", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "cecelia", "name": "Cecelia Downard", "dates": "1858–1891", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "edward", "name": "Edward Hiram Downard", "dates": "1861–1862", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "sarahj", "name": "Sarah Ann Downard", "dates": "1866–1953", "role": "George’s child", "story": "The source tree assigns this child to George and Sarah Ann.", "parents": ["george", "sarah"], "spouses": []}, {"id": "williamg", "name": "William Downard", "dates": "1867–1950", "role": "George’s child", "story": "The source tree assigns this child to George and Mary Emma.", "parents": ["george", "mary"], "spouses": []}, {"id": "john", "name": "John Louis Downard", "dates": "1869–1944", "role": "George’s child · direct ancestor", "story": "Born in Spring City, Utah, John Louis later lived in Price. He married Angeline Rebecca King in 1896; after her death in 1913, he married Minnie Estella Thompson Rogers in 1915 and Gertrude Elenor Miller in 1923.", "parents": ["george", "mary"], "spouses": ["angeline", "minnie", "gertrude"]}, {"id": "emma", "name": "Emma Jane Downard", "dates": "1873–1933", "role": "George’s child", "story": "The source tree assigns this child to George and Mary Emma.", "parents": ["george", "mary"], "spouses": []}, {"id": "angeline", "name": "Angeline Rebecca King", "dates": "1881–1913", "role": "John Louis’s first wife · direct ancestor", "story": "Died in a tragic accidental shooting at Woodside in 1913, described in period newspaper accounts.", "parents": ["david", "annah"], "spouses": ["john"]}, {"id": "gertrude", "name": "Gertrude Elenor Miller", "dates": "1880–1958", "role": "John Louis’s later wife", "story": "Married John Louis in Salt Lake City on December 22, 1923.", "parents": [], "spouses": ["john"]}, {"id": "minnie", "name": "Minnie Estella Thompson Rogers", "dates": "Dates unconfirmed", "role": "John Louis’s reported second wife", "story": "A reported 1915 marriage; original documentation still needs confirmation.", "parents": [], "spouses": ["john"]}, {"id": "manual", "name": "Manual Louis Downard", "dates": "1897–1973", "role": "John Louis and Angeline’s child", "story": "", "parents": ["john", "angeline"], "spouses": []}, {"id": "walter", "name": "Walter William Downard", "dates": "1899–1975", "role": "John Louis and Angeline’s child · direct ancestor", "story": "", "parents": ["john", "angeline"], "spouses": []}, {"id": "angelina", "name": "Angelina Downard", "dates": "1901–1901", "role": "John Louis and Angeline’s child", "story": "", "parents": ["john", "angeline"], "spouses": []}, {"id": "clace", "name": "Clace Sabey", "dates": "1895–1989", "role": "Walter’s wife · Grandma D", "story": "Raised five children across two marriages, cared for neighborhood children and was remembered with affection by grandson Robert T. Downard. The 1956–59 court notices document an alimony dispute.", "parents": ["sabey", "hatch"], "spouses": ["mack", "walter"]}, {"id": "mack", "name": "Marshall McKinley Bradley", "dates": "1893–1937", "role": "Clace’s first husband", "story": "Married Clace in 1917; later divorced.", "parents": [], "spouses": ["clace"]}, {"id": "oaka", "name": "Oaka Maxine Bradley", "dates": "1915–2002", "role": "Clace’s daughter · Walter’s stepdaughter", "story": "Born before Clace’s marriage to Walter; do not assign Walter as biological father.", "parents": ["clace", "mack"], "spouses": []}, {"id": "barbara", "name": "Barbara Jean Bradley", "dates": "1918–1998", "role": "Clace’s daughter · Walter’s stepdaughter", "story": "Born before Clace’s marriage to Walter; do not assign Walter as biological father.", "parents": ["clace", "mack"], "spouses": []}, {"id": "maryj", "name": "Mary Jane Bradley", "dates": "1919–1991", "role": "Clace’s daughter · Walter’s stepdaughter", "story": "Born before Clace’s marriage to Walter; do not assign Walter as biological father.", "parents": ["clace", "mack"], "spouses": []}, {"id": "thomas", "name": "Thomas John Downard", "dates": "1921–1982", "role": "Direct ancestor · Generation IV", "story": "Born in Bluebell. Served in the U.S. Army during World War II with the 136th Infantry Regiment, 33rd Infantry Division, including service in Alaska and the Pacific; later worked for the Postal Service; remembered for baseball, family and generosity.", "parents": ["walter", "clace"], "spouses": ["norma"]}, {"id": "delores", "name": "Delores “Nancy” Downard", "dates": "1923–2003", "role": "Walter and Clace’s daughter", "story": "Born in Vernal, Utah.", "parents": ["walter", "clace"], "spouses": []}, {"id": "norma", "name": "Norma Lucille Lambson", "dates": "1923–2000", "role": "Thomas John’s wife", "story": "Married Thomas John in Salt Lake City in 1942.", "parents": ["glennlambson", "marylucille"], "spouses": ["thomas"]}, {"id": "robert", "name": "Robert T. Downard", "dates": "1948–2009", "role": "Direct descendant · Generation V", "story": "Vietnam-era U.S. military service is reported by family; branch, dates and deployment details await documentation. Recorded treasured memories of Grandma D: “She kept the family together. I have nothing but fond memories of her.”", "parents": ["thomas", "norma"], "spouses": ["judy"]}, {"id": "glen", "name": "Glen L. Downard", "dates": "1951–2007", "role": "Thomas and Norma’s son", "story": "Brother of Robert T.", "parents": ["thomas", "norma"], "spouses": []}, {"id": "quinn", "name": "Quinn C. Downard", "dates": "Living", "role": "Thomas and Norma’s son", "story": "Living relative; biographical details intentionally limited.", "parents": ["thomas", "norma"], "spouses": []}, {"id": "william", "name": "William Downard", "dates": "1778–1860", "role": "George’s reported father", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "kitty", "name": "Catharine “Kitty” Welch", "dates": "1785–1856", "role": "George’s reported mother", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "williamc", "name": "William John Carlisle", "dates": "c. 1802–?", "role": "Mary Emma’s reported father", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "jane", "name": "Jane Finder", "dates": "1806–1848", "role": "Mary Emma’s reported mother", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "david", "name": "David Abraham King", "dates": "1847–1921", "role": "Angeline’s father", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "annah", "name": "Anna Hannah Hicks", "dates": "1849–1894", "role": "Angeline’s mother", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "sabey", "name": "Thomas Sabey", "dates": "1867–1945", "role": "Clace’s father", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}, {"id": "hatch", "name": "Jane Hatch", "dates": "1875–1926", "role": "Clace’s mother", "story": "FamilySearch-derived relationship; check original records before treating as independently verified.", "parents": [], "spouses": []}];// Locations are assigned only when the supplied family material identifies the place.
 // A shared birthplace and death place produces one badge; two places produce two badges.
 const locations={
@@ -87,16 +92,324 @@ function biographyDates(p){
 }
 function showVitals(id){const box=document.getElementById('vital-records');box.replaceChildren();const facts=vitalFacts[id]||{};const add=(label,value,sub)=>{const el=document.createElement('div');el.className='vital-item';const l=document.createElement('span');l.className='vital-label';l.textContent=label;const v=document.createElement('div');v.className='vital-value';v.textContent=value;if(sub){const sm=document.createElement('small');sm.textContent=sub;v.append(sm)}el.append(l,v);box.append(el)};add('Born',facts.birth||'Exact date to research',facts.birthPlace);if(facts.marriages?.length){facts.marriages.forEach(([name,date])=>add('Married · '+name,date))}else add('Marriage','Details not yet documented');add(facts.death==='Living'?'Status':'Died',facts.death||'Exact date to research',facts.deathPlace)}
 
-const direct=["george", "john", "walter", "thomas", "robert"];const map=Object.fromEntries(people.map(p=>[p.id,p]));let selected='george';const $=id=>document.getElementById(id);const line=$('lineage');const first=n=>n.split(' ').map(x=>x[0]).slice(0,2).join('');const navigable=new Set(['george','mary','john','angeline','walter','clace','thomas','norma','robert','glennlambson','marylucille','judy']);function makeButton(id){const p=map[id];if(!p)return null;const b=document.createElement(navigable.has(id)?'button':'div');if(navigable.has(id))b.type='button';b.className=navigable.has(id)?'person':'person person-static';const a=document.createElement('span');const strong=document.createElement('strong');strong.textContent=p.name;const small=document.createElement('span');small.textContent=p.dates;a.append(strong,small);b.append(a);if(navigable.has(id))b.addEventListener('click',()=>select(id));else b.setAttribute('aria-label',p.name+', '+p.dates+', family member listed for context');return b}function fill(id,ids){const el=$(id);el.replaceChildren();if(!ids.length){const e=document.createElement('div');e.className='empty';e.textContent='No names listed in this edition.';el.append(e)}else ids.forEach(x=>{const b=makeButton(x);if(b)el.append(b)})}function select(id){const p=map[id];if(!p)return;selected=id;$('role').textContent=p.role;$('name').textContent=p.name;$('dates').textContent=biographyDates(p);showPlaces(id);showService(id);showVitals(id);$('story').textContent=p.story||'Select the connected family members to explore this branch of the tree. Original documents and memories can be added to this profile.';fill('parents',p.parents);fill('spouses',p.spouses);const children=people.filter(q=>q.parents.includes(id));fill('children',children.map(q=>q.id));$('count').textContent=children.length+' listed';line.querySelectorAll('[data-id]').forEach(b=>{b.classList.toggle('active',b.dataset.id===id);b.setAttribute('aria-pressed',String(b.dataset.id===id))});$('search').value='';}const directSpouses={george:'mary',john:'angeline',walter:'clace',thomas:'norma',robert:'judy'};
-direct.forEach(id=>{const p=map[id];const col=document.createElement('div');col.className='couple-column';const b=document.createElement('button');b.type='button';b.className='ancestor';b.dataset.id=id;b.innerHTML='<div class="avatar" aria-hidden="true">'+first(p.name)+'</div>';const name=document.createElement('b');name.textContent=p.name;const dates=document.createElement('small');dates.textContent=p.dates;b.append(name,dates);b.addEventListener('click',()=>select(id));col.append(b);const spouseId=directSpouses[id];if(spouseId){const wife=map[spouseId];const link=document.createElement('span');link.className='couple-link';link.setAttribute('aria-hidden','true');col.append(link);const label=document.createElement('span');label.className='spouse-caption';label.textContent=spouseId==='judy'?'Spouse · maternal branch':'Spouse · direct ancestor';col.append(label);const sb=document.createElement('button');sb.type='button';sb.className='spouse-card';sb.dataset.id=spouseId;const av=document.createElement('div');av.className='avatar';av.setAttribute('aria-hidden','true');av.textContent=first(wife.name);const wn=document.createElement('b');wn.textContent=wife.name;const wd=document.createElement('small');wd.textContent=wife.dates;sb.append(av,wn,wd);sb.addEventListener('click',()=>select(spouseId));col.append(sb)}line.append(col)});
-$('search').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();if(!q){select(selected);return}const hits=people.filter(p=>(p.name+' '+p.role+' '+p.story).toLowerCase().includes(q)).slice(0,50);const box=$('children');box.replaceChildren();$('count').textContent=hits.length+' matches';hits.forEach(p=>box.append(makeButton(p.id)));$('role').textContent='SEARCH RESULTS';$('name').textContent='Explore the archive';$('dates').textContent='Select a match on the right';$('placebadges').replaceChildren();$('servicebadges').replaceChildren();$('story').textContent='Search includes the direct line, spouses, children, stepchildren, and parents.';});$('reset').addEventListener('click',()=>select('george'));select('george');
-document.querySelectorAll(".branch-links [data-person]").forEach(button=>button.addEventListener("click",()=>{select(button.dataset.person);document.getElementById("name")?.scrollIntoView({behavior:"smooth",block:"center"});}));
+const downardLine = ['george', 'john', 'walter', 'thomas', 'robert'];
+const downardSpouses = {george:'mary', john:'angeline', walter:'clace', thomas:'norma', robert:'judy'};
+const downardChapters = {
+  george:'george', mary:'george', john:'john', angeline:'john', walter:'walter',
+  clace:'walter', thomas:'thomas', norma:'thomas', robert:'robert'
+};
+const $ = id => document.getElementById(id);
+const line = $('lineage');
 
-(function(){
-const chapters={george:'george',mary:'george',john:'john',angeline:'john',walter:'walter',clace:'walter',thomas:'thomas',norma:'thomas',robert:'robert'};
-const storyEl=document.getElementById('story');
-if(!storyEl)return;
-const link=document.createElement('a');link.className='story-profile-link';link.textContent='Read this chapter in the Downard Family Story →';link.hidden=true;storyEl.insertAdjacentElement('afterend',link);
-function sync(){const key=typeof selected!=='undefined'?selected:'george';const chapter=chapters[key];link.hidden=!chapter;if(chapter)link.href='stories/downard.html#'+chapter;}
-const observer=new MutationObserver(sync);observer.observe(document.getElementById('name'),{childList:true,characterData:true,subtree:true});sync();
-})();</script><aside style="position:fixed;right:18px;bottom:18px;z-index:999;background:#52664f;color:white;padding:14px 20px;border-radius:10px;box-shadow:0 8px 28px #0003;font:14px Arial"><a style="color:white;text-decoration:none" href="stories/lambson.html">Read the Lambson Family Story →</a></aside></body></html>
+// This order and the profiles follow the direct-ancestor biographies in the Lambson story.
+const lambsonGenerations = [
+  {
+    id:'barnabas', name:'Barnabas Lamson / Lambson', dates:'c. 1602–c. 1640', chapter:'crossing',
+    story:'Left England for Massachusetts Bay in 1635 and settled in Cambridge, where he held land and served in town government. His reported passage on the Defence still needs passenger-list confirmation.',
+    spouse:{id:'marie', name:'Marie (Mary) Liggett', dates:'c. 1608–reported 1638', story:'Named Marie in her daughter Martha’s Ridgewell baptism. Her exact death date and proposed father remain unverified.'}
+  },
+  {
+    id:'joseph-lambson', name:'Joseph Lambson', dates:'c. 1636–unknown', chapter:'children',
+    story:'A Cambridge church account names him as Barnabas’s son. He was placed in John Bridge’s care and later married Elizabeth Rice.',
+    spouse:{id:'elizabeth-rice', name:'Elizabeth Rice', dates:'1641–after 1708', story:'The family history names Elizabeth as Joseph’s wife. The timing of her reported later marriage requires verification.'}
+  },
+  {
+    id:'joseph-lamson-jr', name:'Joseph Lamson Jr.', dates:'1664–1743',
+    story:'Lived in Concord, Massachusetts, and reportedly married Elizabeth Adams in Sherborn in 1686.',
+    spouse:{id:'elizabeth-adams', name:'Elizabeth Adams', dates:'1665–1710', story:'Reported daughter of James Adams and Priscilla Ramsdell. The family record places her marriage to Joseph in 1686.'}
+  },
+  {
+    id:'ebenezer-lamson', name:'Ebenezer Lamson', dates:'1694–1772',
+    story:'The family record places his marriage to Mary Matson in Simsbury in 1720. His occupation and specific farm remain unverified.',
+    spouse:{id:'mary-matson', name:'Mary Matson', dates:'1698–1773', story:'Reported daughter of John Matson and Mary Adams. Her sister Jane also appears in this branch’s ancestry.'}
+  },
+  {
+    id:'elnathan-lambson', name:'Elnathan Lambson', dates:'1733–1827', chapter:'militia',
+    story:'Born in Simsbury and died in Granby. A 1779 Connecticut militia alarm-list lead still needs confirmation from the original roster.',
+    spouse:{id:'jane-hayes', name:'Jane Hayes', dates:'1733–1761', story:'Reported daughter of George Hayes II and Jane Matson. The family record places her marriage to Elnathan in 1751.'}
+  },
+  {
+    id:'jesse-lambson', name:'Jesse Lambson Sr.', dates:'1756–1818',
+    story:'Born in colonial Connecticut and died in Granville, Massachusetts. Military registration is reported, but wartime service remains unconfirmed.',
+    spouse:{id:'ruth-miller', name:'Ruth Miller', dates:'1757–1813', story:'Born in Simsbury. The family record places her marriage to Jesse around 1786.'}
+  },
+  {
+    id:'boaz-lambson', name:'Boaz Lambson', dates:'1789–1837',
+    story:'Born in Granby, Connecticut, and living in Michigan by 1830. The supplied family record places his marriage to Polly Walworth in 1813.',
+    spouse:{id:'polly-walworth', name:'Polly Walworth', dates:'1799–1889', story:'Reportedly born in New York and later lived in the Midwest. Her reported age at first marriage warrants checking the original record.'}
+  },
+  {
+    id:'arba-lambson-sr', name:'Arba Lorenzo Lambson Sr.', dates:'1818–1870/71', chapter:'west',
+    story:'Captained overland wagon companies in 1861 and 1862. Institutional sources disagree on his death year.',
+    spouse:{id:'sarah-harrington', name:'Sarah Cordellia Harrington', dates:'1833–1899', story:'Listed in Arba’s 1861 traveling group with their children, including the infant Arba Jr.'}
+  },
+  {
+    id:'arba-lambson-jr', name:'Arba Lorenzo Lambson Jr.', dates:'1860–1910', chapter:'utah',
+    story:'Born in Iowa and listed in the 1861 wagon company as an infant. He married Rosella Blanchard in Springville in 1881.',
+    spouse:{id:'rosella-blanchard', name:'Rosella Francenia Blanchard', dates:'1865–1909', story:'The family record places her birth and death in Springville. She married Arba Jr. in 1881.'}
+  },
+  {
+    id:'glennlambson', chapter:'glennwar',
+    story:'Born in Springville and died in Bingham Canyon. His sister Clara recalled that he went to war in France. Military records have yet to confirm that account.',
+    spouse:{id:'marylucille'}
+  },
+  {
+    id:'norma', chapter:'union',
+    story:'Born in Bingham Canyon. In 1942, she married Thomas John Downard in Salt Lake City, joining the two family lines.',
+    spouse:{id:'thomas'}
+  }
+];
+
+const map = Object.fromEntries(people.map(person => [person.id, person]));
+const lambsonPeople = new Map();
+const lambsonChapters = {};
+lambsonGenerations.forEach(({spouse, chapter = 'bios', ...ancestor}, index) => {
+  const previous = lambsonGenerations[index - 1];
+  lambsonPeople.set(ancestor.id, {
+    ...map[ancestor.id], ...ancestor,
+    role:ancestor.id === 'norma' ? 'Lambson and Downard families' : 'Lambson lineage',
+    parents:previous ? [previous.id, previous.spouse.id] : [],
+    spouses:[spouse.id]
+  });
+  lambsonPeople.set(spouse.id, {
+    role:'Spouse · Lambson lineage', parents:[], ...map[spouse.id], ...spouse,
+    spouses:[ancestor.id]
+  });
+  lambsonChapters[ancestor.id] = chapter;
+  lambsonChapters[spouse.id] = spouse.id === 'thomas' ? 'union' : 'bios';
+});
+
+const hero = document.querySelector('.hero');
+const storyFeature = document.querySelector('.story-feature');
+const storyLink = storyFeature.querySelector('a');
+const headerStoryLink = document.querySelector('.header-story-link');
+const tree = line.closest('.tree');
+const fields = {
+  era:hero.querySelector('.eyebrow'),
+  headline:hero.querySelector('h1 span'),
+  emphasis:hero.querySelector('h1 em'),
+  description:hero.querySelector('p'),
+  storyTitle:storyFeature.querySelector('h2'),
+  storyDescription:storyFeature.querySelector('p'),
+  treeTitle:$('tree-title'),
+  lineCaption:tree.querySelector('.stepnote'),
+  caution:$('caution'),
+  connectionNote:$('connection-note')
+};
+const statFields = Array.from(hero.querySelectorAll('.stats > div'), stat => ({
+  value:stat.querySelector('strong'),
+  label:stat.querySelector('span')
+}));
+const branches = {
+  downard:{
+    copy:Object.fromEntries(Object.entries(fields).map(([key, field]) => [key, field.textContent])),
+    stats:statFields.map(({value, label}) => [value.textContent, label.textContent]),
+    storyPath:storyLink.getAttribute('href'),
+    start:'george',
+    ancestors:downardLine,
+    spouses:downardSpouses,
+    chapters:downardChapters
+  },
+  lambson:{
+    copy:{
+      era:'A LIVING HISTORY · 1635 — 1942',
+      headline:'From New England',
+      emphasis:'to the Utah Territory.',
+      description:'Follow Barnabas Lamson from England to colonial Cambridge, Arba Lambson across the overland trail, and Norma Lucille Lambson to the marriage that joined the Lambson and Downard families.',
+      storyTitle:'The Lambson Family Story',
+      storyDescription:'Explore the family’s early years in Cambridge, the Lambson wagon companies, and the lives and records that connect Barnabas Lamson to Norma Lucille Lambson.',
+      treeTitle:'The Lambson family tree',
+      lineCaption:'LAMBSON LINE · BARNABAS LAMSON → NORMA LUCILLE LAMBSON',
+      caution:'This lineage follows the direct-ancestor biographies in the Lambson story. See its sources for relationships, dates, and events that still need verification.',
+      connectionNote:'Norma Lucille Lambson married Thomas John Downard in Salt Lake City in 1942, joining the two branches.'
+    },
+    stats:[
+      ['1635', 'ARRIVAL IN NEW ENGLAND'],
+      ['1861–62', 'OVERLAND WAGON COMPANIES'],
+      ['1942', 'LAMBSON AND DOWNARD FAMILIES JOIN']
+    ],
+    storyPath:'stories/lambson.html',
+    start:'barnabas',
+    ancestors:lambsonGenerations.map(person => person.id),
+    spouses:Object.fromEntries(lambsonGenerations.map(({id, spouse}) => [id, spouse.id])),
+    chapters:lambsonChapters
+  }
+};
+
+let branch = 'downard';
+let selected;
+const downardNavigable = new Set(['george','mary','john','angeline','walter','clace','thomas','norma','robert','glennlambson','marylucille','judy']);
+const chapterLink = $('chapter-link');
+const profile = id => branch === 'lambson' ? lambsonPeople.get(id) ?? map[id] : map[id];
+
+function branchPeople() {
+  return branch === 'lambson' ? [...lambsonPeople.values()] : people;
+}
+
+function makeButton(id) {
+  const person = profile(id);
+  if (!person) return null;
+  const canOpen = branch === 'lambson' ? lambsonPeople.has(id) : downardNavigable.has(id);
+  const button = document.createElement(canOpen ? 'button' : 'div');
+  button.className = canOpen ? 'person' : 'person person-static';
+  const label = document.createElement('span');
+  const name = document.createElement('strong');
+  const dates = document.createElement('span');
+  name.textContent = person.name;
+  dates.textContent = person.dates;
+  label.append(name, dates);
+  button.append(label);
+  if (canOpen) {
+    button.type = 'button';
+    button.addEventListener('click', () => select(id));
+  } else {
+    button.setAttribute('aria-label', person.name + ', ' + person.dates + ', family member listed for context');
+  }
+  return button;
+}
+
+function fill(id, ids) {
+  const container = $(id);
+  container.replaceChildren();
+  const cards = ids.map(makeButton).filter(Boolean);
+  if (cards.length) {
+    container.append(...cards);
+  } else {
+    const empty = document.createElement('div');
+    empty.className = 'empty';
+    empty.textContent = 'No names listed in this edition.';
+    container.append(empty);
+  }
+}
+
+function select(id) {
+  const person = profile(id);
+  if (!person) return;
+  selected = id;
+  $('role').textContent = person.role;
+  $('name').textContent = person.name;
+  $('dates').textContent = biographyDates(person);
+  showPlaces(id);
+  showService(id);
+  showVitals(id);
+  $('story').textContent = person.story || 'Select the connected family members to explore this branch of the tree.';
+  fill('parents', person.parents);
+  fill('spouses', person.spouses);
+  const children = branchPeople().filter(child => child.parents.includes(id));
+  fill('children', children.map(child => child.id));
+  $('count').textContent = children.length + ' listed';
+  for (const button of line.querySelectorAll('[data-id]')) {
+    const active = button.dataset.id === id;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  }
+  const {chapters, storyPath, copy} = branches[branch];
+  const chapter = chapters[id];
+  chapterLink.hidden = !chapter;
+  if (chapter) {
+    chapterLink.href = storyPath + '#' + chapter;
+    chapterLink.textContent = 'Read more in ' + copy.storyTitle + ' →';
+  }
+  $('search').value = '';
+}
+
+function makeLineageCard(id, className) {
+  const person = profile(id);
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = className;
+  button.dataset.id = id;
+  const avatar = document.createElement('div');
+  avatar.className = 'avatar';
+  avatar.setAttribute('aria-hidden', 'true');
+  avatar.textContent = person.name.split(' ').slice(0, 2).map(part => part[0]).join('');
+  const name = document.createElement('b');
+  name.textContent = person.name;
+  const dates = document.createElement('small');
+  dates.textContent = person.dates;
+  button.append(avatar, name, dates);
+  button.addEventListener('click', () => select(id));
+  return button;
+}
+
+function renderLineage({ancestors, spouses}) {
+  line.replaceChildren();
+  for (const id of ancestors) {
+    const column = document.createElement('div');
+    column.className = 'couple-column';
+    const spouseId = spouses[id];
+    const connector = document.createElement('span');
+    connector.className = 'couple-link';
+    connector.setAttribute('aria-hidden', 'true');
+    const caption = document.createElement('span');
+    caption.className = 'spouse-caption';
+    caption.textContent = spouseId === 'judy' ? 'Spouse · maternal branch'
+      : spouseId === 'thomas' ? 'Spouse · Downard branch' : 'Spouse · direct ancestor';
+    column.append(makeLineageCard(id, 'ancestor'), connector, caption, makeLineageCard(spouseId, 'spouse-card'));
+    line.append(column);
+  }
+  tree.scrollLeft = 0;
+}
+
+function showBranch(id, personId = branches[id].start) {
+  branch = id;
+  const current = branches[id];
+  for (const [key, value] of Object.entries(current.copy)) fields[key].textContent = value;
+  current.stats.forEach(([value, label], index) => {
+    statFields[index].value.textContent = value;
+    statFields[index].label.textContent = label;
+  });
+  storyLink.href = current.storyPath;
+  storyFeature.setAttribute('aria-label', current.copy.storyTitle);
+  headerStoryLink.href = current.storyPath;
+  headerStoryLink.title = 'Read ' + current.copy.storyTitle;
+  headerStoryLink.firstChild.textContent = current.copy.storyTitle.toUpperCase() + ' ';
+  tree.dataset.branch = id;
+  tree.setAttribute('aria-label', current.copy.treeTitle);
+  $('reset').textContent = 'Return to ' + profile(current.start).name.split(' ')[0];
+  for (const button of document.querySelectorAll('[data-branch-choice]')) {
+    button.setAttribute('aria-pressed', String(button.dataset.branchChoice === id));
+  }
+  renderLineage(current);
+  select(personId);
+}
+
+$('search').addEventListener('input', event => {
+  const query = event.target.value.trim().toLowerCase();
+  if (!query) {
+    select(selected);
+    return;
+  }
+  const hits = branchPeople().filter(person => (
+    person.name + ' ' + person.role + ' ' + person.story
+  ).toLowerCase().includes(query)).slice(0, 50);
+  fill('children', hits.map(person => person.id));
+  $('count').textContent = hits.length + ' matches';
+  $('role').textContent = 'SEARCH RESULTS';
+  $('name').textContent = 'Explore the archive';
+  $('dates').textContent = 'Select a match on the right';
+  for (const id of ['placebadges', 'servicebadges', 'vital-records', 'parents', 'spouses']) $(id).replaceChildren();
+  $('story').textContent = branch === 'lambson'
+    ? 'Search includes the Lambson line and their spouses.'
+    : 'Search includes the direct line, spouses, children, stepchildren, and parents.';
+  chapterLink.hidden = true;
+});
+
+$('reset').addEventListener('click', () => {
+  tree.scrollLeft = 0;
+  select(branches[branch].start);
+});
+const scrollBehavior = () => matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth';
+for (const button of document.querySelectorAll('[data-branch-choice]')) {
+  button.addEventListener('click', () => {
+    showBranch(button.dataset.branchChoice);
+    fields.headline.parentElement.focus({preventScroll:true});
+    hero.scrollIntoView({behavior:scrollBehavior(), block:'start'});
+  });
+}
+$('explore-freestone').addEventListener('click', () => {
+  showBranch('downard', 'judy');
+  $('name').scrollIntoView({behavior:scrollBehavior(), block:'center'});
+});
+showBranch('downard');
+</script><aside style="position:fixed;right:18px;bottom:18px;z-index:999;background:#52664f;color:white;padding:14px 20px;border-radius:10px;box-shadow:0 8px 28px #0003;font:14px Arial"><a style="color:white;text-decoration:none" href="stories/lambson.html">Read the Lambson Family Story →</a></aside></body></html>
