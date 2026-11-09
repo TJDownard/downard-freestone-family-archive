@@ -72,3 +72,41 @@ figcaption { font-size: .88rem; color: #48574d; }
 .footer { background: var(--stone); padding: 1.5rem clamp(1rem, 4vw, 3rem); }
 .footer p { margin: 0 auto; }
 @media (max-width: 32rem) { .filters label { flex-basis: 100%; } }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.image-tile {
+  max-width: 25rem;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #d3d6ca;
+  border-radius: .75rem;
+  background: #fffdf6;
+}
+
+.image-tile-preview {
+  display: block;
+  aspect-ratio: 4 / 3;
+  padding: .6rem;
+  background: var(--stone);
+}
+
+.image-tile-preview:focus-visible {
+  outline-offset: -4px;
+}
+
+.image-tile-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-tile figcaption {
+  padding: .8rem 1rem;
+}

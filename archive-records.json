@@ -375,7 +375,20 @@
         "src": "tom-freestone-portrait.png",
         "width": 1036,
         "height": 1519,
-        "caption": "Clyde Thomas “Tom” Freestone · Colorized historical photograph"
+        "caption": "Clyde Thomas “Tom” Freestone · Colorized historical photograph",
+        "thumbnail": "tom-freestone-portrait-160.webp",
+        "display": [
+          {
+            "src": "tom-freestone-portrait-480.webp",
+            "width": 480,
+            "height": 704
+          },
+          {
+            "src": "tom-freestone-portrait-960.webp",
+            "width": 960,
+            "height": 1408
+          }
+        ]
       },
       "aliases": [
         "Tom Freestone",
@@ -3641,5 +3654,32 @@
     "rhoda-francis-freestone",
     "johannah-freestone",
     "emma-sarah-freestone"
-  ]
+  ],
+  "scanPreviews": {
+    "george": {
+      "src": "record-george-preview.webp",
+      "width": 420,
+      "height": 397
+    },
+    "john": {
+      "src": "record-john-preview.webp",
+      "width": 420,
+      "height": 369
+    },
+    "walter": {
+      "src": "record-walter-preview.webp",
+      "width": 420,
+      "height": 384
+    },
+    "unidentified": {
+      "src": "record-unidentified-preview.webp",
+      "width": 420,
+      "height": 338
+    },
+    "robert": {
+      "src": "record-robert-preview.webp",
+      "width": 420,
+      "height": 396
+    }
+  }
 }

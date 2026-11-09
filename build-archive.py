@@ -63,7 +63,7 @@ places = {record['id']: record for record in data['places']}
 featured = (set(data.get('featuredPeople', data['people'])) - {k for k,p in people.items() if p.get('private')}) - {'sarah','mary','edward','angeline','manual','gertrude','richard-thompson','alfalona-fausett','alice-carlisle','jennie-lind','adora-batty','maxine-peterson','ericka','mary-alvey','james-fall-freestone','elizabeth-ann-freestone','rhoda-francis-freestone','johannah-freestone','emma-sarah-freestone'}
 featured.update(['barnabas', 'arba-lambson-sr', 'glennlambson'])
 nav = [('Home','index.html'), ('Family tree','index.html#tree'), ('People','people.html'), ('Stories','stories.html'),
-       ('Places','places.html'), ('Timeline','timeline.html'), ('Archive','archive.html'), ('Research','research.html'),
+       ('Places','places.html'), ('Timeline','timeline.html'), ('Archive','archive.html'), ('Image Library','image-library.html'), ('Research','research.html'),
        ('About','about.html'), ('Search','search.html')]
 
 def person_path(key):
@@ -198,11 +198,19 @@ def person_portrait(person):
     portrait = person.get('portrait')
     if not portrait or is_living(person):
         return ''
+    variants = portrait.get('display', [])
+    source = ''
+    if variants:
+        srcset = ', '.join(f'{variant["src"]} {variant["width"]}w' for variant in variants)
+        source = (f'<source type="image/webp" srcset="{esc(srcset)}" '
+                  'sizes="(max-width: 455px) calc(100vw - 2rem), 26rem">')
     return (
-        f'<figure class="reading"><img class="scan" src="{esc(portrait["src"])}" '
+        f'<figure class="reading"><picture>{source}'
+        f'<img class="scan" src="{esc(portrait["src"])}" '
         f'width="{portrait["width"]}" height="{portrait["height"]}" '
-        f'alt="Colorized portrait of {esc(person["name"])}" decoding="async">'
-        f'<figcaption>{esc(portrait["caption"])}</figcaption></figure>'
+        f'alt="Colorized portrait of {esc(person["name"])}" decoding="async"></picture>'
+        f'<figcaption>{esc(portrait["caption"])} · '
+        f'{link(portrait["src"], "Open full-resolution image")}</figcaption></figure>'
     )
 
 
@@ -325,6 +333,41 @@ for key, source in sources.items():
         + (f'<p>{link(source["url"],"Open the source ↗")}</p>' if source.get('url') else '<p class="meta">Original image or full citation still needed.</p>') + '</article>')
 page('archive.html', 'Document archive', 'Browse immigration records, newspaper excerpts, property references, and preserved record scans.',
      filter_form('Search the collection',kind=('Document type',choices(s['type'] for s in sources.values()))) + records(documents))
+
+def image_tile(title, description, preview, target, label, related=''):
+    alt = esc(title)
+    src = esc(preview['src'])
+    width, height = preview['width'], preview['height']
+    return (
+        '<figure class="image-tile">'
+        f'<a class="image-tile-preview" href="{esc(target)}" aria-label="{esc(label + " · " + title)}">'
+        f'<img src="{src}" width="{width}" height="{height}" loading="lazy" decoding="async" alt="{alt}"></a>'
+        f'<figcaption><h3>{esc(title)}</h3><p>{esc(description)}</p>'
+        f'<p>{link(target, label)}{related}</p></figcaption></figure>'
+    )
+
+portrait_tiles = []
+for person in people.values():
+    portrait = person.get('portrait')
+    if portrait and not is_living(person):
+        portrait_tiles.append(image_tile(
+            person['name'], portrait['caption'], next(iter(portrait.get('display', [])), portrait),
+            portrait['src'], 'Open full-resolution image', ' · ' + link(person_path(person['id']), 'Biography')
+        ))
+scan_tiles = []
+for key, source in sources.items():
+    preview = data.get('scanPreviews', {}).get(source.get('media'))
+    if preview:
+        scan_tiles.append(image_tile(
+            source['title'], source['reference'], preview, source['url'],
+            'Open original scan', ' · ' + link('archive.html#' + key, 'Source record')
+        ))
+page('image-library.html', 'Image Library', 'Browse family photographs and historical document scans. Open any image to see the full detail.',
+     '<section aria-labelledby="portrait-library"><h2 id="portrait-library">Family photographs</h2>'
+     '<div class="image-grid">' + ''.join(portrait_tiles) + '</div></section>'
+     '<section aria-labelledby="scan-library"><h2 id="scan-library">Document scans</h2>'
+     '<div class="image-grid">' + ''.join(scan_tiles) + '</div></section>')
+
 
 case_blocks = [
     f'<article id="{c["id"]}" class="record" {attrs(c["title"]+" "+c["detail"]+" "+c["next"], branch=c["branch"], status=c["status"])}>'
@@ -456,7 +499,7 @@ tree_people = {
     key: {field:p[field] for field in ('id','name','branch','dates','aliases','birth','death','private') if field in p}
     | {'role': p.get('role', p['branch']+' family'), 'story':p.get('text') or p.get('story',''),
        'path':person_path(key)}
-    | ({'portrait': p['portrait']['src']} if p.get('portrait') and not is_living(p) else {})
+    | ({'portrait': p['portrait'].get('thumbnail', p['portrait']['src'])} if p.get('portrait') and not is_living(p) else {})
     | relatives[key] | {'childGroups': child_groups[key],
                        'marriages': [
                            [people[edge['to'] if key == edge['from'] else edge['from']]['name'],
