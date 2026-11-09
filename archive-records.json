@@ -3542,13 +3542,19 @@
     },
     {
       "id": "freestone-journey",
-      "title": "The Freestone Family’s Journey West",
-      "period": "1853",
+      "title": "The Freestone Story",
+      "period": "1795–2010",
       "branch": "Freestone",
       "people": [
         "thomas-freestone",
         "ann-fall",
-        "george-freestone"
+        "george-freestone",
+        "reuben-freestone",
+        "adora-batty",
+        "tom-freestone",
+        "maurine-peterson",
+        "judy",
+        "robert"
       ],
       "places": [
         "suffolk",
@@ -3556,15 +3562,127 @@
         "iowa",
         "salt-lake"
       ],
-      "status": "Documented",
+      "status": "Family history",
       "sources": [
         "freestone-pioneers",
-        "brief"
+        "brief",
+        "ann-fall-roster",
+        "freestone-history",
+        "tom-obit",
+        "county"
       ],
       "body": [
-        "Family accounts trace the Freestones through Suffolk, Prince Edward Island and Iowa. The 1853 pioneer database records Thomas, Ann and six children traveling in the Daniel A. Miller and John W. Cooley company. George was listed as 15."
+        "From distant beginnings to the people who made a place their own."
       ],
-      "related": "person-thomas-freestone.html"
+      "related": "person-thomas-freestone.html",
+      "chapters": [
+        {
+          "title": "Chapter One — Before the Mountains",
+          "subtitle": "Thomas Freestone. A life in England.",
+          "period": "1795–c. 1858",
+          "body": [
+            "Every family story begins somewhere before anyone thinks to call it history.",
+            "For the Freestones, one of those beginnings belongs to Thomas Freestone, born in England in 1795. His life unfolded in a world that would have been almost unrecognizable to the generations that followed: a country transformed by industry, by movement, and by the growing possibility that ordinary families might someday build lives far from the places where they were born.",
+            "Thomas and Ann Fall belong to the earliest generations we can presently trace along this line. The pioneer database gives Ann’s birth year as 1812, while family records give 1814. Their names survive in the family record, even as the smaller details of their daily lives remain to be discovered.",
+            "We do not yet know enough to describe their home, their occupations, or the circumstances of their marriage with confidence. But we know something that matters: their family continued.",
+            "Their son George Freestone would carry the name into another generation. Family accounts trace the Freestones through Suffolk, Prince Edward Island, and the American Midwest. In 1853, the pioneer database records Thomas, Ann, and six children in the Daniel A. Miller and John W. Cooley wagon company.",
+            "History remembers the famous. Families remember the people who made everyone else possible."
+          ]
+        },
+        {
+          "title": "Chapter Two — A Family Takes Shape",
+          "subtitle": "George Freestone. The generations between.",
+          "period": "1838–1920 (family dates)",
+          "body": [
+            "The family account places George Freestone’s birth on Prince Edward Island in 1838, during the early years of Queen Victoria’s reign.",
+            "He lived long enough to see the world transformed. Railways connected distant places. Steamships shortened ocean voyages. Entire communities left Europe in search of new opportunities.",
+            "George’s own family history includes more than one marriage. Among the women connected to his life were Alice Carlisle and, later, Eraimine Georgine Lind, known as Jennie.",
+            "Jennie, born in 1855, would become the mother of Reuben Thomas Freestone.",
+            "The years separating George’s birth from Reuben’s tell a story larger than any single person. The family was moving toward a new century, and the world in which its children would grow up would look very different from the one George had known.",
+            "Yet family history is not simply a record of change. It is also a record of continuity.",
+            "Names were passed down. Children were raised. Relationships connected one generation to the next.",
+            "By the time George died in 1920, the family had entered the modern age."
+          ]
+        },
+        {
+          "title": "Chapter Three — The Land and the Family",
+          "subtitle": "Reuben Thomas Freestone. Building a life.",
+          "period": "1888–1984",
+          "body": [
+            "Reuben Thomas Freestone was born in 1888.",
+            "He would live through nearly a century of American history: the arrival of the automobile, two world wars, the Great Depression, the space age, and a world increasingly connected by technology.",
+            "But the most important events in a family history are not always the ones found in history books.",
+            "Reuben married Adora Elvira Batty, born in 1891. Together, they became the next generation in the Freestone family line.",
+            "Their son Clyde Thomas Freestone was born on November 25, 1923.",
+            "The family’s history in the American West provides an important setting for this generation. Ranching and rural life would become particularly significant in the story of Clyde Thomas, although the precise occupations and residences of Reuben and Adora still deserve further documentation.",
+            "Reuben and Adora both died in 1984.",
+            "They lived long enough to see their son return from a world war, build a family, and enter the later chapters of his own life.",
+            "Between the generations, history is carried not only in names and dates, but in the ordinary work of raising a family."
+          ]
+        },
+        {
+          "title": "Chapter Four — The War Came From the Sky",
+          "subtitle": "Clyde Thomas “Tom” Freestone.",
+          "period": "1923–2010",
+          "body": [
+            "Clyde Thomas Freestone was born on November 25, 1923.",
+            "To his family, he was Tom.",
+            "His generation came of age during the Great Depression, then entered adulthood as the Second World War changed the course of millions of lives.",
+            "The family’s summary of Tom’s obituary describes him serving as a gunner aboard a B-17 bomber.",
+            "The B-17 Flying Fortress was built to carry American aircrews deep into hostile territory. Its missions demanded long hours at altitude, in freezing conditions, with enemy aircraft and antiaircraft fire threatening the men aboard.",
+            "According to that account, Tom’s aircraft was shot down near Vienna.",
+            "He was wounded and became a prisoner of war.",
+            "The account describes an extraordinary chapter of his life. Yet they cannot fully explain what he experienced. The precise mission, the men who served alongside him, the circumstances of his capture, and his imprisonment deserve to be reconstructed from military records and his own recollections wherever available.",
+            "We should resist the temptation to invent his thoughts or words.",
+            "What we know is enough to begin.",
+            "A young man from the American West went to war in Europe. He survived the loss of his aircraft, an injury, and captivity.",
+            "And eventually, he came home.",
+            "Before he could begin the rest of his life, he had to survive a war far from it."
+          ]
+        },
+        {
+          "title": "Chapter Five — The Life That Followed",
+          "subtitle": "Tom and Maurine.",
+          "period": "The years after the war",
+          "body": [
+            "War became part of Tom Freestone’s history. It did not become the entirety of his life.",
+            "He married Maurine Peterson, born March 2, 1930.",
+            "Together they raised a family.",
+            "Tom’s postwar life included ranching, an interest in archaeology, and public service. The county history reportedly records his 1964 appointment to direct juvenile court services for five eastern Utah counties.",
+            "It was work connected to the communities of the region, and to the people who would shape its future.",
+            "Maurine brought another family history into the Freestone story: the Peterson line, with roots reaching back to Sweden.",
+            "Through their marriage, two distinct family histories became one household.",
+            "Their daughter Judy Maurine Freestone would later marry Robert T. Downard, bringing the Freestone and Downard families together in another generation."
+          ]
+        },
+        {
+          "title": "Chapter Six — Two Days in April",
+          "subtitle": "Tom and Maurine Freestone.",
+          "period": "2010",
+          "body": [
+            "Clyde Thomas Freestone died on April 26, 2010.",
+            "His wife, Maurine, died two days later, on April 28.",
+            "After decades of shared family history, their deaths came remarkably close together.",
+            "The dates tell us what happened. They do not tell us how the family experienced those days, and that part of the story belongs to the people who remember them.",
+            "Tom was 86. Maurine was 80.",
+            "Their lives had reached across war and peace, changing communities, growing families, and generations of children and grandchildren.",
+            "What began with distant ancestors in England had become something much larger than a surname.",
+            "It had become a family."
+          ]
+        },
+        {
+          "title": "Epilogue — What Remains",
+          "body": [
+            "A family tree can show that Thomas Freestone was born in 1795, that Reuben lived nearly a century, and that Tom survived a war.",
+            "But a family story asks us to see more than the dates.",
+            "It asks us to remember that these were people whose choices, hardships, relationships, and ordinary days eventually made our own lives possible.",
+            "The Freestone story is not finished.",
+            "There are photographs still to identify, memories still to preserve, and chapters waiting to be told by the people who knew them.",
+            "And perhaps that is what makes a family history worth keeping.",
+            "It remains alive as long as someone is willing to remember."
+          ]
+        }
+      ]
     },
     {
       "id": "tom-story",

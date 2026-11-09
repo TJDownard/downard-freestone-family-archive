@@ -234,9 +234,23 @@ story_blocks = [
     f'<article class="record" {attrs("Downard family story original George John Walter Thomas Robert", branch="Downard")}><h2>{link("stories/downard.html", "The Downard Family Story")}</h2><p>The original family narrative and its preserved document scans.</p></article>',
     f'<article class="record" {attrs("Lambson family story original Barnabas Arba Norma", branch="Lambson")}><h2>{link("stories/lambson.html", "The Lambson Family Story")}</h2><p>The original long-form story from colonial New England to Utah.</p></article>'
 ]
+def story_text(story):
+    sections = [' '.join(story['body'])]
+    for chapter in story.get('chapters', []):
+        sections.append(' '.join([chapter['title'], chapter.get('subtitle', ''), *chapter['body']]))
+    return ' '.join(sections)
+
+
 for story in data['stories']:
     prose = ''.join(f'<p>{esc(line)}</p>' for line in story['body'])
-    story_blocks.append(f'<article id="{story["id"]}" class="record" {attrs(story["title"]+" "+story["period"]+" "+" ".join(story["body"]), branch=story["branch"])}>'
+    for chapter in story.get('chapters', []):
+        heading = f'<h3>{esc(chapter["title"])}</h3>'
+        context = ' · '.join(chapter[key] for key in ('subtitle', 'period') if chapter.get(key))
+        if context:
+            heading += f'<p class="meta">{esc(context)}</p>'
+        paragraphs = ''.join(f'<p>{esc(line)}</p>' for line in chapter['body'])
+        prose += heading + paragraphs
+    story_blocks.append(f'<article id="{story["id"]}" class="record" {attrs(story["title"]+" "+story["period"]+" "+story_text(story), branch=story["branch"])}>'
         f'<p class="kicker">{esc(story["branch"])} · {esc(story["period"])}</p><h2>{esc(story["title"])}</h2>{chip(story["status"])}'
         f'<div class="reading">{prose}{paragraph("People", person_links(story["people"]))}{paragraph("Places", place_links(story["places"]))}'
         f'{citations(story["sources"])}<p>{link(story["related"],"Related record →")}</p></div></article>')
@@ -455,7 +469,7 @@ for key, p in people.items():
     if not is_living(p):
         search_entry('Person',p['name'],person_path(key),searchable_person(p),p['dates'])
 for s in data['stories']:
-    search_entry('Story',s['title'],'stories.html#'+s['id'],s['period']+' '+' '.join(s['body']),s['period'])
+    search_entry('Story',s['title'],'stories.html#'+s['id'],s['period']+' '+story_text(s),s['period'])
 for key, source in sources.items():
     search_entry('Document',source['title'],'archive.html#'+key,source['reference']+' '+source.get('transcription',''),source['type'])
 for key, place in places.items():
