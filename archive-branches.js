@@ -16,18 +16,20 @@ const maternalBranches = {
     },
     "stats": [
       [
-        "1853",
-        "OVERLAND JOURNEY"
+        "05",
+        "GENERATIONS"
       ],
       [
-        "UTAH",
-        "SETTLEMENT"
+        "c. 170",
+        "YEARS IN AMERICA"
       ],
       [
-        "1947",
-        "TOM AND MAURINE MARRY"
+        "c. 1840",
+        "THE JOURNEY BEGINS"
       ]
     ],
+    "statsNote": "The count runs from the family’s move from Prince Edward Island to Ohio around 1840 through 2010, the year Tom Freestone died.",
+    "statsSource": "archive.html#freestone-history",
     "storyPath": "stories.html#freestone-journey",
     "start": "thomas-freestone",
     "ancestors": [
@@ -68,17 +70,19 @@ const maternalBranches = {
     "stats": [
       [
         "04",
-        "GENERATIONS SHOWN"
+        "GENERATIONS"
       ],
       [
-        "SWEDEN",
-        "FAMILY ORIGINS"
+        "98+",
+        "YEARS IN AMERICA"
       ],
       [
-        "1959",
-        "FAMILY LETTER"
+        "By 1912",
+        "THE JOURNEY BEGINS"
       ]
     ],
+    "statsNote": "Hilmer was in Utah by 1912, at least 98 years before Maurine’s death in 2010. His arrival year remains unverified.",
+    "statsSource": "archive.html#hilmer-marriage",
     "storyPath": "stories.html#peterson-story",
     "start": "hilmer",
     "ancestors": [
