@@ -245,5 +245,90 @@
       "county",
       "brief"
     ]
+  },
+  {
+    "id": "freestone-reuben-family",
+    "title": "Recover the full Reuben and Adora household",
+    "branch": "Freestone",
+    "status": "Research in progress",
+    "people": [
+      "reuben-freestone",
+      "adora-batty",
+      "tom-freestone",
+      "maurine-peterson"
+    ],
+    "sources": [
+      "brief",
+      "freestone-history",
+      "tom-obit"
+    ],
+    "detail": "The cited records connect Reuben and Adora to Tom. They do not provide a complete, corroborated list of Tom’s siblings or of the next generation. Names of potentially living relatives are withheld.",
+    "next": "Obtain a Freestone–Batty GEDCOM or family group sheet with source references, the 1920–1950 Vernal household census pages, and the full Reuben, Adora, Tom, and Maurine obituaries."
+  },
+  {
+    "id": "freestone-early-households",
+    "title": "Verify early Freestone household rosters",
+    "branch": "Freestone",
+    "status": "Conflicting",
+    "people": [
+      "thomas-freestone",
+      "ann-fall",
+      "jane-marie-freestone",
+      "phoebe-ellen-freestone",
+      "george-freestone",
+      "alice-carlisle",
+      "jennie-lind"
+    ],
+    "sources": [
+      "freestone-pioneers",
+      "ann-fall-roster",
+      "freestone-history",
+      "freestone-early-family",
+      "freestone-elizabeth-history"
+    ],
+    "detail": "Ann Fall’s birth year is given as 1812 in the pioneer database and 1814 in family notes. The company roster names travelers rather than every child. Jane Marie and Phoebe Ellen are recorded separately. The accessible Jane Marie profile gives seven children with Daniel Johnson but exposes only five names.",
+    "next": "Check Ann’s original baptism or birth record, the Thomas and Ann household and any earlier unions, the complete Jane Marie and Daniel Johnson family group sheet, and original records for George’s two households."
+  },
+  {
+    "id": "peterson-swedish-household",
+    "title": "Complete the Johannes Pettersson and Ericka Munter household",
+    "branch": "Peterson",
+    "status": "Research in progress",
+    "people": [
+      "johannes",
+      "ericka",
+      "hilmer",
+      "johan-axel-peterson",
+      "karl-gustaf-pettersson",
+      "ida-gustava-pettersson",
+      "august-emanuel-peterson"
+    ],
+    "sources": [
+      "johan-axel-profile",
+      "brief"
+    ],
+    "detail": "The compiled Johan Axel profile lists eight people under siblings, including Johan and Hilmer. The accessible view names five; three names, additional spouses, and earlier parents are not established by the sources inspected.",
+    "next": "Obtain the full FamilySearch or GEDCOM family group for Johannes and Ericka and the Rasbo, Tensta, and Björklinge parish household examination, birth, and departure registers."
+  },
+  {
+    "id": "peterson-alvey-household",
+    "title": "Corroborate the Peterson–Alvey family roster",
+    "branch": "Peterson",
+    "status": "Research in progress",
+    "people": [
+      "hilmer",
+      "mary-alvey",
+      "maurine-peterson",
+      "maxine-peterson",
+      "john-alvey",
+      "margret-leah-harris"
+    ],
+    "sources": [
+      "mary-alvey-history",
+      "hilmer-marriage",
+      "brief"
+    ],
+    "detail": "Mary’s life history names her parents and siblings and all nine children. The children are represented; one public tree card is anonymous. The other children’s marriages, dates, and descendants are not complete in the sources inspected.",
+    "next": "Obtain a Peterson–Alvey GEDCOM or annotated family group sheet, census pages, and relevant obituaries or vital records. Confirm publication permission for any living relatives."
   }
 ]
