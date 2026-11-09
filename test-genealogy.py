@@ -63,5 +63,25 @@ class GenealogyAudit(unittest.TestCase):
         self.assertNotIn('peterson-private-child',(archive['ROOT']/'search.html').read_text())
         self.assertNotIn('Anna Louise',(archive['ROOT']/'archive-branches.js').read_text())
 
+    def test_robert_and_judy_share_five_children(self):
+        children = {
+            'robert-todd': 'Robert Todd',
+            'julie-maurine': 'Julie Maurine',
+            'kimberly-jo': 'Kimberly Jo',
+            'stacie-lynn': 'Stacie Lynn',
+            'thomas-john-child': 'Thomas John',
+        }
+        search = (archive['ROOT'] / 'search.html').read_text()
+        for parent, other in (('robert', 'judy'), ('judy', 'robert')):
+            self.assertCountEqual(self.rels[parent]['children'], children)
+            self.assertEqual(len(self.groups[parent]), 1)
+            self.assertEqual(self.groups[parent][0]['coParents'], (other,))
+            biography = (archive['ROOT'] / archive['person_path'](parent)).read_text()
+            for child, name in children.items():
+                path = archive['person_path'](child)
+                self.assertIn(f'<a href="{path}">{name}</a>', biography)
+                self.assertNotIn(f'href="{path}"', search)
+                self.assertCountEqual(self.rels[child]['parents'], ('robert', 'judy'))
+
 if __name__ == '__main__':
     unittest.main()

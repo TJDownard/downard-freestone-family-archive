@@ -131,8 +131,9 @@ def records(blocks):
 def paragraph(label, html):
     return f'<p><strong>{esc(label)}</strong> {html}</p>' if html else ''
 
-def is_living(person):
-    return person.get('private', False) or 'Living' in person['dates'] or 'Present' in person['dates']
+def has_limited_profile(person):
+    return (person.get('private', False) or person.get('limitedProfile', False)
+            or 'Living' in person['dates'] or 'Present' in person['dates'])
 
 def searchable_person(person):
     return ' '.join([person['name'], person['dates'], person.get('birth',''), person.get('death',''),
@@ -150,7 +151,7 @@ def event_dates(record):
 
 def person_details(person):
     key = person['id']
-    living = is_living(person)
+    limited = has_limited_profile(person)
     rels = relatives[key]
     relation_html = []
     for rel in edges.values():
@@ -168,7 +169,7 @@ def person_details(person):
     story_links = [link('stories.html#' + story['id'], story['title']) for story in data['stories'] if key in story['people']]
     life = pairs([('Names in the records', ', '.join(person.get('aliases', []))), ('Born', person.get('birth')),
                   ('Died', person.get('death')), ('Burial', person.get('burial')),
-                  ('Occupations', ', '.join(person.get('occupations', [])))]) if not living else ''
+                  ('Occupations', ', '.join(person.get('occupations', [])))]) if not limited else ''
     narrative = ''.join(f'<p>{esc(text)}</p>' for text in dict.fromkeys([person.get('story'), person.get('text'), person.get('notes')]) if text)
     family = ''
     if not person.get('private'):
@@ -196,7 +197,7 @@ def person_details(person):
 
 def person_portrait(person, prefix='', lazy=False):
     portrait = person.get('portrait')
-    if not portrait or is_living(person):
+    if not portrait or has_limited_profile(person):
         return ''
     variants = portrait.get('display', [])
     source = ''
@@ -218,13 +219,14 @@ def person_portrait(person, prefix='', lazy=False):
 directory = []
 for key, person in sorted(people.items(), key=lambda entry: entry[1]['name'].casefold()):
     p = person
-    directory_attr = attrs(p['name'] if is_living(p) else searchable_person(p), branch=p['branch'])
+    limited = has_limited_profile(p)
+    directory_attr = attrs(p['name'] if limited else searchable_person(p), branch=p['branch'])
     heading = f'{esc(p["name"])} <span class="meta">{esc(p["dates"])}</span>'
     if key in featured:
-        directory.append(f'<article class="record" {directory_attr}><h2>{link(person_path(key), p["name"])}</h2><p>{esc(p["dates"])} · {esc(p["branch"])}</p></article>')
+        directory.append(f'<article id="{esc(key)}" class="record" {directory_attr}><h2>{link(person_path(key), p["name"])}</h2><p>{esc(p["dates"])} · {esc(p["branch"])}</p></article>')
         page(person_path(key), p['name'], p['dates'] or 'A record in the family archive.',
              person_portrait(p) + person_details(p),
-             section=p['branch'] + ' family · Person')
+             section=p['branch'] + ' family · Person', noindex=limited)
     else:
         directory.append(f'<details id="{esc(key)}" class="record" {directory_attr}><summary>{heading}</summary>{person_details(p)}</details>')
 branch_choices = choices(p['branch'] for p in people.values())
@@ -435,7 +437,7 @@ def image_tile(title, description, preview, target, label, related=''):
 portrait_tiles = []
 for person in people.values():
     portrait = person.get('portrait')
-    if portrait and not is_living(person):
+    if portrait and not has_limited_profile(person):
         portrait_tiles.append(image_tile(
             person['name'], portrait['caption'], next(iter(portrait.get('display', [])), portrait),
             portrait['src'], 'Open full-resolution image', ' · ' + link(person_path(person['id']), 'Biography')
@@ -538,7 +540,7 @@ def search_entry(kind, title, url, terms, description=''):
     search_entries.append(f'<article class="record" {attrs(title+" "+terms,kind=kind)}><p class="kicker">{esc(kind)}</p>'
                           f'<h2>{link(url,title)}</h2><p>{esc(description)}</p></article>')
 for key, p in people.items():
-    if not is_living(p):
+    if not has_limited_profile(p):
         search_entry('Person',p['name'],person_path(key),searchable_person(p),p['dates'])
 for s in data['stories']:
     search_entry('Story',s['title'],story_paths.get(s['id'], 'stories.html#'+s['id']),s['period']+' '+story_text(s),s['period'])
@@ -585,7 +587,7 @@ tree_people = {
     key: {field:p[field] for field in ('id','name','branch','dates','aliases','birth','death','private') if field in p}
     | {'role': p.get('role', p['branch']+' family'), 'story':p.get('text') or p.get('story',''),
        'path':person_path(key)}
-    | ({'portrait': p['portrait'].get('thumbnail', p['portrait']['src'])} if p.get('portrait') and not is_living(p) else {})
+    | ({'portrait': p['portrait'].get('thumbnail', p['portrait']['src'])} if p.get('portrait') and not has_limited_profile(p) else {})
     | relatives[key] | {'childGroups': child_groups[key],
                        'marriages': [
                            [people[edge['to'] if key == edge['from'] else edge['from']]['name'],
