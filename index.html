@@ -200,7 +200,59 @@ function biographyDates(person) {
  if (!birthdayPassed) age--;
  return person.dates + ' (Age: ' + age + ')';
 }
-function showVitals(id){const box=document.getElementById('vital-records');box.replaceChildren();const person=treePeople[id];const [birth,birthPlace]=(person?.birth||'').split(' · ');const [death,deathPlace]=(person?.death||'').split(' · ');const facts=vitalFacts[id]||{birth,birthPlace,death,deathPlace,marriages:person?.marriages};const add=(label,value,sub)=>{const el=document.createElement('div');el.className='vital-item';const l=document.createElement('span');l.className='vital-label';l.textContent=label;const v=document.createElement('div');v.className='vital-value';v.textContent=value;if(sub){const sm=document.createElement('small');sm.textContent=sub;v.append(sm)}el.append(l,v);box.append(el)};if(facts.death==='Living'){add('Status','Living');return}add('Born',facts.birth||'Exact date to research',facts.birthPlace);if(facts.marriages?.length){facts.marriages.forEach(([name,date])=>add('Married · '+name,date))}else add('Marriage',person?.spouses.length?'Date not recorded':'No spouse or partner recorded');add(facts.death==='Living'?'Status':'Died',facts.death||'Exact date to research',facts.deathPlace)}
+const marriageDateFormat = new Intl.DateTimeFormat('en-US', {
+  month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC'
+});
+
+function formatMarriageDate(value) {
+  return value.replace(/\b\d{4}-\d{2}-\d{2}\b/g, date => {
+    const parsed = new Date(date + 'T00:00:00Z');
+    if (Number.isNaN(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== date) return date;
+    return marriageDateFormat.format(parsed);
+  });
+}
+
+function showVitals(id) {
+  const box = document.getElementById('vital-records');
+  box.replaceChildren();
+  const person = treePeople[id];
+  const [birth, birthPlace] = (person?.birth || '').split(' · ');
+  const [death, deathPlace] = (person?.death || '').split(' · ');
+  const facts = vitalFacts[id] || {birth, birthPlace, death, deathPlace, marriages: person?.marriages};
+
+  const add = (label, value, sub) => {
+    const item = document.createElement('div');
+    item.className = 'vital-item';
+    const title = document.createElement('span');
+    title.className = 'vital-label';
+    title.textContent = label;
+    const details = document.createElement('div');
+    details.className = 'vital-value';
+    details.textContent = value;
+    if (sub) {
+      const note = document.createElement('small');
+      note.textContent = sub;
+      details.append(note);
+    }
+    item.append(title, details);
+    box.append(item);
+  };
+
+  if (facts.death === 'Living') {
+    add('Status', 'Living');
+    return;
+  }
+  add('Born', facts.birth || 'Exact date to research', facts.birthPlace);
+  if (facts.marriages?.length) {
+    for (const [name, record] of facts.marriages) {
+      const [date, ...notes] = record.split(' · ');
+      add('Married · ' + name, formatMarriageDate(date), notes.join(' · '));
+    }
+  } else {
+    add('Marriage', person?.spouses.length ? 'Date not recorded' : 'No spouse or partner recorded');
+  }
+  add('Died', facts.death || 'Exact date to research', facts.deathPlace);
+}
 
 const downardLine = ['robert', 'thomas', 'walter', 'john', 'george'];
 const lambsonLine = ['robert', ...lambsonGenerations.map(({id}) => id).reverse()];
