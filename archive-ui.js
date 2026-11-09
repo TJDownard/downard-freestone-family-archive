@@ -38,3 +38,51 @@ function revealLinkedProfile() {
 }
 window.addEventListener('hashchange', revealLinkedProfile);
 revealLinkedProfile();
+
+// Enhance the existing link lists after they are available to the browser.
+const archiveNavigation = document.querySelector('.archive-menu, .site-head nav');
+const archiveHeader = document.querySelector('.top, .site-head > div');
+
+if (archiveNavigation && archiveHeader) {
+  const menu = document.createElement('div');
+  menu.className = 'archive-menu-wrap';
+
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'archive-menu-toggle';
+  toggle.setAttribute('aria-label', 'Menu');
+  toggle.setAttribute('aria-controls', 'archive-navigation');
+  toggle.innerHTML = '<span class="archive-menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>' +
+    '<span class="archive-menu-label" aria-hidden="true">Menu</span>';
+
+  archiveNavigation.id = 'archive-navigation';
+  archiveNavigation.classList.add('archive-menu-panel');
+
+  function setMenuOpen(open, restoreFocus = false) {
+    toggle.setAttribute('aria-expanded', String(open));
+    archiveNavigation.hidden = !open;
+    if (restoreFocus) toggle.focus({ preventScroll: true });
+  }
+
+  setMenuOpen(false);
+  menu.append(toggle, archiveNavigation);
+  archiveHeader.classList.add('archive-nav-enhanced');
+  archiveHeader.append(menu);
+
+  toggle.addEventListener('click', () => setMenuOpen(archiveNavigation.hidden));
+  archiveNavigation.addEventListener('click', event => {
+    if (event.target.closest('a')) setMenuOpen(false, true);
+  });
+  document.addEventListener('click', event => {
+    if (!archiveNavigation.hidden && !menu.contains(event.target)) setMenuOpen(false);
+  });
+  menu.addEventListener('focusout', event => {
+    if (event.relatedTarget && !menu.contains(event.relatedTarget)) setMenuOpen(false);
+  });
+  menu.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !archiveNavigation.hidden) {
+      event.preventDefault();
+      setMenuOpen(false, true);
+    }
+  });
+}
