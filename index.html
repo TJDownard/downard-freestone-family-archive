@@ -160,7 +160,7 @@ const vitalFacts={
  clace:{birth:'October 28, 1895',birthPlace:'Vernal, Utah',death:'January 22, 1989',deathPlace:'Vernal, Utah',marriages:[['Marshall McKinley Bradley','June 4, 1917 · location unconfirmed'],['Walter William Downard','September 12, 1921 · Provo, Utah']]},
  thomas:{birth:'December 3, 1921',birthPlace:'Bluebell, Utah',death:'May 22, 1982',deathPlace:'Salt Lake City, Utah',marriages:[['Norma Lucille Lambson','June 26 or June 30, 1942 · Salt Lake City, Utah']]},
  norma:{birth:'April 18, 1923',birthPlace:'Bingham, Utah',death:'October 23, 2000',deathPlace:'Location to verify',marriages:[['Thomas John Downard','June 26 or June 30, 1942 · Salt Lake City, Utah']]},
- judy:{death:'Living',marriages:[]}
+ judy:{death:'Living'}
 };
 function ageFromYears(person) {
  const {id, dates} = person;
@@ -219,6 +219,9 @@ function showVitals(id) {
   const [birth, birthPlace] = (person?.birth || '').split(' · ');
   const [death, deathPlace] = (person?.death || '').split(' · ');
   const facts = vitalFacts[id] || {birth, birthPlace, death, deathPlace, marriages: person?.marriages};
+  const living = facts.death === 'Living';
+  const birthYear = living ? /^(\d{4})–Present$/.exec(person?.dates)?.[1] : '';
+  const marriages = facts.marriages ?? person?.marriages;
 
   const add = (label, value, sub) => {
     const item = document.createElement('div');
@@ -238,20 +241,22 @@ function showVitals(id) {
     box.append(item);
   };
 
-  if (facts.death === 'Living') {
-    add('Status', 'Living');
-    return;
+  if (facts.birth || birthYear || !living) {
+    add('Born', facts.birth || birthYear || 'Exact date to research', facts.birthPlace);
   }
-  add('Born', facts.birth || 'Exact date to research', facts.birthPlace);
-  if (facts.marriages?.length) {
-    for (const [name, record] of facts.marriages) {
+  if (marriages?.length) {
+    for (const [name, record] of marriages) {
       const [date, ...notes] = record.split(' · ');
       add('Married · ' + name, formatMarriageDate(date), notes.join(' · '));
     }
-  } else {
+  } else if (!living) {
     add('Marriage', person?.spouses.length ? 'Date not recorded' : 'No spouse or partner recorded');
   }
-  add('Died', facts.death || 'Exact date to research', facts.deathPlace);
+  if (living) {
+    add('Status', 'Living');
+  } else {
+    add('Died', facts.death || 'Exact date to research', facts.deathPlace);
+  }
 }
 
 const downardLine = ['robert', 'thomas', 'walter', 'john', 'george'];
