@@ -387,7 +387,7 @@ const people = [
     "name": "Robert T. Downard",
     "dates": "1948–2009",
     "role": "Direct descendant · Generation V",
-    "story": "Vietnam-era U.S. military service is reported by family; branch, dates and deployment details await documentation. Recorded treasured memories of Grandma D: “She kept the family together. I have nothing but fond memories of her.”",
+    "story": "The funeral notice for his son Robert Todd records that Robert was stationed with the U.S. Army in Miesau, Germany, in 1969. Robert recorded treasured memories of Grandma D: “She kept the family together. I have nothing but fond memories of her.”",
     "parents": [
       "thomas",
       "norma"

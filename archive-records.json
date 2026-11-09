@@ -237,10 +237,11 @@
       "sources": [
         "existing",
         "robert-scan",
-        "robert-obituary"
+        "robert-obituary",
+        "robert-todd-funeral"
       ],
       "text": "Robert married Judy Freestone on March 30, 1968. They later had their marriage sealed in the Ogden Temple. He worked in law enforcement and enjoyed spending time with his grandchildren, going to Utah Jazz games, traveling, reading, and golfing with friends.",
-      "notes": "Robert died at age 60. His obituary records that he had 11 grandchildren and that his son Robert Todd died before him. It lists Bountiful City Cemetery as his burial place."
+      "notes": "Robert and Judy’s oldest son, Robert Todd, died in infancy in 1969. Robert died at age 60. His obituary records that he had 11 grandchildren and lists Bountiful City Cemetery as his burial place."
     },
     "judy": {
       "birth": "February 14, 1948 · Vernal, Utah",
@@ -248,10 +249,14 @@
       "sources": ["existing", "judy-birth"]
     },
     "robert-todd": {
-      "name": "Robert Todd",
+      "name": "Robert Todd Downard",
+      "dates": "1968–1969",
       "branch": "Downard",
-      "limitedProfile": true,
-      "sources": ["robert-judy-family"]
+      "birth": "October 1, 1968 · Vernal, Utah",
+      "death": "June 9, 1969 · Landstuhl, Germany",
+      "burial": "Vernal Memorial Park Cemetery",
+      "text": "Robert Todd was the oldest son of Robert T. Downard and Judy Maurine Freestone. At four months old, he and his mother joined his father, who was stationed with the Army in Miesau, Germany. Robert Todd died at eight months old at the Second General Hospital in Landstuhl. His funeral was held at the Vernal First and Fifth Ward Chapel.",
+      "sources": ["robert-judy-family", "robert-todd-funeral", "robert-obituary"]
     },
     "julie-maurine": {
       "name": "Julie Maurine",
@@ -2673,8 +2678,8 @@
         "brief"
       ]
     },
-    {"from": "robert", "to": "robert-todd", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
-    {"from": "judy", "to": "robert-todd", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "robert", "to": "robert-todd", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family", "robert-todd-funeral"]},
+    {"from": "judy", "to": "robert-todd", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family", "robert-todd-funeral"]},
     {"from": "robert", "to": "julie-maurine", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
     {"from": "judy", "to": "julie-maurine", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
     {"from": "robert", "to": "kimberly-jo", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
@@ -3832,6 +3837,7 @@
     "norma",
     "robert",
     "judy",
+    "robert-todd",
     "thomas-freestone",
     "ann-fall",
     "george-freestone",

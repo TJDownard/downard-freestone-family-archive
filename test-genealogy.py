@@ -68,7 +68,7 @@ class GenealogyAudit(unittest.TestCase):
 
     def test_robert_and_judy_share_five_children(self):
         children = {
-            'robert-todd': 'Robert Todd',
+            'robert-todd': 'Robert Todd Downard',
             'julie-maurine': 'Julie Maurine',
             'kimberly-jo': 'Kimberly Jo',
             'stacie-lynn': 'Stacie Lynn',
@@ -83,7 +83,10 @@ class GenealogyAudit(unittest.TestCase):
             for child, name in children.items():
                 path = archive['person_path'](child)
                 self.assertIn(f'<a href="{path}">{name}</a>', biography)
-                self.assertNotIn(f'href="{path}"', search)
+                if child == 'robert-todd':
+                    self.assertIn(f'href="{path}"', search)
+                else:
+                    self.assertNotIn(f'href="{path}"', search)
                 self.assertCountEqual(self.rels[child]['parents'], ('robert', 'judy'))
 
 if __name__ == '__main__':
