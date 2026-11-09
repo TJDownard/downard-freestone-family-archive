@@ -227,14 +227,20 @@
     "robert": {
       "birth": "September 12, 1948 · Vernal, Utah",
       "death": "February 13, 2009 · Murray, Utah",
+      "burial": "Bountiful City Cemetery",
+      "occupations": [
+        "Law enforcement"
+      ],
       "places": [
         "vernal"
       ],
       "sources": [
         "existing",
-        "robert-scan"
+        "robert-scan",
+        "robert-obituary"
       ],
-      "text": "Robert is part of the direct Downard line. The same-name Vernal police chief remains a separate research lead."
+      "text": "Robert married Judy Freestone on March 30, 1968. They later had their marriage sealed in the Ogden Temple. He worked in law enforcement and enjoyed spending time with his grandchildren, going to Utah Jazz games, traveling, reading, and golfing with friends.",
+      "notes": "Robert died at age 60. His obituary named 11 grandchildren and recorded that his son Robert Todd died before him. The obituary lists Bountiful City Cemetery as his burial place."
     },
     "robert-todd": {
       "name": "Robert Todd",
@@ -1264,6 +1270,16 @@
     }
   },
   "relationships": [
+    {
+      "from": "robert",
+      "to": "judy",
+      "type": "Marriage",
+      "date": "1968-03-30",
+      "status": "Documented in obituary",
+      "sources": [
+        "robert-obituary"
+      ]
+    },
     {
       "from": "george",
       "to": "sarah",
