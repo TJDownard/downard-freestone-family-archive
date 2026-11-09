@@ -51,6 +51,20 @@
 .story-feature{margin:24px auto 38px;max-width:1200px;padding:0 24px}.story-feature-inner{border:1px solid #d7c9b4;border-radius:20px;padding:30px 36px;background:linear-gradient(115deg,#f4ebdb,#e9e1d4);display:flex;justify-content:space-between;align-items:center;gap:25px;box-shadow:0 12px 36px #2c26151a}.story-feature .kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#786448;font-weight:700}.story-feature h2{font-family:Georgia,serif;font-size:clamp(27px,3vw,42px);margin:9px 0;color:#302c26}.story-feature p{max-width:610px;line-height:1.65;color:#655b4f;margin:0}.story-feature a,.story-profile-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:30px;background:#293b34;color:white!important;padding:14px 21px;font-weight:650;white-space:nowrap;transition:transform .2s}.story-feature a:hover,.story-profile-link:hover{transform:translateY(-2px)}.story-profile-link{margin:18px 0 4px;font-size:13px;padding:11px 17px}@media(max-width:700px){.story-feature-inner{display:block;padding:24px}.story-feature a{margin-top:20px}}
 .header-story-link{color:inherit;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:.12em;border:1px solid currentColor;border-radius:100px;padding:10px 15px;display:inline-flex;gap:8px;align-items:center;transition:background .2s,color .2s}.header-story-link:hover,.header-story-link:focus-visible{background:#e9dcc4;color:#26372e;outline-offset:3px}@media(max-width:650px){.header-story-link{font-size:9px;letter-spacing:.04em;padding:8px 10px}}
 .family-tools{display:flex;align-items:center;flex-wrap:wrap;gap:.55rem;margin:1rem 0}.family-tools button,.family-tools a{font:inherit}.family-tools button:disabled{opacity:.45;cursor:default}.family-tools a{color:var(--forest)}.family-list{padding:.55rem .75rem;margin:.45rem 0;border:1px solid var(--line);border-radius:8px;background:var(--paper)}.family-list summary{cursor:pointer;font-weight:650;color:var(--forest);overflow-wrap:anywhere}.family-list[open]>summary{margin-bottom:.5rem}.family-list button.person{width:100%;text-align:left}.family-list .person,.family-list .empty{margin-bottom:.28rem}.family-list .person strong,.family-list .person span{overflow-wrap:anywhere}.family-list .relation-label{display:block;color:var(--muted);font-size:.78rem}.family-list .family-list{margin:.55rem 0}.family-list .person:focus-visible,.family-tools :focus-visible{outline:2px solid var(--forest);outline-offset:2px}#tree-results{margin-bottom:1rem}#tree-results p{margin:.5rem 0}.family-tools [hidden],#tree-results[hidden]{display:none}#name:focus{outline:2px solid var(--forest);outline-offset:.25rem}
+/* Keep the existing avatar size and show initials until a portrait loads. */
+.avatar-with-portrait {
+  position: relative;
+  overflow: hidden;
+}
+.avatar-portrait {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 26%;
+}
+.avatar-portrait[hidden] { display: none; }
 </style>
 <link rel="stylesheet" href="archive-nav.css">
 <script src="archive-ui.js" defer></script>
@@ -425,6 +439,17 @@ function makeLineageCard(id, className) {
   avatar.className = 'avatar';
   avatar.setAttribute('aria-hidden', 'true');
   avatar.textContent = person.name.split(' ').slice(0, 2).map(part => part[0]).join('');
+  if (person.portrait) {
+    avatar.classList.add('avatar-with-portrait');
+    const portrait = document.createElement('img');
+    portrait.className = 'avatar-portrait';
+    portrait.alt = '';
+    portrait.hidden = true;
+    portrait.addEventListener('load', () => { portrait.hidden = false; });
+    portrait.addEventListener('error', () => portrait.remove());
+    portrait.src = person.portrait;
+    avatar.append(portrait);
+  }
   const name = document.createElement('b');
   name.textContent = person.name;
   const dates = document.createElement('small');

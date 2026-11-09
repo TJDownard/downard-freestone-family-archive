@@ -193,6 +193,19 @@ def person_details(person):
     tree_link = link('index.html?' + 'branch=' + person['branch'].lower() + '&person=' + quote(key) + '#tree', 'Open in the family tree') if not person.get('private') else ''
     return f'<div class="reading">{paragraph("", tree_link)}{life}{narrative}{family}{related}{citations(person["sources"]) if not person.get("private") else ""}</div>' 
 
+
+def person_portrait(person):
+    portrait = person.get('portrait')
+    if not portrait or is_living(person):
+        return ''
+    return (
+        f'<figure class="reading"><img class="scan" src="{esc(portrait["src"])}" '
+        f'width="{portrait["width"]}" height="{portrait["height"]}" '
+        f'alt="Colorized portrait of {esc(person["name"])}" decoding="async">'
+        f'<figcaption>{esc(portrait["caption"])}</figcaption></figure>'
+    )
+
+
 directory = []
 for key, person in sorted(people.items(), key=lambda entry: entry[1]['name'].casefold()):
     p = person
@@ -200,7 +213,8 @@ for key, person in sorted(people.items(), key=lambda entry: entry[1]['name'].cas
     heading = f'{esc(p["name"])} <span class="meta">{esc(p["dates"])}</span>'
     if key in featured:
         directory.append(f'<article class="record" {directory_attr}><h2>{link(person_path(key), p["name"])}</h2><p>{esc(p["dates"])} · {esc(p["branch"])}</p></article>')
-        page(person_path(key), p['name'], p['dates'] or 'A record in the family archive.', person_details(p),
+        page(person_path(key), p['name'], p['dates'] or 'A record in the family archive.',
+             person_portrait(p) + person_details(p),
              section=p['branch'] + ' family · Person')
     else:
         directory.append(f'<details id="{esc(key)}" class="record" {directory_attr}><summary>{heading}</summary>{person_details(p)}</details>')
@@ -442,6 +456,7 @@ tree_people = {
     key: {field:p[field] for field in ('id','name','branch','dates','aliases','birth','death','private') if field in p}
     | {'role': p.get('role', p['branch']+' family'), 'story':p.get('text') or p.get('story',''),
        'path':person_path(key)}
+    | ({'portrait': p['portrait']['src']} if p.get('portrait') and not is_living(p) else {})
     | relatives[key] | {'childGroups': child_groups[key],
                        'marriages': [
                            [people[edge['to'] if key == edge['from'] else edge['from']]['name'],

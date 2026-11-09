@@ -371,6 +371,12 @@
     },
     "tom-freestone": {
       "name": "Clyde Thomas Freestone",
+      "portrait": {
+        "src": "tom-freestone-portrait.png",
+        "width": 1036,
+        "height": 1519,
+        "caption": "Clyde Thomas “Tom” Freestone · Colorized historical photograph"
+      },
       "aliases": [
         "Tom Freestone",
         "Clyde Thomas “Tom” Freestone"
