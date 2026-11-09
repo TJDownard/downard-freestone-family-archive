@@ -257,7 +257,7 @@
     },
     "ann-fall": {
       "name": "Ann Fall",
-      "dates": "1814–1888",
+      "dates": "1812 or 1814–1888",
       "branch": "Freestone",
       "spouses": [
         "thomas-freestone"
@@ -269,9 +269,14 @@
       ],
       "sources": [
         "freestone-pioneers",
-        "brief"
+        "brief",
+        "ann-fall-roster"
       ],
-      "text": "Ann appears in the 1853 traveling group with Thomas and children including George, James Fall, Elizabeth Ann, Rhoda Francis, Johannah and Emma Sarah Freestone."
+      "text": "Ann appears in the 1853 traveling group with Thomas and children including George, James Fall, Elizabeth Ann, Rhoda Francis, Johannah and Emma Sarah Freestone.",
+      "birth": "1812 (pioneer database); 1814 (family account)",
+      "aliases": [
+        "Ann Freestone"
+      ]
     },
     "george-freestone": {
       "name": "George Freestone",
@@ -297,10 +302,10 @@
         "freestone-history",
         "county"
       ],
-      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional."
+      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional. A family history lists four children with Alice Jane Carlisle and eleven with Eraimine Georgine Lind."
     },
     "alice-carlisle": {
-      "name": "Alice Carlisle",
+      "name": "Alice Jane Carlisle",
       "branch": "Freestone",
       "spouses": [
         "george-freestone"
@@ -308,12 +313,19 @@
       "sources": [
         "freestone-history"
       ],
-      "text": "Named as George Freestone’s wife in the Freestone family account."
+      "text": "Named as George Freestone’s wife in the Freestone family account.",
+      "dates": "1835–1868",
+      "aliases": [
+        "Alice Carlisle",
+        "Alice Jane Freestone"
+      ]
     },
     "jennie-lind": {
       "name": "Eraimine Georgine Lind",
       "aliases": [
-        "Jennie Lind"
+        "Jennie Lind",
+        "Jenny Eramina Lind",
+        "Jennie Freestone"
       ],
       "branch": "Freestone",
       "spouses": [
@@ -323,7 +335,8 @@
         "freestone-history",
         "brief"
       ],
-      "text": "The family account identifies Jennie Lind as George Freestone’s second wife. The supplied research records their marriage in 1872."
+      "text": "The family account identifies Jennie Lind as George Freestone’s second wife. The supplied research records their marriage in 1872.",
+      "dates": "1855–1936 (family dates)"
     },
     "reuben-freestone": {
       "name": "Reuben Thomas Freestone",
@@ -335,9 +348,13 @@
         "adora-batty"
       ],
       "sources": [
-        "brief"
+        "brief",
+        "freestone-history"
       ],
-      "text": "The supplied family record identifies Reuben as Tom Freestone’s father and records a 1910 marriage to Adora Batty."
+      "text": "The family account lists Reuben among the children of George Freestone and Jennie Lind. He married Adora Elvira Batty; they were the parents of Clyde Thomas Freestone.",
+      "aliases": [
+        "Rueben Thomas Freestone"
+      ]
     },
     "adora-batty": {
       "name": "Adora Elvira Batty",
@@ -402,7 +419,8 @@
         "tom-freestone"
       ],
       "sources": [
-        "brief"
+        "brief",
+        "mary-alvey-history"
       ],
       "text": "The family record identifies Maurine and Maxine as twins and records Maurine’s marriage to Tom Freestone on June 24, 1947."
     },
@@ -415,7 +433,8 @@
         "mary-alvey"
       ],
       "sources": [
-        "brief"
+        "brief",
+        "mary-alvey-history"
       ],
       "text": "The supplied family history records Maxine as Maurine’s twin. Later life details await supporting records."
     },
@@ -451,7 +470,9 @@
       "name": "Erik Hilmer Pettersson",
       "aliases": [
         "Erik Hilmer Peterson",
-        "Hilmer Peterson"
+        "Hilmer Peterson",
+        "Erick Hilmer Petersen",
+        "Erick Hilmer Peterson"
       ],
       "dates": "1882–1962",
       "branch": "Peterson",
@@ -467,7 +488,10 @@
       ],
       "sources": [
         "brief",
-        "peterson-letter"
+        "peterson-letter",
+        "mary-alvey-history",
+        "hilmer-marriage",
+        "johan-axel-profile"
       ],
       "text": "Pettersson and Peterson are spelling variants used for Hilmer. A 1959 letter describes him arriving in America as a boy. Other family records point to a later arrival. The date and ship remain unresolved."
     },
@@ -479,8 +503,16 @@
         "hilmer"
       ],
       "sources": [
-        "brief"
-      ]
+        "brief",
+        "mary-alvey-history",
+        "hilmer-marriage"
+      ],
+      "aliases": [
+        "Mary Alvey Peterson"
+      ],
+      "birth": "May 11, 1894 (family history)",
+      "death": "December 11, 1969 (family history)",
+      "text": "Her granddaughter’s account describes Mary’s work in the family flour mills and names nine children, including the twins Maxine and Maurine."
     },
     "james-fall-freestone": {
       "name": "James Fall Freestone",
@@ -541,6 +573,645 @@
         "freestone-pioneers"
       ],
       "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+    },
+    "david-wilkin": {
+      "name": "David Wilkin",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "aliases": [
+        "David Wilkins"
+      ]
+    },
+    "alice-jane-freestone": {
+      "name": "Alice Jane Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "1862–1902",
+      "aliases": [
+        "Alice Jane Bawden"
+      ]
+    },
+    "mary-elizabeth-freestone": {
+      "name": "Mary Elizabeth Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "1864–1936",
+      "aliases": [
+        "Mary Elizabeth Maughan"
+      ]
+    },
+    "rhoda-eliza-freestone": {
+      "name": "Rhoda Eliza Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1866",
+      "aliases": [
+        "Rhoda Eliza Reynolds"
+      ]
+    },
+    "esther-drucilla-freestone": {
+      "name": "Esther Drucilla Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "1868–1877",
+      "aliases": [
+        "Drucilla Freestone"
+      ]
+    },
+    "george-oscar-freestone": {
+      "name": "George Oscar Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1873"
+    },
+    "georgiana-maria-freestone": {
+      "name": "Georgiana Maria Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "1875–1879",
+      "aliases": [
+        "Jenny Freestone"
+      ]
+    },
+    "rosella-caroline-freestone": {
+      "name": "Rosella Caroline Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1877"
+    },
+    "james-anton-freestone": {
+      "name": "James Anton Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1880"
+    },
+    "emma-zina-freestone": {
+      "name": "Emma Zina Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1883",
+      "aliases": [
+        "Emma Zina Beers"
+      ]
+    },
+    "louis-alonzo-freestone": {
+      "name": "Louis Alonzo Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1885 (family history)"
+    },
+    "emery-lind-freestone": {
+      "name": "Emery Lind Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history",
+        "emery-freestone-obit"
+      ],
+      "dates": "1890–1973",
+      "text": "His obituary names George Freestone and Jennie Lind as his parents and lists seven children. Emery and Ida Crouse married in 1928 and later divorced."
+    },
+    "charles-royal-freestone": {
+      "name": "Charles Royal Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1893"
+    },
+    "may-afton-freestone": {
+      "name": "May Afton Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1895"
+    },
+    "clarence-fall-freestone": {
+      "name": "Clarence Fall Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1898",
+      "aliases": [
+        "Betts Freestone"
+      ]
+    },
+    "jeannette-young-wilkin": {
+      "name": "Jeannette Young Wilkin",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1855"
+    },
+    "jedediah-grant-wilkin": {
+      "name": "Jedediah Grant Wilkin",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1857"
+    },
+    "richard-joseph-carlisle": {
+      "name": "Richard Joseph Carlisle",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ],
+      "dates": "Born 1859"
+    },
+    "john-howard-bawden": {
+      "name": "John Howard Bawden",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "harrison-davenport-maughan": {
+      "name": "Harrison Davenport Maughan",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "beldon-moroni-reynolds": {
+      "name": "Beldon Moroni Reynolds",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "samuel-wright-brown": {
+      "name": "Samuel Wright Brown",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "martha-hannah-healey": {
+      "name": "Martha Hannah Healey",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "mary-lettie-wright": {
+      "name": "Mary Lettie Wright",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "mary-ella-holliday": {
+      "name": "Mary Ella Holliday",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "peter-stephen-beck": {
+      "name": "Peter Stephen Beck",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "emily-vilate-batty": {
+      "name": "Emily Vilate Batty",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "james-warren-beers": {
+      "name": "James Warren Beers",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "elmaide-louise-lebeau": {
+      "name": "Elmaide Louise LeBeau",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "ida-vilate-crouse": {
+      "name": "Ida Vilate Crouse",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history",
+        "emery-freestone-obit"
+      ],
+      "dates": "1909–1996"
+    },
+    "ruby-may-long": {
+      "name": "Ruby May Long",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "fredrick-graham-druliard": {
+      "name": "Fredrick Graham Druliard",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "cora-hardy": {
+      "name": "Cora Hardy",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "phoebe-ellen-freestone": {
+      "name": "Phoebe Ellen Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family",
+        "freestone-elizabeth-history"
+      ]
+    },
+    "jane-marie-freestone": {
+      "name": "Jane Marie Freestone",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "dates": "1855–1936"
+    },
+    "daniel-carlos-johnson": {
+      "name": "Daniel Carlos Johnson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ]
+    },
+    "jane-violate-johnson": {
+      "name": "Jane Violate Johnson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ]
+    },
+    "catherine-m-johnson": {
+      "name": "Catherine M. Johnson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ]
+    },
+    "daniel-raymond-johnson": {
+      "name": "Daniel Raymond Johnson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ]
+    },
+    "david-carlos-johnson": {
+      "name": "David Carlos Johnson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ]
+    },
+    "howard-elmer-johnson": {
+      "name": "Howard Elmer Johnson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-early-family"
+      ]
+    },
+    "john-alvey": {
+      "name": "John Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "margret-leah-harris": {
+      "name": "Margret Leah Harris",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "aliases": [
+        "Margaret Leah Harris",
+        "Margret Leah Harris Alvey"
+      ]
+    },
+    "john-william-alvey": {
+      "name": "John William Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "margaret-annie-alvey": {
+      "name": "Margaret Annie Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "joseph-alvey": {
+      "name": "Joseph Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "lucy-alvey": {
+      "name": "Lucy Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "alice-alvey": {
+      "name": "Alice Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "sarah-elizabeth-alvey": {
+      "name": "Sarah Elizabeth Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "llewellyn-alvey": {
+      "name": "Llewellyn Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "aliases": [
+        "Lew Alvey",
+        "Lewellyn Alvey"
+      ]
+    },
+    "rose-etta-alvey": {
+      "name": "Rose Etta Alvey",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "hilmer-stanley-peterson": {
+      "name": "Hilmer Stanley Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "merle-peterson": {
+      "name": "Merle Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "alvey-lynn-peterson": {
+      "name": "Alvey Lynn Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "joseph-dean-peterson": {
+      "name": "Joseph Dean Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "robert-glen-peterson": {
+      "name": "Robert Glen Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "dates": "Died 1964 (family history)"
+    },
+    "william-jay-peterson": {
+      "name": "William Jay Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ]
+    },
+    "peterson-private-child": {
+      "name": "Private family member",
+      "branch": "Peterson",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "private": true
+    },
+    "karl-gustaf-pettersson": {
+      "name": "Karl Gustaf Pettersson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ]
+    },
+    "ida-gustava-pettersson": {
+      "name": "Ida Gustava Pettersson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ]
+    },
+    "johan-axel-peterson": {
+      "name": "Johan Axel Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1878–1960",
+      "aliases": [
+        "John Axel Peterson",
+        "Axle Peterson"
+      ]
+    },
+    "august-emanuel-peterson": {
+      "name": "August Emanuel Leonard Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ]
+    },
+    "augusta-karolina-erickson": {
+      "name": "Augusta Karolina Erickson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1881–1927"
+    },
+    "ingrid-geroldine-peterson": {
+      "name": "Ingrid Geroldine Augusta Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1902–1985"
+    },
+    "bror-axel-peterson": {
+      "name": "Bror Axel Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1905–1988"
+    },
+    "agda-linnea-peterson": {
+      "name": "Agda Linnea Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1907–1996"
+    },
+    "elsa-m-peterson": {
+      "name": "Elsa M. Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1910–1999"
+    },
+    "mamie-gunhill-peterson": {
+      "name": "Mamie Gunhill Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1913–1982"
+    },
+    "june-arthur-peterson": {
+      "name": "June Arthur Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1916–1944"
+    },
+    "glen-john-peterson": {
+      "name": "Glen John Peterson",
+      "branch": "Peterson",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "dates": "1920–1981"
+    },
+    "jens-christian-anton-lind": {
+      "name": "Jens Christian Anton Lind",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "mary-ann-nielson": {
+      "name": "Mary Ann Nielson",
+      "branch": "Freestone",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    "melvin-emery-freestone": {
+      "name": "Melvin Emery Freestone",
+      "dates": "1928–2009",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    "harold-don-freestone": {
+      "name": "Harold Don Freestone",
+      "dates": "1929–1995",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    "dorothy-marie-freestone": {
+      "name": "Dorothy Marie Freestone",
+      "dates": "1931–2014",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ],
+      "aliases": [
+        "Dorothy Marie Freestone Roper"
+      ]
+    },
+    "lois-rae-freestone": {
+      "name": "Lois Rae Freestone",
+      "dates": "1934–2011",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ],
+      "aliases": [
+        "Lois Rae Freestone Harness"
+      ]
+    },
+    "ernest-leon-freestone": {
+      "name": "Ernest Leon Freestone",
+      "dates": "1936–2020",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    "doris-elaine-freestone": {
+      "name": "Doris Elaine Freestone",
+      "dates": "1938–2022",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ],
+      "aliases": [
+        "Doris Elaine Freestone Nielsen"
+      ]
+    },
+    "dallas-eldon-freestone": {
+      "name": "Dallas Eldon Freestone",
+      "dates": "1941–2020",
+      "branch": "Freestone",
+      "sources": [
+        "emery-freestone-obit"
+      ]
     }
   },
   "relationships": [
@@ -673,6 +1344,1355 @@
       "status": "Family record",
       "sources": [
         "brief"
+      ]
+    },
+    {
+      "from": "george-freestone",
+      "to": "alice-carlisle",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history",
+      "date": "1861-12-24"
+    },
+    {
+      "from": "george-freestone",
+      "to": "jennie-lind",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history",
+      "date": "1872"
+    },
+    {
+      "from": "david-wilkin",
+      "to": "alice-carlisle",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "alice-jane-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "alice-jane-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "mary-elizabeth-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "mary-elizabeth-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "rhoda-eliza-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "rhoda-eliza-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "esther-drucilla-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "esther-drucilla-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "george-oscar-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "george-oscar-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "georgiana-maria-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "georgiana-maria-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "rosella-caroline-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "rosella-caroline-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "james-anton-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "james-anton-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "emma-zina-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "emma-zina-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "louis-alonzo-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "louis-alonzo-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "reuben-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "reuben-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "emery-lind-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "emery-lind-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "charles-royal-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "charles-royal-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "may-afton-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "may-afton-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "clarence-fall-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jennie-lind",
+      "to": "clarence-fall-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "david-wilkin",
+      "to": "jeannette-young-wilkin",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "jeannette-young-wilkin",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "david-wilkin",
+      "to": "jedediah-grant-wilkin",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "jedediah-grant-wilkin",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "david-wilkin",
+      "to": "richard-joseph-carlisle",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-carlisle",
+      "to": "richard-joseph-carlisle",
+      "type": "Parent",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "jeannette-young-wilkin",
+      "type": "Stepchild",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "jedediah-grant-wilkin",
+      "type": "Stepchild",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-freestone",
+      "to": "richard-joseph-carlisle",
+      "type": "Stepchild",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "alice-jane-freestone",
+      "to": "john-howard-bawden",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-elizabeth-freestone",
+      "to": "harrison-davenport-maughan",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "rhoda-eliza-freestone",
+      "to": "beldon-moroni-reynolds",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jeannette-young-wilkin",
+      "to": "samuel-wright-brown",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "jedediah-grant-wilkin",
+      "to": "martha-hannah-healey",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "richard-joseph-carlisle",
+      "to": "mary-lettie-wright",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "george-oscar-freestone",
+      "to": "mary-ella-holliday",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "rosella-caroline-freestone",
+      "to": "peter-stephen-beck",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "james-anton-freestone",
+      "to": "emily-vilate-batty",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "emma-zina-freestone",
+      "to": "james-warren-beers",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "louis-alonzo-freestone",
+      "to": "elmaide-louise-lebeau",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "ida-vilate-crouse",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history",
+        "emery-freestone-obit"
+      ],
+      "status": "Divorced · obituary",
+      "date": "1928-02-21"
+    },
+    {
+      "from": "charles-royal-freestone",
+      "to": "ruby-may-long",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "may-afton-freestone",
+      "to": "fredrick-graham-druliard",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "clarence-fall-freestone",
+      "to": "cora-hardy",
+      "type": "Marriage",
+      "sources": [
+        "freestone-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "phoebe-ellen-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "ann-fall",
+      "to": "phoebe-ellen-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "jane-marie-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "ann-fall",
+      "to": "jane-marie-freestone",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "jane-marie-freestone",
+      "to": "daniel-carlos-johnson",
+      "type": "Marriage",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "jane-marie-freestone",
+      "to": "jane-violate-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "daniel-carlos-johnson",
+      "to": "jane-violate-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "jane-marie-freestone",
+      "to": "catherine-m-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "daniel-carlos-johnson",
+      "to": "catherine-m-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "jane-marie-freestone",
+      "to": "daniel-raymond-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "daniel-carlos-johnson",
+      "to": "daniel-raymond-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "jane-marie-freestone",
+      "to": "david-carlos-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "daniel-carlos-johnson",
+      "to": "david-carlos-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "jane-marie-freestone",
+      "to": "howard-elmer-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "daniel-carlos-johnson",
+      "to": "howard-elmer-johnson",
+      "type": "Parent",
+      "sources": [
+        "freestone-early-family"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "john-alvey",
+      "to": "margret-leah-harris",
+      "type": "Partner",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "john-william-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "john-william-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "margaret-annie-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "margaret-annie-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "mary-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "mary-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "joseph-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "joseph-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "lucy-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "lucy-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "alice-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "alice-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "sarah-elizabeth-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "sarah-elizabeth-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "llewellyn-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "llewellyn-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "john-alvey",
+      "to": "rose-etta-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "margret-leah-harris",
+      "to": "rose-etta-alvey",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "hilmer-stanley-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "hilmer-stanley-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "merle-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "merle-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "alvey-lynn-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "alvey-lynn-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "joseph-dean-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "joseph-dean-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "robert-glen-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "robert-glen-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "william-jay-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "william-jay-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "maxine-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "maxine-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "maurine-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "maurine-peterson",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "peterson-private-child",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "mary-alvey",
+      "to": "peterson-private-child",
+      "type": "Parent",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "hilmer",
+      "to": "mary-alvey",
+      "type": "Marriage",
+      "sources": [
+        "hilmer-marriage"
+      ],
+      "status": "Indexed county record",
+      "date": "1912-09-25"
+    },
+    {
+      "from": "maxine-peterson",
+      "to": "maurine-peterson",
+      "type": "Twin",
+      "sources": [
+        "mary-alvey-history"
+      ],
+      "status": "Documented in family history"
+    },
+    {
+      "from": "johannes",
+      "to": "karl-gustaf-pettersson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "ericka",
+      "to": "karl-gustaf-pettersson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johannes",
+      "to": "ida-gustava-pettersson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "ericka",
+      "to": "ida-gustava-pettersson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johannes",
+      "to": "johan-axel-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "ericka",
+      "to": "johan-axel-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johannes",
+      "to": "august-emanuel-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "ericka",
+      "to": "august-emanuel-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "augusta-karolina-erickson",
+      "type": "Marriage",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record",
+      "date": "1902-10-10"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "ingrid-geroldine-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "ingrid-geroldine-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "bror-axel-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "bror-axel-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "agda-linnea-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "agda-linnea-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "elsa-m-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "elsa-m-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "mamie-gunhill-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "mamie-gunhill-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "june-arthur-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "june-arthur-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "johan-axel-peterson",
+      "to": "glen-john-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "augusta-karolina-erickson",
+      "to": "glen-john-peterson",
+      "type": "Parent",
+      "sources": [
+        "johan-axel-profile"
+      ],
+      "status": "Compiled family record"
+    },
+    {
+      "from": "reuben-freestone",
+      "to": "tom-freestone",
+      "type": "Parent",
+      "sources": [
+        "brief"
+      ],
+      "status": "Family record"
+    },
+    {
+      "from": "adora-batty",
+      "to": "tom-freestone",
+      "type": "Parent",
+      "sources": [
+        "brief"
+      ],
+      "status": "Family record"
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "jennie-lind",
+      "type": "Parent",
+      "status": "Documented in family history",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "jennie-lind",
+      "type": "Parent",
+      "status": "Documented in family history",
+      "sources": [
+        "freestone-history"
+      ]
+    },
+    {
+      "from": "tom-freestone",
+      "to": "judy",
+      "type": "Parent",
+      "status": "Family record",
+      "sources": [
+        "brief"
+      ]
+    },
+    {
+      "from": "maurine-peterson",
+      "to": "judy",
+      "type": "Parent",
+      "status": "Family record",
+      "sources": [
+        "brief"
+      ]
+    },
+    {
+      "from": "johannes",
+      "to": "hilmer",
+      "type": "Parent",
+      "status": "Family record",
+      "sources": [
+        "brief",
+        "johan-axel-profile"
+      ]
+    },
+    {
+      "from": "ericka",
+      "to": "hilmer",
+      "type": "Parent",
+      "status": "Family record",
+      "sources": [
+        "brief",
+        "johan-axel-profile"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "melvin-emery-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "harold-don-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "dorothy-marie-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "lois-rae-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "ernest-leon-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "doris-elaine-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
+      ]
+    },
+    {
+      "from": "emery-lind-freestone",
+      "to": "dallas-eldon-freestone",
+      "type": "Parent",
+      "status": "Named in obituary",
+      "sources": [
+        "emery-freestone-obit"
       ]
     }
   ],
@@ -1578,5 +3598,42 @@
       ],
       "related": "research.html#peterson-immigration"
     }
+  ],
+  "featuredPeople": [
+    "george",
+    "sarah",
+    "mary",
+    "edward",
+    "john",
+    "angeline",
+    "manual",
+    "gertrude",
+    "minnie",
+    "richard-thompson",
+    "alfalona-fausett",
+    "walter",
+    "clace",
+    "thomas",
+    "norma",
+    "robert",
+    "thomas-freestone",
+    "ann-fall",
+    "george-freestone",
+    "alice-carlisle",
+    "jennie-lind",
+    "reuben-freestone",
+    "adora-batty",
+    "tom-freestone",
+    "maurine-peterson",
+    "maxine-peterson",
+    "johannes",
+    "ericka",
+    "hilmer",
+    "mary-alvey",
+    "james-fall-freestone",
+    "elizabeth-ann-freestone",
+    "rhoda-francis-freestone",
+    "johannah-freestone",
+    "emma-sarah-freestone"
   ]
 }
