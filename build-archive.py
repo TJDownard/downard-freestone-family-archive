@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 import subprocess
 from urllib.parse import quote
+from genealogy import FAMILY_BRANCHES, OPEN_STATUSES, duplicate_candidates, genealogy
 
 ROOT = Path(__file__).resolve().parent
 
@@ -29,17 +30,23 @@ def pairs(values):
 data = read('archive-records.json')
 sources = {record['id']: record for record in read('research/sources/catalog.json')}
 cases = read('research/verification/cases.json')
+baseline = read('research/verification/tree-baseline.json')
 shared = (ROOT / 'family-data.js').read_text()
 people_code = """
 const lambson = [...lambsonPeople.values(), ...lambsonRelatives];
 console.log(JSON.stringify({ people, lambson }));
 """
 graph = json.loads(subprocess.run(['node', '-'], input=shared + people_code, text=True, capture_output=True, check=True).stdout)
+for group in graph.values():
+    ids = [p['id'] for p in group]
+    if len(ids) != len(set(ids)):
+        raise ValueError('Duplicate ID inside a legacy genealogy collection')
 people = {p['id']: dict(p, branch='Downard') for p in graph['people']}
 for p in graph['lambson']:
     base = people.get(p['id'], {})
     # Thomas remains a Downard profile and appears as a spouse in the Lambson view.
-    people[p['id']] = {**base, **p, 'branch': 'Downard' if p['id'] == 'thomas' else 'Lambson'}
+    people[p['id']] = {**base, **p, 'parents': list(dict.fromkeys(base.get('parents', []) + p.get('parents', []))),
+                         'spouses': list(dict.fromkeys(base.get('spouses', []) + p.get('spouses', []))), 'branch': 'Downard' if p['id'] == 'thomas' else 'Lambson'}
 for key, person in data['people'].items():
     people[key] = {**people.get(key, {}), **person, 'id': key}
 people['judy'].update(branch='Freestone', parents=['tom-freestone', 'maurine-peterson'])
@@ -50,8 +57,10 @@ for person in people.values():
     person.setdefault('sources', ['lambson-children'] if person['id'] in {p['id'] for p in graph['lambson'] if 'story' not in p}
                       else ['lambson'] if person['branch'] == 'Lambson' else ['existing'])
 
+edges, relatives, child_groups, open_edges = genealogy(people, data['relationships'], sources)
+
 places = {record['id']: record for record in data['places']}
-featured = set(data['people']) - {'sarah','mary','edward','angeline','manual','gertrude','richard-thompson','alfalona-fausett','alice-carlisle','jennie-lind','adora-batty','maxine-peterson','ericka','mary-alvey','james-fall-freestone','elizabeth-ann-freestone','rhoda-francis-freestone','johannah-freestone','emma-sarah-freestone'}
+featured = (set(data.get('featuredPeople', data['people'])) - {k for k,p in people.items() if p.get('private')}) - {'sarah','mary','edward','angeline','manual','gertrude','richard-thompson','alfalona-fausett','alice-carlisle','jennie-lind','adora-batty','maxine-peterson','ericka','mary-alvey','james-fall-freestone','elizabeth-ann-freestone','rhoda-francis-freestone','johannah-freestone','emma-sarah-freestone'}
 featured.update(['barnabas', 'arba-lambson-sr', 'glennlambson'])
 nav = [('Home','index.html'), ('Family tree','index.html#tree'), ('People','people.html'), ('Stories','stories.html'),
        ('Places','places.html'), ('Timeline','timeline.html'), ('Archive','archive.html'), ('Research','research.html'),
@@ -123,7 +132,7 @@ def paragraph(label, html):
     return f'<p><strong>{esc(label)}</strong> {html}</p>' if html else ''
 
 def is_living(person):
-    return 'Living' in person['dates'] or 'Present' in person['dates']
+    return person.get('private', False) or 'Living' in person['dates'] or 'Present' in person['dates']
 
 def searchable_person(person):
     return ' '.join([person['name'], person['dates'], person.get('birth',''), person.get('death',''),
@@ -142,13 +151,14 @@ def event_dates(record):
 def person_details(person):
     key = person['id']
     living = is_living(person)
-    children = [p['id'] for p in people.values() if key in p['parents']]
+    rels = relatives[key]
     relation_html = []
-    for rel in data['relationships']:
-        if key not in (rel['from'], rel['to']):
+    for rel in edges.values():
+        if key not in (rel['from'], rel['to']) or rel.get('status') == 'Existing archive record' or people[rel['from']].get('private') or people[rel['to']].get('private'):
             continue
         other = rel['to'] if key == rel['from'] else rel['from']
-        label = 'Stepparent' if rel['type'] == 'Stepchild' and key == rel['to'] else rel['type']
+        label = ({'Parent': 'Parent' if key == rel['to'] else 'Child',
+                  'Stepchild': 'Stepparent' if key == rel['to'] else 'Stepchild'}).get(rel['type'], rel['type'])
         relation_html.append(f'<li><strong>{esc(label)}</strong> · {person_links([other])}'
                              + (f' · {chip(rel["status"])}' if rel.get('status') else '')
                              + event_dates(rel) + citations(rel.get('sources')) + '</li>')
@@ -160,16 +170,28 @@ def person_details(person):
                   ('Died', person.get('death')), ('Burial', person.get('burial')),
                   ('Occupations', ', '.join(person.get('occupations', [])))]) if not living else ''
     narrative = ''.join(f'<p>{esc(text)}</p>' for text in dict.fromkeys([person.get('story'), person.get('text'), person.get('notes')]) if text)
-    family = (paragraph('Parents', person_links(person['parents'])) + paragraph('Spouses and partners', person_links(person['spouses']))
-              + paragraph('Children', person_links(children)))
-    if relation_html:
-        family += '<ul>' + ''.join(relation_html) + '</ul>'
+    family = ''
+    if not person.get('private'):
+        family = '<h2>Family connections</h2>' + paragraph('Parents', person_links(rels['parents']))
+        family += paragraph('Grandparents', person_links(rels['grandparents']))
+        family += paragraph('Spouses and partners', person_links(rels['spouses']))
+        for group in child_groups[key]:
+            other = person_links(group['coParents'])
+            family += paragraph('Children with', other + ': ' + person_links(group['children'])) if other else paragraph('Children · other parent unrecorded', person_links(group['children']))
+        family += paragraph('Stepchildren', person_links(rels['stepchildren']))
+        family += paragraph('Stepparents', person_links(rels['stepparents']))
+        family += paragraph('Siblings', ' · '.join(person_links([entry['id']]) + ' (' + esc(entry['label']) + ')' for entry in rels['siblings']))
+        if relation_html:
+            family += '<details><summary>Relationship evidence</summary>' + '<ul>' + ''.join(relation_html) + '</ul></details>'
+    else:
+        family = '<p>Personal details are withheld.</p>'
     related = ''.join([paragraph('Places', place_links(person.get('places', []))),
                        paragraph('Properties', ' · '.join(property_links)),
                        paragraph('Timeline', ' · '.join(event_links)),
                        paragraph('Stories', ' · '.join(story_links)),
                        paragraph('Research questions', ' · '.join(case_links))])
-    return f'<div class="reading">{life}{narrative}{family}{related}{citations(person["sources"])}</div>'
+    tree_link = link('index.html?' + 'branch=' + person['branch'].lower() + '&person=' + quote(key) + '#tree', 'Open in the family tree') if not person.get('private') else ''
+    return f'<div class="reading">{paragraph("", tree_link)}{life}{narrative}{family}{related}{citations(person["sources"]) if not person.get("private") else ""}</div>' 
 
 directory = []
 for key, person in sorted(people.items(), key=lambda entry: entry[1]['name'].casefold()):
@@ -297,7 +319,76 @@ case_blocks = [
     for c in cases
 ]
 page('research.html', 'Research notebook', 'A separate view of unresolved questions, evidence, and next steps.',
+     paragraph('Genealogy audit', link('family-audit.html','Read the four branch completeness reports')) +
      filter_form(branch=('Branch',branch_choices),status=('Evidence status',choices(c['status'] for c in cases))) + records(case_blocks))
+
+def audit_people(keys):
+    return person_links(sorted(keys,key=lambda k:(people[k]['name'].casefold(),k))) or 'None.'
+
+def connected(root):
+    adjacency = {key:set() for key in people}
+    for (a,b,_),edge in edges.items():
+        if edge.get('status') != 'Unverified':
+            adjacency[a].add(b)
+            adjacency[b].add(a)
+    seen=set()
+    pending=[root]
+    while pending:
+        key=pending.pop()
+        if key not in seen:
+            seen.add(key)
+            pending.extend(adjacency[key]-seen)
+    return seen
+
+old_edges = {tuple(e) for e in baseline['edges']}
+new_edges = set(edges) - old_edges
+removed_edges = old_edges - set(edges)
+new_ids = set(data['people']) - set(data['featuredPeople'])
+roots = {'Downard':'george','Freestone':'thomas-freestone','Peterson':'hilmer','Lambson':'barnabas'}
+same_names = duplicate_candidates(people)
+branch_reports=[]
+for branch in FAMILY_BRANCHES:
+    members={k for k,p in people.items() if p['branch']==branch}
+    previous=baseline['branches'][branch]
+    disconnected = members - connected(roots[branch])
+    no_parents={k for k in members if not relatives[k]['parents'] and not people[k].get('private')}
+    one_parent={k for k in members if len(relatives[k]['parents']) == 1 and not people[k].get('private')}
+    no_spouse={k for k in members if not relatives[k]['spouses'] and not people[k].get('private')}
+    name_candidates=[g for g in same_names if members.intersection(g)]
+    case_ids=[link('research.html#'+c['id'],c['title']) for c in cases if c['branch']==branch]
+    disputed = [person_links([a,b]) + ' · ' + esc(e['type']) + ' (' + esc(e['status']) + ')'
+                for (a,b,_),e in edges.items() if e.get('status') in OPEN_STATUSES and ({a,b}&members)]
+    def disclosure(label, content):
+        return f'<details><summary>{esc(label)}</summary><p>{content}</p></details>'
+    branch_reports.append(f'<article class="record reading" id="{branch.lower()}"><h2>{esc(branch)}</h2>' +
+        pairs([('Previously recorded',previous['count']),('Previously selectable in the tree',previous['selectable']),
+               ('Previously shown on the direct line (own branch)',previous['initialLine']),('Currently recorded',len(members)),
+               ('Currently selectable from branch roster',len(members)),('Missing from the tree',str(0)),
+               ('Disconnected from the branch anchor',str(len(disconnected))),
+               ('No recorded parent',str(len(no_parents))),('One recorded parent',str(len(one_parent))),
+               ('No recorded spouse or partner',str(len(no_spouse))),
+               ('Confirmed duplicate records','0'),('Same-name groups for review',str(len(name_candidates)))]) +
+        disclosure('Previously unable to open',audit_people(previous['notSelectable'])) +
+        disclosure('Disconnected people',audit_people(disconnected)) +
+        disclosure('People with no recorded parents',audit_people(no_parents)) +
+        disclosure('People with one recorded parent',audit_people(one_parent)) +
+        disclosure('People with no recorded spouse or partner',audit_people(no_spouse)) +
+        disclosure('Same-name records kept separate','; '.join(audit_people(g) for g in name_candidates) or 'None.') +
+        disclosure('Unresolved research and relationship evidence',' · '.join(case_ids + disputed) or 'No cases indexed for this branch.') +
+        disclosure(f'New records ({len(members & new_ids)})',audit_people(members & new_ids))+'</article>')
+audit_intro = (
+    '<div class="reading"><p>The previous homepage used four separate lookup rules. The maternal branches exposed a short direct line and left out documented relatives and links. Downard and Lambson also showed some records as non-interactive cards. '
+    'The tree now uses the same people and relationship records as the directory.</p>'
+    '<p>Each person counts once, under their primary archive branch. The current display count means a selectable roster card; direct-line cards are still only shortcuts. '
+    'Disconnected means no path through recorded relationships to that branch’s starting person. A blank spouse or parent field means the archive has no recorded link, including when no marriage is known. '
+    'Matching names are candidates for review, never grounds to merge records. One Peterson record is shown anonymously.</p>' +
+    pairs([('People before',sum(b['count'] for b in baseline['branches'].values())),('People now',len(people)),
+           ('New relationship links',len(new_edges)),('Prior links removed',str(len(removed_edges))),
+           ('Prior links retained',len(old_edges & edges.keys()))]) +
+    '<p>Relationship totals count each parent–child link, spouse or partner pair, stepchild link and twin pair once. This is a record of the sources inspected, not a claim that all descendants are known.</p>' +
+    '<p>'+' · '.join(link('#'+b.lower(),b) for b in FAMILY_BRANCHES)+'</p></div>')
+page('family-audit.html','Family tree completeness report','What changed in the genealogy, which records are visible, and where evidence is still needed.',
+     audit_intro + records(branch_reports), section='Research · Genealogy audit')
 
 search_entries = []
 def search_entry(kind, title, url, terms, description=''):
@@ -343,29 +434,44 @@ def branch_entry(branch, start, ancestors, spouses, title, description, story, s
         'spouses':spouses,'chapters':{key:story for key in ancestors}
     }
 
-maternal_people = {key:{**p, 'role':p.get('role',p['branch']+' family'),
-                         'story':p.get('text') or p.get('story','')}
-                   for key,p in people.items() if p['branch'] in {'Freestone','Peterson'}}
+tree_people = {
+    key: {field:p[field] for field in ('id','name','branch','dates','aliases','birth','death','private') if field in p}
+    | {'role': p.get('role', p['branch']+' family'), 'story':p.get('text') or p.get('story',''),
+       'path':person_path(key)}
+    | relatives[key] | {'childGroups': child_groups[key],
+                       'marriages': [
+                           [people[edge['to'] if key == edge['from'] else edge['from']]['name'],
+                            ' · '.join(filter(None,[
+                                edge.get('date') or ' or '.join(edge.get('dateOptions', [])) or
+                                ('License publication: '+edge['publication'] if edge.get('publication') else 'Date unrecorded'),
+                                edge.get('status') if edge.get('status') in OPEN_STATUSES or 'Divorced' in edge.get('status','') else None]))]
+                           for (a,b,kind),edge in edges.items()
+                           if key in (a,b) and kind=='Partner' and edge['type']!='Partner' and edge.get('status')!='Unverified'
+                           and not (people[a].get('private') or people[b].get('private'))],
+                       'openRelationships': [{'id':other,'label':edge['type'],'sources':edge['sources']} for other,edge in open_edges[key]]}
+    for key,p in people.items()
+}
 maternal_branches = {
-    'freestone':branch_entry('Freestone','tom-freestone',['tom-freestone','judy'],
-        {'tom-freestone':'maurine-peterson','judy':'robert'},'from Suffolk to Utah.',
+    'freestone':branch_entry('Freestone','thomas-freestone',
+        ['thomas-freestone','george-freestone','reuben-freestone','tom-freestone','judy'],
+        {'thomas-freestone':'ann-fall','george-freestone':'jennie-lind','reuben-freestone':'adora-batty','tom-freestone':'maurine-peterson','judy':'robert'},'from Suffolk to Utah.',
         'Follow the Freestone family across the Atlantic and west with the Miller and Cooley company. Meet Tom Freestone and the family he raised with Maurine Peterson.',
         'freestone-journey',[['1853','OVERLAND JOURNEY'],['UTAH','SETTLEMENT'],['1947','TOM AND MAURINE MARRY']],
-        'DOCUMENTED FAMILY CONNECTION · TOM FREESTONE → JUDY FREESTONE',
-        'Earlier Freestone profiles are searchable. The archive does not yet show a continuous parent-to-child chain between the pioneer generation and Reuben.',
+        'DIRECT LINE · THOMAS → GEORGE → REUBEN → TOM → JUDY',
+        'The direct line is a starting point. Open an ancestor to explore additional marriages, children, and other relatives.',
         'Tom Freestone and Maurine Peterson connect the Freestone and Peterson branches.'),
-    'peterson':branch_entry('Peterson','hilmer',['johannes','hilmer','maurine-peterson'],
-        {'johannes':'ericka','hilmer':'mary-alvey','maurine-peterson':'tom-freestone'},'from Sweden to eastern Utah.',
+    'peterson':branch_entry('Peterson','hilmer',['johannes','hilmer','maurine-peterson','judy'],
+        {'johannes':'ericka','hilmer':'mary-alvey','maurine-peterson':'tom-freestone','judy':'robert'},'from Sweden to eastern Utah.',
         'Trace the Peterson and Pettersson names and compare the family accounts of Hilmer’s immigration.',
-        'peterson-story',[['03','GENERATIONS SHOWN'],['SWEDEN','FAMILY ORIGINS'],['1959','FAMILY LETTER']],
-        'FAMILY RECORD · JOHANNES → HILMER → MAURINE',
+        'peterson-story',[['04','GENERATIONS SHOWN'],['SWEDEN','FAMILY ORIGINS'],['1959','FAMILY LETTER']],
+        'DIRECT LINE · JOHANNES → HILMER → MAURINE → JUDY',
         'The family letter and other records disagree on the arrival chronology. The date and ship remain open.',
-        'The family record names Maurine and Maxine as twins.')
+        'The family history lists nine children of Hilmer Peterson and Mary Alvey, including twins Maurine and Maxine.')
 }
 write('archive-branches.js',
       '// Generated by build-archive.py from the shared tree and archive records.\n'
-      + 'const maternalPeople = '+json.dumps(maternal_people,ensure_ascii=False,indent=2)+';\n'
-      + 'const maternalFamily = {...map, ...maternalPeople};\n'
+      + 'const treePeople = '+json.dumps(tree_people,ensure_ascii=False,separators=(',',':'))+';\n'
       + 'const maternalBranches = '+json.dumps(maternal_branches,ensure_ascii=False,indent=2)+';\n'
-      + 'const archiveProfilePaths = '+json.dumps({k:person_path(k) for k in people},ensure_ascii=False,indent=2)+';')
+      )
+print(f'Genealogy: {len(old_edges)} prior relationships; {len(edges)} now; {len(new_edges)} added; {len(removed_edges)} removed.')
 print(f'Built {len(people)} people ({len(featured)} standalone profiles), {len(data["events"])} events, {len(sources)} sources, and {len(cases)} research cases.')
