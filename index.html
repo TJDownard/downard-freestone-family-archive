@@ -64,6 +64,12 @@ const locations={
  'arba-lambson-sr':['New York','Utah'],
  'arba-lambson-jr':['Iowa',null],
  'rosella-blanchard':['Utah','Utah'],
+ // Birth and death locations from the cited Freestone and Peterson profiles.
+ 'george-freestone':['Prince Edward Island','Utah'],
+ 'alice-carlisle':['England',null],
+ 'jennie-lind':['Denmark',null],
+ 'tom-freestone':['Utah',null],
+ hilmer:['Sweden',null],
  glennlambson:['Utah','Utah'],marylucille:['Utah',null],judy:[null,null],
  george:['England','Utah'],sarah:['England','Utah'],mary:['England','Utah'],
  alice:['England',null],georgef:['England',null],johnb:['England',null],joseph:['England',null],hiram:['England',null],cecelia:['England',null],edward:['England',null],
@@ -81,6 +87,26 @@ const earlyLambsonPlaces = [
  {place:'England',label:'Family home'},
  {place:'Massachusetts',label:'Settled'}
 ];
+// Family history, the pioneer roster, and the Peterson marriage index document
+// these locations as family homes or settlement places.
+const familyPlaces = {
+ // Emery Lind Freestone's obituary places his brother Reuben in Vernal.
+ 'reuben-freestone': [{place:'Utah',label:'Lived'}],
+ 'thomas-freestone': [
+   {place:'England',label:'Family home'},
+   {place:'Utah',label:'Settled'}
+ ],
+ 'ann-fall': [
+   {place:'England',label:'Family home'},
+   {place:'Utah',label:'Settled'}
+ ],
+ 'alice-carlisle': [{place:'Utah',label:'Settled'}],
+ 'jennie-lind': [{place:'Utah',label:'Settled'}],
+ johannes: [{place:'Sweden',label:'Family home'}],
+ ericka: [{place:'Sweden',label:'Family home'}],
+ hilmer: [{place:'Utah',label:'Settled'}],
+ 'mary-alvey': [{place:'Utah',label:'Family home'}]
+};
 // Distinct geographical silhouettes, drawn in a shared 100 × 140 coordinate system.
 // England is a simplified mainland outline (not the whole United Kingdom).
 // Utah includes its defining northeastern step along the Wyoming border.
@@ -89,15 +115,24 @@ const shapes={
  Utah:'M12 7 H61 V31 H91 V133 H12 Z'
 };
 function showPlaces(id){
- const box=$('placebadges');box.replaceChildren();const [birth,death]=locations[id]||[null,null];
- const entries=['barnabas','marie'].includes(id) ? [...earlyLambsonPlaces] : [];if(birth)entries.push({place:birth,label:birth===death?'Born & died':'Born'});
- if(death&&death!==birth)entries.push({place:death,label:'Died'});
+ const box = $('placebadges');
+ box.replaceChildren();
+ const [birth, death] = locations[id] || [];
+ const entries = [];
+ if (birth) entries.push({place:birth,label:birth === death ? 'Born & died' : 'Born'});
+ if (death && death !== birth) entries.push({place:death,label:'Died'});
+ entries.push(...(['barnabas','marie'].includes(id) ? earlyLambsonPlaces : familyPlaces[id] || []));
  for(const entry of entries){const badge=document.createElement('span');badge.className='placebadge '+(entry.place==='England'?'england':entry.place==='Utah'?'utah':'other');
  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox',shapes[entry.place]?'0 0 100 140':'0 0 26 32');svg.setAttribute('aria-hidden','true');
  const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',shapes[entry.place]||'M13 2 C7 2 3 7 3 13 C3 21 13 29 13 29 C13 29 23 21 23 13 C23 7 19 2 13 2Z');svg.append(path);
  const copy=document.createElement('span');copy.className='badgecopy';const title=document.createElement('span');title.textContent=entry.place;const sub=document.createElement('small');sub.textContent=entry.label;copy.append(title,sub);badge.append(svg,copy);box.append(badge)}
 }
-function showService(id){const box=document.getElementById('servicebadges');box.replaceChildren();const services={thomas:['WORLD WAR II','U.S. Army · 136th Infantry · 33rd Division'],robert:['VIETNAM ERA','Military service · details pending verification']};const service=services[id];if(!service)return;const badge=document.createElement('span');badge.className='servicebadge';const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('viewBox','0 0 32 32');icon.setAttribute('aria-hidden','true');const circle=document.createElementNS('http://www.w3.org/2000/svg','circle');circle.setAttribute('cx','16');circle.setAttribute('cy','16');circle.setAttribute('r','14');circle.setAttribute('fill','#dce4ed');circle.setAttribute('stroke','#6e8399');icon.append(circle);const star=document.createElementNS('http://www.w3.org/2000/svg','path');star.setAttribute('d','M16 5.5l2.8 7.1 7.6.4-5.9 4.8 2 7.3-6.5-4.1-6.5 4.1 2-7.3-5.9-4.8 7.6-.4z');star.setAttribute('fill','#536e8b');icon.append(star);const copy=document.createElement('span');copy.textContent=service[0];const sub=document.createElement('small');sub.textContent=service[1];copy.append(sub);badge.append(icon,copy);box.append(badge)}
+const militaryServices = {
+ thomas:['WORLD WAR II','U.S. Army · 136th Infantry · 33rd Division'],
+ 'tom-freestone':['WORLD WAR II','U.S. Army Air Forces · B-17 aerial gunner'],
+ robert:['VIETNAM ERA','Military service · details pending verification']
+};
+function showService(id){const box=document.getElementById('servicebadges');box.replaceChildren();const service=militaryServices[id];if(!service)return;const badge=document.createElement('span');badge.className='servicebadge';const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('viewBox','0 0 32 32');icon.setAttribute('aria-hidden','true');const circle=document.createElementNS('http://www.w3.org/2000/svg','circle');circle.setAttribute('cx','16');circle.setAttribute('cy','16');circle.setAttribute('r','14');circle.setAttribute('fill','#dce4ed');circle.setAttribute('stroke','#6e8399');icon.append(circle);const star=document.createElementNS('http://www.w3.org/2000/svg','path');star.setAttribute('d','M16 5.5l2.8 7.1 7.6.4-5.9 4.8 2 7.3-6.5-4.1-6.5 4.1 2-7.3-5.9-4.8 7.6-.4z');star.setAttribute('fill','#536e8b');icon.append(star);const copy=document.createElement('span');copy.textContent=service[0];const sub=document.createElement('small');sub.textContent=service[1];copy.append(sub);badge.append(icon,copy);box.append(badge)}
 
 // Exact dates are shown only where supplied; missing details are not guessed.
 const vitalFacts={
@@ -112,29 +147,43 @@ const vitalFacts={
  robert:{birth:'September 12, 1948',birthPlace:'Vernal, Utah',death:'February 13, 2009',deathPlace:'Murray, Utah',marriages:[]},
  judy:{death:'Living',marriages:[]}
 };
-function lambsonAgeFromYears(person) {
+function ageFromYears(person) {
  const {id, dates} = person;
  if (id === 'jane-hayes') return dates + ' (Age: 27)';
- const years = /^(c\. )?(\d{4})–(c\. |reported )?(\d{4})(?:\/(\d{2}))?$/.exec(dates);
+ const years = /^(c\. )?(\d{4})(?: or (\d{4}))?–(c\. |reported )?(\d{4})(?:\/(\d{2}))?(?: \(family dates\))?$/.exec(dates);
  if (!years) return dates;
- const [, approximateBirth, birthYear, approximateDeath, deathYear, alternateDeath] = years;
- const difference = Number(deathYear) - Number(birthYear);
+
+ const [, approximateBirth, firstBirth, lastBirth = firstBirth, approximateDeath, death, alternateDeath] = years;
+ const difference = Number(death) - Number(firstBirth);
+ if (difference < 0) return dates;
  if (approximateBirth || approximateDeath) return dates + ' (Age: about ' + difference + ')';
- const latestDeath = alternateDeath ? Number(deathYear.slice(0, 2) + alternateDeath) : Number(deathYear);
- return dates + ' (Age: ' + Math.max(0, difference - 1) + '–' + (latestDeath - Number(birthYear)) + ')';
+
+ const earliestAge = Math.max(0, Number(death) - Number(lastBirth) - 1);
+ const lastDeath = alternateDeath ? Number(death.slice(0, 2) + alternateDeath) : Number(death);
+ const latestAge = lastDeath - Number(firstBirth);
+ return dates + ' (Age: ' + earliestAge + '–' + latestAge + ')';
 }
-function biographyDates(p){
- const facts=vitalFacts[p.id];
- if(!facts || !facts.birth || !facts.death || facts.death==='Living') {
-   return lambsonPeople.has(p.id) ? lambsonAgeFromYears(p) : p.dates;
+
+function parseFullDate(value) {
+ // Accept a complete date followed by an optional source note or location.
+ const date = /^[A-Z][a-z]+ \d{1,2}, \d{4}(?=$| [·(])/.exec(value || '');
+ return date ? new Date(date[0] + ' 12:00:00 GMT') : new Date(NaN);
+}
+
+function biographyDates(person) {
+ const facts = vitalFacts[person.id] || person;
+ const born = parseFullDate(facts.birth);
+ const died = parseFullDate(facts.death);
+ if (Number.isNaN(born.getTime()) || Number.isNaN(died.getTime()) || died < born) {
+   const hasYearAges = lambsonPeople.has(person.id) || ['Freestone','Peterson'].includes(person.branch);
+   return hasYearAges ? ageFromYears(person) : person.dates;
  }
- const born=new Date(facts.birth+' 12:00:00 GMT');
- const died=new Date(facts.death+' 12:00:00 GMT');
- if(Number.isNaN(born.getTime())||Number.isNaN(died.getTime())||died<born) return p.dates;
- let age=died.getUTCFullYear()-born.getUTCFullYear();
- const birthdayPassed=died.getUTCMonth()>born.getUTCMonth() || (died.getUTCMonth()===born.getUTCMonth() && died.getUTCDate()>=born.getUTCDate());
- if(!birthdayPassed) age--;
- return p.dates+' (Age: '+age+')';
+
+ let age = died.getUTCFullYear() - born.getUTCFullYear();
+ const birthdayPassed = died.getUTCMonth() > born.getUTCMonth() ||
+   (died.getUTCMonth() === born.getUTCMonth() && died.getUTCDate() >= born.getUTCDate());
+ if (!birthdayPassed) age--;
+ return person.dates + ' (Age: ' + age + ')';
 }
 function showVitals(id){const box=document.getElementById('vital-records');box.replaceChildren();const person=treePeople[id];const [birth,birthPlace]=(person?.birth||'').split(' · ');const [death,deathPlace]=(person?.death||'').split(' · ');const facts=vitalFacts[id]||{birth,birthPlace,death,deathPlace,marriages:person?.marriages};const add=(label,value,sub)=>{const el=document.createElement('div');el.className='vital-item';const l=document.createElement('span');l.className='vital-label';l.textContent=label;const v=document.createElement('div');v.className='vital-value';v.textContent=value;if(sub){const sm=document.createElement('small');sm.textContent=sub;v.append(sm)}el.append(l,v);box.append(el)};if(facts.death==='Living'){add('Status','Living');return}add('Born',facts.birth||'Exact date to research',facts.birthPlace);if(facts.marriages?.length){facts.marriages.forEach(([name,date])=>add('Married · '+name,date))}else add('Marriage',person?.spouses.length?'Date not recorded':'No spouse or partner recorded');add(facts.death==='Living'?'Status':'Died',facts.death||'Exact date to research',facts.deathPlace)}
 
