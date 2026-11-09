@@ -1,0 +1,1582 @@
+{
+  "people": {
+    "george": {
+      "aliases": [
+        "George Dowrard"
+      ],
+      "birth": "December 27, 1821 · Deptford, Kent, England",
+      "death": "June 12, 1902 · Price, Utah",
+      "occupations": [
+        "Painter",
+        "Carpenter"
+      ],
+      "places": [
+        "deptford",
+        "stepney",
+        "florence",
+        "spring-city",
+        "price"
+      ],
+      "sources": [
+        "manifest",
+        "house",
+        "district",
+        "george-scan",
+        "brand",
+        "george-obit"
+      ],
+      "text": "A passenger register records George as a painter. In Spring City, the preservation inventory associates him with house painting and carpentry. The family research reports a GD livestock brand in Sanpete County on May 24, 1876. The entry image remains to be located."
+    },
+    "sarah": {
+      "birth": "May 10, 1831",
+      "sources": [
+        "brief",
+        "manifest"
+      ]
+    },
+    "mary": {
+      "birth": "November 8, 1833 · Devonport, Devon, England",
+      "death": "December 5, 1897 · Spring City, Utah",
+      "places": [
+        "spring-city"
+      ],
+      "sources": [
+        "existing"
+      ]
+    },
+    "edward": {
+      "aliases": [
+        "Edward Hirum Downard",
+        "Edmund Dowrard (possible manifest match)"
+      ],
+      "sources": [
+        "brief",
+        "manifest",
+        "haight"
+      ],
+      "text": "The family account reports that Edward died during the overland journey. The manifest transcription lists an infant named Edmund Dowrard. The identification remains open."
+    },
+    "john": {
+      "birth": "September 6, 1869 · Spring City, Utah",
+      "death": "September 23, 1944 · Price, Utah",
+      "occupations": [
+        "Ranching"
+      ],
+      "places": [
+        "spring-city",
+        "woodside",
+        "nine-mile",
+        "harper",
+        "price"
+      ],
+      "sources": [
+        "john-scan",
+        "minnie-license",
+        "woodside-sale",
+        "nine-mile",
+        "bluebell",
+        "harness-deed",
+        "burt-deed",
+        "civil-case"
+      ],
+      "text": "Newspaper excerpts connect John to ranching around Woodside and Nine Mile. A published marriage-license notice places John and Minnie in Harper in 1915. The archive keeps undated land reports separate from dated life events."
+    },
+    "angeline": {
+      "aliases": [
+        "Angelina Rebecca King",
+        "Angeline Rebecca King"
+      ],
+      "sources": [
+        "existing",
+        "brief"
+      ]
+    },
+    "manual": {
+      "aliases": [
+        "Manuel Louis Downard"
+      ],
+      "sources": [
+        "existing",
+        "brief"
+      ]
+    },
+    "gertrude": {
+      "aliases": [
+        "Gertie Elenor Miller",
+        "Gertrude Elenor Miller"
+      ],
+      "sources": [
+        "existing",
+        "brief"
+      ]
+    },
+    "minnie": {
+      "name": "Minnie Estelle Thompson Rogers Downard",
+      "dates": "1880 · death year unresolved",
+      "aliases": [
+        "Minnie Estelle Thompson",
+        "Minnie E. Rogers",
+        "Minnie Downard"
+      ],
+      "birth": "December 17, 1880 · Elko County, Nevada (reported)",
+      "death": "Price, Utah · date unresolved",
+      "burial": "Price City Cemetery (reported)",
+      "parents": [
+        "richard-thompson",
+        "alfalona-fausett"
+      ],
+      "places": [
+        "elko",
+        "nine-mile",
+        "harper",
+        "rochester",
+        "price"
+      ],
+      "sources": [
+        "minnie-obit",
+        "minnie-hospital",
+        "minnie-license"
+      ],
+      "text": "The obituary reports that Minnie moved to Nine Mile with her family around age six. She had used the surname Rogers and reportedly had six children from her first marriage, three of whom survived her. The 1915 license notice names her and John as residents of Harper.",
+      "notes": "The reported surviving relatives include Maud May Smith, Florence Jones, Frank Thompson, Richard Thompson, John Thompson and William E. Cassaday. Their precise relationships and spellings need checking against the original notice."
+    },
+    "richard-thompson": {
+      "name": "Richard B. Thompson",
+      "branch": "Downard",
+      "sources": [
+        "minnie-obit"
+      ],
+      "text": "Named as Minnie’s father in the supplied obituary transcription."
+    },
+    "alfalona-fausett": {
+      "name": "Alfalona Fausett Thompson",
+      "branch": "Downard",
+      "sources": [
+        "minnie-obit"
+      ],
+      "text": "Named as Minnie’s mother in the supplied obituary transcription. The reported spelling awaits corroboration."
+    },
+    "walter": {
+      "birth": "April 3, 1899 · Spring City, Utah",
+      "death": "February 9, 1975 · Roosevelt, Utah",
+      "places": [
+        "spring-city",
+        "price",
+        "provo"
+      ],
+      "sources": [
+        "existing",
+        "walter-scan",
+        "clace-notice"
+      ],
+      "text": "The September 1921 newspaper notice describes Walter as being from Price and Clace Bradley as being from Vernal. It places their wedding in Provo."
+    },
+    "clace": {
+      "aliases": [
+        "Clace Sabey",
+        "Clace Bradley",
+        "Clace Downard",
+        "Clace Sabey Bradley Downard"
+      ],
+      "birth": "October 28, 1895 · Vernal, Utah",
+      "death": "January 22, 1989 · Vernal, Utah",
+      "places": [
+        "vernal",
+        "provo"
+      ],
+      "sources": [
+        "existing",
+        "clace-notice"
+      ],
+      "text": "Clace used Sabey, Bradley and Downard at different stages of her life. She married Marshall “Mack” Bradley in 1917 and Walter Downard in 1921. Oaka, Barbara and Mary Jane Bradley were Walter’s stepchildren."
+    },
+    "thomas": {
+      "birth": "December 3, 1921 · Bluebell, Utah",
+      "death": "May 22, 1982 · Salt Lake City, Utah",
+      "occupations": [
+        "Postal Service"
+      ],
+      "places": [
+        "bluebell",
+        "salt-lake"
+      ],
+      "sources": [
+        "existing",
+        "lambson",
+        "norma-notice"
+      ],
+      "text": "Family information describes US Army service during World War II and later Postal Service work. The unit assignment awaits service records. The family record and newspaper summary give different dates for his wedding to Norma."
+    },
+    "norma": {
+      "aliases": [
+        "Norma Lucille Jameson Lambson (variant in supplied research)",
+        "Norma Lucille Lambson Downard"
+      ],
+      "birth": "April 18, 1923 · Bingham Canyon, Utah",
+      "death": "October 23, 2000",
+      "places": [
+        "bingham",
+        "salt-lake"
+      ],
+      "sources": [
+        "lambson",
+        "norma-notice"
+      ],
+      "text": "Norma’s 1942 marriage joined the Lambson and Downard branches. The family record gives June 26 and the supplied newspaper summary gives June 30. Robert, Glen and Quinn are listed as their children."
+    },
+    "robert": {
+      "birth": "September 12, 1948 · Vernal, Utah",
+      "death": "February 13, 2009 · Murray, Utah",
+      "places": [
+        "vernal"
+      ],
+      "sources": [
+        "existing",
+        "robert-scan"
+      ],
+      "text": "Robert is part of the direct Downard line. The same-name Vernal police chief remains a separate research lead."
+    },
+    "thomas-freestone": {
+      "name": "Thomas Freestone",
+      "dates": "1795–c. 1858",
+      "branch": "Freestone",
+      "spouses": [
+        "ann-fall"
+      ],
+      "places": [
+        "suffolk",
+        "pei",
+        "iowa",
+        "salt-lake"
+      ],
+      "sources": [
+        "freestone-pioneers",
+        "brief"
+      ],
+      "text": "Thomas and Ann appear together in the 1853 Daniel A. Miller and John W. Cooley traveling group. Family accounts connect their earlier route to Suffolk, Prince Edward Island and Iowa."
+    },
+    "ann-fall": {
+      "name": "Ann Fall",
+      "dates": "1814–1888",
+      "branch": "Freestone",
+      "spouses": [
+        "thomas-freestone"
+      ],
+      "places": [
+        "pei",
+        "iowa",
+        "salt-lake"
+      ],
+      "sources": [
+        "freestone-pioneers",
+        "brief"
+      ],
+      "text": "Ann appears in the 1853 traveling group with Thomas and children including George, James Fall, Elizabeth Ann, Rhoda Francis, Johannah and Emma Sarah Freestone."
+    },
+    "george-freestone": {
+      "name": "George Freestone",
+      "dates": "1838–1920 (family dates)",
+      "branch": "Freestone",
+      "parents": [
+        "thomas-freestone",
+        "ann-fall"
+      ],
+      "spouses": [
+        "alice-carlisle",
+        "jennie-lind"
+      ],
+      "birth": "August 13, 1838 · Prince Edward Island (family research)",
+      "death": "August 1920 · Utah (family research)",
+      "places": [
+        "pei",
+        "vernal"
+      ],
+      "sources": [
+        "brief",
+        "freestone-pioneers",
+        "freestone-history",
+        "county"
+      ],
+      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional."
+    },
+    "alice-carlisle": {
+      "name": "Alice Carlisle",
+      "branch": "Freestone",
+      "spouses": [
+        "george-freestone"
+      ],
+      "sources": [
+        "freestone-history"
+      ],
+      "text": "Named as George Freestone’s wife in the Freestone family account."
+    },
+    "jennie-lind": {
+      "name": "Eraimine Georgine Lind",
+      "aliases": [
+        "Jennie Lind"
+      ],
+      "branch": "Freestone",
+      "spouses": [
+        "george-freestone"
+      ],
+      "sources": [
+        "freestone-history",
+        "brief"
+      ],
+      "text": "The family account identifies Jennie Lind as George Freestone’s second wife. The supplied research records their marriage in 1872."
+    },
+    "reuben-freestone": {
+      "name": "Reuben Thomas Freestone",
+      "dates": "1888–1984",
+      "branch": "Freestone",
+      "birth": "April 11, 1888",
+      "death": "December 7, 1984",
+      "spouses": [
+        "adora-batty"
+      ],
+      "sources": [
+        "brief"
+      ],
+      "text": "The supplied family record identifies Reuben as Tom Freestone’s father and records a 1910 marriage to Adora Batty."
+    },
+    "adora-batty": {
+      "name": "Adora Elvira Batty",
+      "dates": "1891–1984",
+      "branch": "Freestone",
+      "birth": "December 9, 1891",
+      "death": "September 20, 1984",
+      "spouses": [
+        "reuben-freestone"
+      ],
+      "sources": [
+        "brief"
+      ]
+    },
+    "tom-freestone": {
+      "name": "Clyde Thomas Freestone",
+      "aliases": [
+        "Tom Freestone",
+        "Clyde Thomas “Tom” Freestone"
+      ],
+      "dates": "1923–2010",
+      "branch": "Freestone",
+      "birth": "November 25, 1923 · Vernal, Utah",
+      "death": "April 26, 2010",
+      "parents": [
+        "reuben-freestone",
+        "adora-batty"
+      ],
+      "spouses": [
+        "maurine-peterson"
+      ],
+      "places": [
+        "vernal",
+        "vienna",
+        "brush-creek"
+      ],
+      "occupations": [
+        "Ranching",
+        "Juvenile court services"
+      ],
+      "sources": [
+        "brief",
+        "tom-obit",
+        "county"
+      ],
+      "text": "The obituary summary describes Tom as a B-17 aerial gunner who was wounded and taken prisoner after an aircraft loss near Vienna. County history reportedly records his 1964 appointment to direct juvenile court services for five eastern Utah counties. Family research also records ranching, local preservation, education and parkland donation."
+    },
+    "maurine-peterson": {
+      "name": "Maurine Peterson",
+      "aliases": [
+        "Maurine Freestone"
+      ],
+      "dates": "1930–2010",
+      "branch": "Peterson",
+      "birth": "March 2, 1930",
+      "death": "April 28, 2010",
+      "parents": [
+        "hilmer",
+        "mary-alvey"
+      ],
+      "spouses": [
+        "tom-freestone"
+      ],
+      "sources": [
+        "brief"
+      ],
+      "text": "The family record identifies Maurine and Maxine as twins and records Maurine’s marriage to Tom Freestone on June 24, 1947."
+    },
+    "maxine-peterson": {
+      "name": "Maxine Peterson",
+      "dates": "Born 1930 (reported)",
+      "branch": "Peterson",
+      "parents": [
+        "hilmer",
+        "mary-alvey"
+      ],
+      "sources": [
+        "brief"
+      ],
+      "text": "The supplied family history records Maxine as Maurine’s twin. Later life details await supporting records."
+    },
+    "johannes": {
+      "name": "Johannes Gustaf Pettersson",
+      "dates": "1846–1911",
+      "branch": "Peterson",
+      "spouses": [
+        "ericka"
+      ],
+      "places": [
+        "sweden"
+      ],
+      "sources": [
+        "brief"
+      ]
+    },
+    "ericka": {
+      "name": "Ericka Munter",
+      "dates": "1847–1932",
+      "branch": "Peterson",
+      "spouses": [
+        "johannes"
+      ],
+      "places": [
+        "sweden"
+      ],
+      "sources": [
+        "brief"
+      ]
+    },
+    "hilmer": {
+      "name": "Erik Hilmer Pettersson",
+      "aliases": [
+        "Erik Hilmer Peterson",
+        "Hilmer Peterson"
+      ],
+      "dates": "1882–1962",
+      "branch": "Peterson",
+      "parents": [
+        "johannes",
+        "ericka"
+      ],
+      "spouses": [
+        "mary-alvey"
+      ],
+      "places": [
+        "sweden"
+      ],
+      "sources": [
+        "brief",
+        "peterson-letter"
+      ],
+      "text": "Pettersson and Peterson are spelling variants used for Hilmer. A 1959 letter describes him arriving in America as a boy. Other family records point to a later arrival. The date and ship remain unresolved."
+    },
+    "mary-alvey": {
+      "name": "Mary Alvey",
+      "dates": "1894–1969",
+      "branch": "Peterson",
+      "spouses": [
+        "hilmer"
+      ],
+      "sources": [
+        "brief"
+      ]
+    },
+    "james-fall-freestone": {
+      "name": "James Fall Freestone",
+      "branch": "Freestone",
+      "parents": [
+        "thomas-freestone",
+        "ann-fall"
+      ],
+      "sources": [
+        "freestone-pioneers"
+      ],
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+    },
+    "elizabeth-ann-freestone": {
+      "name": "Elizabeth Ann Freestone",
+      "branch": "Freestone",
+      "parents": [
+        "thomas-freestone",
+        "ann-fall"
+      ],
+      "sources": [
+        "freestone-pioneers"
+      ],
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+    },
+    "rhoda-francis-freestone": {
+      "name": "Rhoda Francis Freestone",
+      "branch": "Freestone",
+      "parents": [
+        "thomas-freestone",
+        "ann-fall"
+      ],
+      "sources": [
+        "freestone-pioneers"
+      ],
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+    },
+    "johannah-freestone": {
+      "name": "Johannah Freestone",
+      "branch": "Freestone",
+      "parents": [
+        "thomas-freestone",
+        "ann-fall"
+      ],
+      "sources": [
+        "freestone-pioneers"
+      ],
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+    },
+    "emma-sarah-freestone": {
+      "name": "Emma Sarah Freestone",
+      "branch": "Freestone",
+      "parents": [
+        "thomas-freestone",
+        "ann-fall"
+      ],
+      "sources": [
+        "freestone-pioneers"
+      ],
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+    }
+  },
+  "relationships": [
+    {
+      "from": "george",
+      "to": "sarah",
+      "type": "Marriage",
+      "date": "1852-07-11",
+      "place": "stepney",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "george",
+      "to": "mary",
+      "type": "Marriage",
+      "date": "1865-10-02",
+      "place": "spring-city",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "john",
+      "to": "angeline",
+      "type": "Marriage",
+      "date": "1896-10-31",
+      "place": "price",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "john",
+      "to": "minnie",
+      "type": "Marriage license reported",
+      "publication": "1915-04-29",
+      "place": "harper",
+      "status": "Documented in supplied excerpt",
+      "sources": [
+        "minnie-license"
+      ]
+    },
+    {
+      "from": "john",
+      "to": "gertrude",
+      "type": "Marriage",
+      "date": "1923-12-22",
+      "place": "salt-lake",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "clace",
+      "to": "mack",
+      "type": "Marriage",
+      "date": "1917-06-04",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "clace",
+      "to": "walter",
+      "type": "Marriage",
+      "date": "1921-09-12",
+      "publication": "1921-09-15",
+      "place": "provo",
+      "sources": [
+        "existing",
+        "clace-notice"
+      ]
+    },
+    {
+      "from": "walter",
+      "to": "oaka",
+      "type": "Stepchild",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "walter",
+      "to": "barbara",
+      "type": "Stepchild",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "walter",
+      "to": "maryj",
+      "type": "Stepchild",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "from": "thomas",
+      "to": "norma",
+      "type": "Marriage",
+      "dateOptions": [
+        "1942-06-26",
+        "1942-06-30"
+      ],
+      "place": "salt-lake",
+      "status": "Conflicting",
+      "sources": [
+        "lambson",
+        "norma-notice"
+      ]
+    },
+    {
+      "from": "reuben-freestone",
+      "to": "adora-batty",
+      "type": "Marriage",
+      "date": "1910",
+      "status": "Family record",
+      "sources": [
+        "brief"
+      ]
+    },
+    {
+      "from": "tom-freestone",
+      "to": "maurine-peterson",
+      "type": "Marriage",
+      "date": "1947-06-24",
+      "status": "Family record",
+      "sources": [
+        "brief"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "deptford",
+      "name": "Deptford, England",
+      "region": "Europe",
+      "kind": "Town or district",
+      "map": "Deptford, London, UK"
+    },
+    {
+      "id": "stepney",
+      "name": "Stepney, England",
+      "region": "Europe",
+      "kind": "Town or district",
+      "map": "Stepney, London, UK"
+    },
+    {
+      "id": "suffolk",
+      "name": "Suffolk, England",
+      "region": "Europe",
+      "kind": "Region",
+      "map": "Suffolk, England"
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "region": "Europe",
+      "kind": "Country · parish unresolved",
+      "map": "Sweden"
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna, Austria",
+      "region": "Europe",
+      "kind": "Reported area · aircraft location unresolved",
+      "map": "Vienna, Austria"
+    },
+    {
+      "id": "pei",
+      "name": "Prince Edward Island",
+      "region": "North America",
+      "kind": "Region",
+      "map": "Prince Edward Island, Canada"
+    },
+    {
+      "id": "iowa",
+      "name": "Iowa",
+      "region": "North America",
+      "kind": "Region",
+      "map": "Iowa, United States"
+    },
+    {
+      "id": "florence",
+      "name": "Florence, Nebraska",
+      "region": "North America",
+      "kind": "Historical town",
+      "map": "Florence, Omaha, Nebraska"
+    },
+    {
+      "id": "elko",
+      "name": "Elko County, Nevada",
+      "region": "North America",
+      "kind": "County · birthplace locality unresolved",
+      "map": "Elko County, Nevada"
+    },
+    {
+      "id": "rochester",
+      "name": "Rochester, Minnesota",
+      "region": "North America",
+      "kind": "City",
+      "map": "Rochester, Minnesota"
+    },
+    {
+      "id": "spring-city",
+      "name": "Spring City, Utah",
+      "region": "Utah",
+      "kind": "Town",
+      "map": "Spring City, Utah"
+    },
+    {
+      "id": "price",
+      "name": "Price, Utah",
+      "region": "Utah",
+      "kind": "Town",
+      "map": "Price, Utah"
+    },
+    {
+      "id": "woodside",
+      "name": "Woodside, Utah",
+      "region": "Utah",
+      "kind": "Historical town · ranch unlocated",
+      "map": "Woodside, Utah"
+    },
+    {
+      "id": "nine-mile",
+      "name": "Nine Mile Canyon",
+      "region": "Utah",
+      "kind": "Region · property unlocated",
+      "map": "Nine Mile Canyon, Utah"
+    },
+    {
+      "id": "harper",
+      "name": "Harper, Utah",
+      "region": "Utah",
+      "kind": "Historical locality · exact address unknown"
+    },
+    {
+      "id": "bluebell",
+      "name": "Bluebell, Utah",
+      "region": "Utah",
+      "kind": "Town",
+      "map": "Bluebell, Utah"
+    },
+    {
+      "id": "vernal",
+      "name": "Vernal, Utah",
+      "region": "Utah",
+      "kind": "City",
+      "map": "Vernal, Utah"
+    },
+    {
+      "id": "myton",
+      "name": "Myton, Utah",
+      "region": "Utah",
+      "kind": "Town",
+      "map": "Myton, Utah"
+    },
+    {
+      "id": "castle-gate",
+      "name": "Castle Gate, Utah",
+      "region": "Utah",
+      "kind": "Historical town",
+      "map": "Castle Gate, Utah"
+    },
+    {
+      "id": "provo",
+      "name": "Provo, Utah",
+      "region": "Utah",
+      "kind": "City",
+      "map": "Provo, Utah"
+    },
+    {
+      "id": "salt-lake",
+      "name": "Salt Lake City, Utah",
+      "region": "Utah",
+      "kind": "City",
+      "map": "Salt Lake City, Utah"
+    },
+    {
+      "id": "bingham",
+      "name": "Bingham Canyon, Utah",
+      "region": "Utah",
+      "kind": "Historical mining district",
+      "map": "Bingham Canyon, Utah"
+    },
+    {
+      "id": "brush-creek",
+      "name": "Little Brush Creek, Utah",
+      "region": "Utah",
+      "kind": "Area · ranch boundary not established",
+      "map": "Little Brush Creek, Uintah County, Utah"
+    }
+  ],
+  "properties": [
+    {
+      "id": "george-house",
+      "name": "George Downard House",
+      "people": [
+        "george",
+        "joseph"
+      ],
+      "place": "spring-city",
+      "status": "Documented",
+      "address": "109 South 200 East, Spring City, Utah",
+      "construction": "Circa 1875. The preservation inventory describes completion in the late 1870s.",
+      "architecture": "Two-story oolitic limestone hall-parlor house.",
+      "transactions": [
+        {
+          "year": "1882",
+          "from": "George Downard",
+          "to": "Joseph Downard",
+          "type": "Reported sale",
+          "source": "house"
+        }
+      ],
+      "sources": [
+        "house",
+        "district"
+      ]
+    },
+    {
+      "id": "woodside-ranch",
+      "name": "Woodside ranch",
+      "people": [
+        "john"
+      ],
+      "place": "woodside",
+      "status": "Unverified",
+      "transactions": [
+        {
+          "from": "John Downard",
+          "to": "Two railroad section bosses, names unresolved",
+          "type": "Newspaper-reported sale",
+          "source": "woodside-sale"
+        }
+      ],
+      "sources": [
+        "woodside-sale"
+      ]
+    },
+    {
+      "id": "nine-mile-property",
+      "name": "Nine Mile property lead",
+      "people": [
+        "john"
+      ],
+      "place": "nine-mile",
+      "status": "Research in progress",
+      "transactions": [
+        {
+          "from": "John Downard",
+          "to": "Wade Harness",
+          "type": "Proposed transaction",
+          "source": "bluebell"
+        }
+      ],
+      "sources": [
+        "bluebell",
+        "nine-mile"
+      ]
+    },
+    {
+      "id": "harness-section-27",
+      "name": "Section 27 warranty deed",
+      "people": [
+        "john"
+      ],
+      "status": "Research in progress",
+      "legal": {
+        "township": "1 South",
+        "range": "3 West",
+        "section": "27",
+        "county": null,
+        "meridian": null,
+        "acreage": null,
+        "coordinates": null
+      },
+      "transactions": [
+        {
+          "from": "W. M. Harness",
+          "to": "J. L. Downard",
+          "amount": "$3,600",
+          "type": "Warranty deed, newspaper abstract",
+          "source": "harness-deed"
+        }
+      ],
+      "sources": [
+        "harness-deed"
+      ]
+    },
+    {
+      "id": "burt-section-27",
+      "name": "Section 27 deed references involving Burt and Wilson",
+      "people": [
+        "john"
+      ],
+      "status": "Research in progress",
+      "legal": {
+        "section": "27",
+        "county": null,
+        "meridian": null,
+        "acreage": null,
+        "coordinates": null
+      },
+      "transactions": [
+        {
+          "from": "J. L. Downard and wife",
+          "to": "James G. Burt",
+          "amount": "Possible $3,200, OCR unclear",
+          "type": "Newspaper deed abstract",
+          "source": "burt-deed"
+        },
+        {
+          "from": "Jael S. Wilson",
+          "to": "W. M. Harness",
+          "type": "Newspaper deed abstract",
+          "source": "burt-deed"
+        }
+      ],
+      "sources": [
+        "burt-deed"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "barnabas-crossing",
+      "title": "Barnabas Lamson in New England",
+      "date": "1635",
+      "branch": "Lambson",
+      "type": "Immigration",
+      "people": [
+        "barnabas"
+      ],
+      "status": "Documented",
+      "sources": [
+        "lambson"
+      ],
+      "detail": "The existing account places Barnabas in colonial Cambridge. The reported passenger identification remains a separate question."
+    },
+    {
+      "id": "george-born",
+      "title": "George Downard born in Deptford",
+      "date": "1821-12-27",
+      "branch": "Downard",
+      "type": "Birth",
+      "people": [
+        "george"
+      ],
+      "place": "deptford",
+      "sources": [
+        "existing",
+        "house"
+      ]
+    },
+    {
+      "id": "george-sarah",
+      "title": "George Downard and Sarah Ann marry",
+      "date": "1852-07-11",
+      "branch": "Downard",
+      "type": "Marriage",
+      "people": [
+        "george",
+        "sarah"
+      ],
+      "place": "stepney",
+      "sources": [
+        "existing"
+      ]
+    },
+    {
+      "id": "freestone-travel",
+      "title": "The Freestones travel with the Miller and Cooley company",
+      "date": "1853",
+      "branch": "Freestone",
+      "type": "Immigration",
+      "people": [
+        "thomas-freestone",
+        "ann-fall",
+        "george-freestone"
+      ],
+      "place": "salt-lake",
+      "status": "Verified",
+      "sources": [
+        "freestone-pioneers"
+      ]
+    },
+    {
+      "id": "arba-company",
+      "title": "Arba Lambson leads an overland wagon company",
+      "date": "1861",
+      "branch": "Lambson",
+      "type": "Immigration",
+      "people": [
+        "arba-lambson-sr"
+      ],
+      "place": "salt-lake",
+      "sources": [
+        "lambson"
+      ]
+    },
+    {
+      "id": "tapscott",
+      "title": "William Tapscott departs Liverpool",
+      "date": "1862-05-14",
+      "branch": "Downard",
+      "type": "Immigration",
+      "people": [
+        "george",
+        "sarah"
+      ],
+      "status": "Verified",
+      "sources": [
+        "manifest",
+        "voyage"
+      ],
+      "detail": "The ship reached New York on June 25. The register transcribes the family surname as Dowrard."
+    },
+    {
+      "id": "haight-leaves",
+      "title": "Horton D. Haight Company departs Florence",
+      "date": "1862-08-10",
+      "branch": "Downard",
+      "type": "Immigration",
+      "people": [
+        "george",
+        "sarah",
+        "edward"
+      ],
+      "place": "florence",
+      "status": "Documented",
+      "sources": [
+        "haight",
+        "brief"
+      ]
+    },
+    {
+      "id": "haight-arrives",
+      "title": "Horton D. Haight Company reaches Salt Lake City",
+      "date": "1862-10-19",
+      "branch": "Downard",
+      "type": "Immigration",
+      "people": [
+        "george",
+        "sarah"
+      ],
+      "place": "salt-lake",
+      "status": "Documented",
+      "sources": [
+        "haight",
+        "brief"
+      ]
+    },
+    {
+      "id": "john-born",
+      "title": "John Louis Downard born",
+      "date": "1869-09-06",
+      "branch": "Downard",
+      "type": "Birth",
+      "people": [
+        "john"
+      ],
+      "place": "spring-city",
+      "sources": [
+        "existing",
+        "john-scan"
+      ]
+    },
+    {
+      "id": "house-built",
+      "title": "George Downard House takes shape",
+      "estimated": "1875",
+      "branch": "Downard",
+      "type": "Property",
+      "people": [
+        "george"
+      ],
+      "place": "spring-city",
+      "sources": [
+        "house"
+      ]
+    },
+    {
+      "id": "gd-brand",
+      "title": "GD livestock brand reported",
+      "date": "1876-05-24",
+      "branch": "Downard",
+      "type": "Occupation",
+      "people": [
+        "george"
+      ],
+      "status": "Unverified",
+      "sources": [
+        "brand",
+        "brief"
+      ]
+    },
+    {
+      "id": "house-sale",
+      "title": "George sells the Spring City house to Joseph",
+      "date": "1882",
+      "branch": "Downard",
+      "type": "Property",
+      "people": [
+        "george",
+        "joseph"
+      ],
+      "place": "spring-city",
+      "sources": [
+        "house"
+      ]
+    },
+    {
+      "id": "minnie-move",
+      "title": "Minnie’s family reportedly moves to Nine Mile",
+      "estimated": "1886–1887",
+      "branch": "Downard",
+      "type": "Residence",
+      "people": [
+        "minnie"
+      ],
+      "place": "nine-mile",
+      "sources": [
+        "minnie-obit"
+      ]
+    },
+    {
+      "id": "co-op",
+      "title": "Ashley Valley Co-op robbery",
+      "date": "1888",
+      "branch": "Freestone",
+      "type": "Historical event",
+      "place": "vernal",
+      "status": "Research in progress",
+      "sources": [
+        "county"
+      ],
+      "detail": "The county history reportedly names a George Freestone among those present. His identity is still being checked."
+    },
+    {
+      "id": "george-death",
+      "title": "George Downard dies in Price",
+      "date": "1902-06-12",
+      "branch": "Downard",
+      "type": "Death",
+      "people": [
+        "george"
+      ],
+      "place": "price",
+      "sources": [
+        "existing",
+        "george-obit",
+        "george-scan"
+      ]
+    },
+    {
+      "id": "minnie-license-event",
+      "title": "Marriage license notice for John and Minnie",
+      "publication": "1915-04-29",
+      "branch": "Downard",
+      "type": "Newspaper mention",
+      "people": [
+        "john",
+        "minnie"
+      ],
+      "place": "harper",
+      "sources": [
+        "minnie-license"
+      ],
+      "detail": "The publication date belongs to the notice. The wedding date remains unknown."
+    },
+    {
+      "id": "civil-listing",
+      "title": "Duchesne Record lists civil case No. 83",
+      "publication": "1916-09-02",
+      "branch": "Downard",
+      "type": "Newspaper mention",
+      "people": [
+        "john"
+      ],
+      "sources": [
+        "civil-case"
+      ]
+    },
+    {
+      "id": "clace-walter",
+      "title": "Clace Bradley and Walter Downard marry",
+      "date": "1921-09-12",
+      "publication": "1921-09-15",
+      "branch": "Downard",
+      "type": "Marriage",
+      "people": [
+        "clace",
+        "walter"
+      ],
+      "place": "provo",
+      "sources": [
+        "existing",
+        "clace-notice"
+      ]
+    },
+    {
+      "id": "minnie-death-event",
+      "title": "Minnie dies at the family home in Price",
+      "estimated": "1922–1923 (research estimate)",
+      "branch": "Downard",
+      "type": "Death",
+      "people": [
+        "minnie"
+      ],
+      "place": "price",
+      "status": "Research in progress",
+      "sources": [
+        "minnie-obit",
+        "minnie-hospital"
+      ]
+    },
+    {
+      "id": "norma-thomas",
+      "title": "Norma Lambson and Thomas Downard marry",
+      "dateOptions": [
+        "1942-06-26",
+        "1942-06-30"
+      ],
+      "branch": "Lambson",
+      "type": "Marriage",
+      "people": [
+        "norma",
+        "thomas"
+      ],
+      "place": "salt-lake",
+      "status": "Conflicting",
+      "sources": [
+        "lambson",
+        "norma-notice"
+      ]
+    },
+    {
+      "id": "tom-war",
+      "title": "Tom Freestone’s wartime service and captivity",
+      "estimated": "World War II · loss date unresolved",
+      "branch": "Freestone",
+      "type": "Military service",
+      "people": [
+        "tom-freestone"
+      ],
+      "place": "vienna",
+      "status": "Documented in supplied excerpt",
+      "sources": [
+        "tom-obit"
+      ]
+    },
+    {
+      "id": "tom-maurine",
+      "title": "Tom Freestone and Maurine Peterson marry",
+      "date": "1947-06-24",
+      "branch": "Peterson",
+      "type": "Marriage",
+      "people": [
+        "tom-freestone",
+        "maurine-peterson"
+      ],
+      "status": "Family record",
+      "sources": [
+        "brief"
+      ]
+    },
+    {
+      "id": "peterson-letter-event",
+      "title": "Family letter records an account of Hilmer’s immigration",
+      "created": "1959",
+      "branch": "Peterson",
+      "type": "Family recollection",
+      "people": [
+        "hilmer"
+      ],
+      "status": "Conflicting",
+      "sources": [
+        "peterson-letter"
+      ]
+    },
+    {
+      "id": "tom-court",
+      "title": "Tom reportedly appointed to juvenile court services",
+      "date": "1964",
+      "branch": "Freestone",
+      "type": "Community service",
+      "people": [
+        "tom-freestone"
+      ],
+      "place": "vernal",
+      "sources": [
+        "county"
+      ]
+    },
+    {
+      "id": "john-nine-mile",
+      "title": "Newspaper reports John’s move to Nine Mile",
+      "branch": "Downard",
+      "type": "Residence",
+      "people": [
+        "john"
+      ],
+      "place": "nine-mile",
+      "status": "Research in progress",
+      "sources": [
+        "nine-mile"
+      ]
+    },
+    {
+      "id": "john-warranty",
+      "title": "Newspaper abstracts a Section 27 warranty deed",
+      "branch": "Downard",
+      "type": "Property",
+      "people": [
+        "john"
+      ],
+      "status": "Research in progress",
+      "sources": [
+        "harness-deed"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "journey",
+      "title": "The Downard Journey to Utah",
+      "period": "1862",
+      "branch": "Downard",
+      "people": [
+        "george",
+        "sarah",
+        "edward"
+      ],
+      "places": [
+        "deptford",
+        "florence",
+        "spring-city"
+      ],
+      "status": "Documented",
+      "sources": [
+        "manifest",
+        "voyage",
+        "haight",
+        "brief"
+      ],
+      "body": [
+        "In the passenger register, George appears as Dowrard, a 40-year-old painter from England. The William Tapscott sailed from Liverpool on May 14 and reached New York on June 25, 1862. Sarah and several children appear in the same register.",
+        "The family research places them with the Horton D. Haight Company. That company left Florence, Nebraska, on August 10 and reached Salt Lake City on October 19. The family account reports that infant Edward died during the journey. The ship transcription’s infant entry reads Edmund, so the two records should be compared before the identification is settled.",
+        "The Spring City preservation inventory places George in town after immigration and associates him with carpentry and house painting."
+      ],
+      "related": "stories/downard.html#george"
+    },
+    {
+      "id": "house-story",
+      "title": "The House George Built",
+      "period": "Circa 1875–1882",
+      "branch": "Downard",
+      "people": [
+        "george",
+        "joseph"
+      ],
+      "places": [
+        "spring-city"
+      ],
+      "status": "Documented",
+      "sources": [
+        "house",
+        "district"
+      ],
+      "body": [
+        "At 109 South 200 East in Spring City, the preservation inventory identifies a two-story house of oolitic limestone. Its hall-parlor form belongs to the town’s vernacular building tradition.",
+        "The inventory dates the house to around 1875 and describes its completion in the late 1870s. It records the sale to George’s son Joseph in 1882. The property entry separates the approximate construction date from the reported transfer."
+      ],
+      "related": "places.html#george-house"
+    },
+    {
+      "id": "john-ranch-story",
+      "title": "John Louis Downard and the Ranches of Eastern Utah",
+      "period": "Early twentieth century · reports undated",
+      "branch": "Downard",
+      "people": [
+        "john"
+      ],
+      "places": [
+        "woodside",
+        "nine-mile",
+        "harper"
+      ],
+      "status": "Research in progress",
+      "sources": [
+        "woodside-sale",
+        "nine-mile",
+        "bluebell",
+        "harness-deed",
+        "burt-deed"
+      ],
+      "body": [
+        "Three newspaper excerpts describe a ranch sale near Woodside, a move to Nine Mile, and proposed negotiations with Wade Harness. The excerpts survive without enough issue information to put them in sequence or identify the railroad section bosses named in the ranch report.",
+        "A separate abstract records a $3,600 warranty deed from W. M. Harness to J. L. Downard. The county and meridian are missing. The Burt and Wilson abstracts are listed separately because the shared section number leaves the parcels’ relationship unresolved."
+      ],
+      "related": "places.html#harness-section-27"
+    },
+    {
+      "id": "minnie-story",
+      "title": "Minnie Thompson: From Nine Mile to Rochester",
+      "period": "1880–early 1920s",
+      "branch": "Downard",
+      "people": [
+        "minnie",
+        "john"
+      ],
+      "places": [
+        "elko",
+        "nine-mile",
+        "harper",
+        "rochester",
+        "price"
+      ],
+      "status": "Research in progress",
+      "sources": [
+        "minnie-obit",
+        "minnie-license",
+        "minnie-hospital"
+      ],
+      "body": [
+        "Minnie’s obituary places her birth in Elko County in 1880. It describes a move to Nine Mile when she was about six and records six children from her first marriage. A 1915 license notice names Minnie E. Rogers and John L. Downard as Harper residents.",
+        "The obituary reports that after months of illness she traveled to Rochester, Minnesota, for surgery for goiter. It describes complications and her return to Price, where she died at home. A separate report names Mayo Hospital. Her funeral was reported at the Price LDS Tabernacle and her burial at Price City Cemetery.",
+        "The supplied issue reference reads August 18. The year and exact death date remain open."
+      ],
+      "related": "person-minnie.html"
+    },
+    {
+      "id": "wedding-story",
+      "title": "A Wedding in 1942",
+      "period": "June 1942",
+      "branch": "Lambson",
+      "people": [
+        "norma",
+        "thomas",
+        "clace"
+      ],
+      "places": [
+        "salt-lake"
+      ],
+      "status": "Conflicting",
+      "sources": [
+        "lambson",
+        "norma-notice"
+      ],
+      "body": [
+        "The supplied summary of Bride-Elect Complimented describes a gathering at Mrs. T. A. Pedersen’s home, co-hosted by Mrs. Joseph Timothy. It records about 39 guests, a prize won by Mrs. Walter Downard, and a blue-and-green seersucker suit for the wedding.",
+        "The family record dates the marriage to June 26. The newspaper summary reports June 30 and identifies Bishop John A. Harter as officiant. The marriage return and the original newspaper issue are needed to resolve the difference and confirm the host’s identity."
+      ],
+      "related": "research.html#norma-wedding"
+    },
+    {
+      "id": "freestone-journey",
+      "title": "The Freestone Family’s Journey West",
+      "period": "1853",
+      "branch": "Freestone",
+      "people": [
+        "thomas-freestone",
+        "ann-fall",
+        "george-freestone"
+      ],
+      "places": [
+        "suffolk",
+        "pei",
+        "iowa",
+        "salt-lake"
+      ],
+      "status": "Documented",
+      "sources": [
+        "freestone-pioneers",
+        "brief"
+      ],
+      "body": [
+        "Family accounts trace the Freestones through Suffolk, Prince Edward Island and Iowa. The 1853 pioneer database records Thomas, Ann and six children traveling in the Daniel A. Miller and John W. Cooley company. George was listed as 15."
+      ],
+      "related": "person-thomas-freestone.html"
+    },
+    {
+      "id": "tom-story",
+      "title": "Tom Freestone: From Prisoner of War to a Lifetime of Service",
+      "period": "World War II and after",
+      "branch": "Freestone",
+      "people": [
+        "tom-freestone"
+      ],
+      "places": [
+        "vienna",
+        "vernal",
+        "brush-creek"
+      ],
+      "status": "Research in progress",
+      "sources": [
+        "tom-obit",
+        "county",
+        "brief"
+      ],
+      "body": [
+        "Tom’s obituary, as summarized in the family research, describes a wounded B-17 gunner taken prisoner after his aircraft was shot down near Vienna. The loss date, crew, turret assignment, mission count, award and march details need military documentation.",
+        "After the war the family records describe ranching around Little Brush Creek, local archaeological and preservation work, and community education. The county history reportedly records Tom’s 1964 appointment to direct juvenile court services for five counties and his work as a referee and judge pro tempore."
+      ],
+      "related": "research.html#tom-service"
+    },
+    {
+      "id": "peterson-story",
+      "title": "The Peterson Family’s Journey from Sweden",
+      "period": "Late nineteenth and early twentieth centuries",
+      "branch": "Peterson",
+      "people": [
+        "johannes",
+        "ericka",
+        "hilmer",
+        "mary-alvey",
+        "maurine-peterson"
+      ],
+      "places": [
+        "sweden"
+      ],
+      "status": "Conflicting",
+      "sources": [
+        "peterson-letter",
+        "brief"
+      ],
+      "body": [
+        "The family records preserve both Pettersson and Peterson for Hilmer. A 1959 letter recalls his arrival as a boy and a stay with the Anderson family before his parents arrived. Other family accounts suggest a later arrival. Swedish parish records, census entries and passenger lists remain research targets.",
+        "The family tree connects the Peterson and Freestone branches through Maurine’s marriage to Tom Freestone in 1947."
+      ],
+      "related": "research.html#peterson-immigration"
+    }
+  ]
+}

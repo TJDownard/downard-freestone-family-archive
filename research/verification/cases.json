@@ -1,0 +1,249 @@
+[
+  {
+    "id": "george-age",
+    "title": "How old was George Downard when he died?",
+    "status": "Conflicting",
+    "branch": "Downard",
+    "people": [
+      "george"
+    ],
+    "detail": "The obituary reportedly gives 81. December 27, 1821 to June 12, 1902 yields 80.",
+    "next": "Locate the full obituary and record its newspaper, issue and page.",
+    "sources": [
+      "existing",
+      "george-obit",
+      "george-scan"
+    ]
+  },
+  {
+    "id": "haight-count",
+    "title": "Company size and Edward’s journey",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "george",
+      "edward"
+    ],
+    "detail": "The supplied research estimates about 650 travelers. The institutional database indexes 509 participants, which may be a different measure. The family account reports that infant Edward died on the journey. The ship list records an infant under the name Edmund Dowrard.",
+    "next": "Compare the roster, company journals and death evidence before treating the infant name or company headcount as settled.",
+    "sources": [
+      "brief",
+      "manifest",
+      "haight"
+    ]
+  },
+  {
+    "id": "section-27",
+    "title": "Locate the Section 27 warranty deed",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "john"
+    ],
+    "detail": "The newspaper abstract gives Township 1 South, Range 3 West, Section 27 and $3,600. County, meridian, date and acreage are unknown. Wade Harness and W. M. Harness may be different people.",
+    "next": "Find the original deed and separate it from the Burt, Wilson and Nine Mile references before mapping a parcel.",
+    "sources": [
+      "harness-deed",
+      "burt-deed",
+      "bluebell"
+    ]
+  },
+  {
+    "id": "john-ranches",
+    "title": "Date John’s Woodside and Nine Mile reports",
+    "status": "Unverified",
+    "branch": "Downard",
+    "people": [
+      "john"
+    ],
+    "detail": "The supplied notices describe a Woodside sale, a move to Nine Mile and possible negotiations. Their chronology and relationship to each other remain unresolved.",
+    "next": "Find the full issues and community headings. Check the buyers and the meaning of the farm location described as here.",
+    "sources": [
+      "woodside-sale",
+      "nine-mile",
+      "bluebell"
+    ]
+  },
+  {
+    "id": "minnie-death",
+    "title": "Identify the year of Minnie’s obituary",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "minnie"
+    ],
+    "detail": "The Price Sun issue is reported as August 18. The age of about 42 and reported birth date suggest 1922–1923, but the issue year and death date are unresolved.",
+    "next": "Find the issue image, death certificate and burial record.",
+    "sources": [
+      "minnie-obit",
+      "minnie-hospital"
+    ]
+  },
+  {
+    "id": "minnie-family",
+    "title": "Identify Minnie’s parents and six children",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "minnie"
+    ],
+    "detail": "The supplied obituary names Richard B. Thompson and Alfalona Fausett Thompson and reports six children from a former marriage, three surviving. The reported names of surviving relatives do not establish their precise relationships.",
+    "next": "Check the original obituary, Rogers marriage and census households. Keep unnamed children out of the person directory until identified.",
+    "sources": [
+      "minnie-obit",
+      "minnie-license"
+    ]
+  },
+  {
+    "id": "woodside-identity",
+    "title": "Tragedy at the Woodside Ranch",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "john"
+    ],
+    "detail": "Identity under investigation. A supplied report identifies the victim only as Mrs. John L. Downard. It describes an accidental discharge involving Ernest Downard, identified as John’s nephew. The archive has no corroborated identity for the woman.",
+    "next": "Locate the publication date, original image, death and burial records. Minnie’s reported death after illness is separate evidence.",
+    "sources": [
+      "woodside-shooting",
+      "minnie-obit"
+    ]
+  },
+  {
+    "id": "clace-chronology",
+    "title": "Clace Bradley’s marriage records and family chronology",
+    "status": "Conflicting",
+    "branch": "Downard",
+    "people": [
+      "clace",
+      "walter",
+      "oaka"
+    ],
+    "detail": "Oaka’s reported 1915 birth predates Clace’s recorded 1917 marriage to Marshall Bradley. A 1921 notice uses Bradley for Clace and reports her marriage to Walter in Provo.",
+    "next": "Find the 1921 marriage certificate and compare the original Bradley marriage and birth records.",
+    "sources": [
+      "existing",
+      "clace-notice"
+    ]
+  },
+  {
+    "id": "norma-wedding",
+    "title": "Which day in June 1942 did Thomas and Norma marry?",
+    "status": "Conflicting",
+    "branch": "Lambson",
+    "people": [
+      "thomas",
+      "norma"
+    ],
+    "detail": "The family record gives June 26. The newspaper summary gives June 30 and names Bishop John A. Harter. It describes Mrs. T. A. Pedersen as Norma’s mother, but that identification has not been established independently.",
+    "next": "Locate the marriage return and original newspaper issue. Check the host’s identity separately.",
+    "sources": [
+      "lambson",
+      "norma-notice"
+    ]
+  },
+  {
+    "id": "freestone-robbery",
+    "title": "Identify George Freestone in the 1888 holdup account",
+    "status": "Probable",
+    "branch": "Freestone",
+    "people": [
+      "george-freestone"
+    ],
+    "detail": "The county history reportedly places a man named George Freestone at the Ashley Valley Co-op during the robbery. The family connection remains provisional. The reported role is a person present at the store.",
+    "next": "Review the printed pages and contemporary coverage, then corroborate the identification.",
+    "sources": [
+      "county",
+      "brief"
+    ]
+  },
+  {
+    "id": "tom-service",
+    "title": "Document Tom Freestone’s service and captivity",
+    "status": "Research in progress",
+    "branch": "Freestone",
+    "people": [
+      "tom-freestone"
+    ],
+    "detail": "The obituary summary reports B-17 gunner service and captivity after an aircraft loss near Vienna. Ball-turret duty, mission count, a possible February 21, 1944 loss, a Purple Heart and forced marches remain family leads.",
+    "next": "Find the obituary, personnel file, missing air crew report and POW records before assigning the aircraft, date or award.",
+    "sources": [
+      "tom-obit",
+      "brief"
+    ]
+  },
+  {
+    "id": "peterson-immigration",
+    "title": "When did Hilmer Peterson arrive in America?",
+    "status": "Conflicting",
+    "branch": "Peterson",
+    "people": [
+      "hilmer"
+    ],
+    "detail": "A 1959 family letter says he arrived as a boy and stayed with the Anderson family before his parents arrived. Other family records suggest a later arrival.",
+    "next": "Compare the letter with Swedish parish records, US census entries and passenger records. The ship and arrival date remain open.",
+    "sources": [
+      "peterson-letter",
+      "brief"
+    ]
+  },
+  {
+    "id": "police-chief",
+    "title": "Was Robert T. Downard the Vernal police chief?",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "robert"
+    ],
+    "detail": "The county history reportedly describes a Robert Downard as chief around 1980–1990. Shared name and location are leads. The archive has not linked the chief’s reported modernization, task forces or staffing growth to Robert T. Downard’s biography.",
+    "next": "Compare city appointments, contemporary reporting and a record that identifies the chief by full name or family.",
+    "sources": [
+      "county",
+      "brief"
+    ]
+  },
+  {
+    "id": "civil-83",
+    "title": "Locate Duchesne civil case No. 83",
+    "status": "Research in progress",
+    "branch": "Downard",
+    "people": [
+      "john"
+    ],
+    "detail": "The supplied September 2, 1916 newspaper reference lists a civil matter involving John Louis Downard and Wm. Downard.",
+    "next": "Locate the court docket and case file before identifying Wm. or describing the result.",
+    "sources": [
+      "civil-case"
+    ]
+  },
+  {
+    "id": "gd-brand-entry",
+    "title": "Locate the GD livestock-brand entry",
+    "status": "Unverified",
+    "branch": "Downard",
+    "people": [
+      "george"
+    ],
+    "detail": "The supplied reference identifies a GD brand in Sanpete County on May 24, 1876. The Archives index identifies the record series.",
+    "next": "Find the original entry image and record its volume, page and name spelling.",
+    "sources": [
+      "brand",
+      "brief"
+    ]
+  },
+  {
+    "id": "freestone-bishop",
+    "title": "Check George Freestone’s ward assignment",
+    "status": "Research in progress",
+    "branch": "Freestone",
+    "people": [
+      "george-freestone"
+    ],
+    "detail": "The county history reportedly lists George among bishops associated with the early Uintah Stake.",
+    "next": "Review the printed county history and find an appointment record before identifying the ward.",
+    "sources": [
+      "county",
+      "brief"
+    ]
+  }
+]

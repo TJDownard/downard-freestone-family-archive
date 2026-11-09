@@ -1,8 +1,9 @@
 # Downard–Freestone Family Archive
 
-Open `index.html` to explore the family tree and the Downard and Lambson stories.
-The Freestone branch is available in the family tree and will expand as more records are documented.
+Open `index.html` for the four family trees. The site also contains the People directory, historical Stories, Places and properties, Timeline, Document archive, Research notebook, About page, and Search.
 
-The site uses static HTML with its original styles, scripts, and embedded photographs.
-For GitHub Pages, choose **Deploy from a branch** and publish from `main` at `/(root)`.
-GitHub Pages will publish updates pushed to that branch.
+The site is static and publishes from the root of `main` on GitHub Pages. It needs no server, database, or paid service.
+
+To update the generated pages, edit the shared tree in `family-data.js`, the curated archive data in `archive-records.json`, the source catalog under `research/sources/`, or the cases under `research/verification/`. Run `python3 build-archive.py` with Node.js available, then review and commit the generated HTML and `archive-branches.js` together with their source changes.
+
+The two original stories are edited directly under `stories/`. Their embedded scans are the preserved originals. The smaller JPEGs in the collection are browse previews. Research leads with missing scans, OCR, or issue details are labeled in the document archive.

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
+  <title>Downard and Freestone beehive</title>
+  <rect width="64" height="64" rx="12" fill="#243d32"/>
+  <path fill="#e8b95d" d="M23 15a10 10 0 0 1 18 0Zm-4 3h26l3 6H16Zm-5 9h36l2 7H37v-3a5 5 0 0 0-10 0v3H12Z"/>
+  <path fill="none" stroke="#fff6df" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M12 54V42h4a6 6 0 0 1 0 12ZM27 55l9-14m8 13V42h9m-9 6h7"/>
+</svg>
