@@ -446,7 +446,7 @@ function renderLineage({ancestors, spouses}) {
     const caption = document.createElement('span');
     caption.className = 'spouse-caption';
     caption.textContent = spouseId === 'judy' ? 'Spouse · maternal branch'
-      : spouseId === 'thomas' ? 'Spouse · Downard branch' : 'Spouse · direct ancestor';
+      : ['thomas', 'robert'].includes(spouseId) ? 'Spouse · Downard branch' : 'Spouse · direct ancestor';
     column.append(makeLineageCard(id, 'ancestor'), connector, caption, makeLineageCard(spouseId, 'spouse-card'));
     line.append(column);
   }

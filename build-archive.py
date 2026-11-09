@@ -424,16 +424,17 @@ page('about.html','About the archive','Every family has a history worth preservi
      ]) + '<h2>Living relatives</h2><p>Living relatives appear with limited information where they connect the family tree. The public search omits their profiles.</p>'
      '<p>Corrections are tracked in the <a href="research.html">research notebook</a>.</p></div>')
 
-def branch_entry(branch, start, ancestors, spouses, title, description, story, years_in_america, journey_year, caption, caution, connection, stats_note, stats_source):
+def branch_entry(branch, ancestors, spouses, title, description, story, years_in_america,
+                 journey_year, history_end, caption, caution, connection, stats_note, stats_source):
     return {
-        'copy': {'era':branch.upper() + ' FAMILY ARCHIVE','headline':'The '+branch+' family',
+        'copy': {'era':f'A LIVING HISTORY · {journey_year.upper()} — {history_end}', 'headline':'The '+branch+' family',
                  'emphasis':title,'description':description,'storyTitle':'The '+branch+' Family Story',
                  'storyDescription':description,'treeTitle':'The '+branch+' family tree','lineCaption':caption,
                  'caution':caution,'connectionNote':connection},
         'stats': [[f'{len(ancestors):02d}', 'GENERATIONS'], [years_in_america, 'YEARS IN AMERICA'],
                   [journey_year, 'THE JOURNEY BEGINS']],
         'statsNote': stats_note, 'statsSource': 'archive.html#' + stats_source,
-        'storyPath':'stories.html#'+story,'start':start,'ancestors':ancestors,
+        'storyPath':'stories.html#'+story,'start':ancestors[0],'ancestors':ancestors,
         'spouses':spouses,'chapters':{key:story for key in ancestors}
     }
 
@@ -455,21 +456,21 @@ tree_people = {
     for key,p in people.items()
 }
 maternal_branches = {
-    'freestone':branch_entry('Freestone','thomas-freestone',
-        ['thomas-freestone','george-freestone','reuben-freestone','tom-freestone','judy'],
+    'freestone':branch_entry('Freestone',
+        ['judy','tom-freestone','reuben-freestone','george-freestone','thomas-freestone'],
         {'thomas-freestone':'ann-fall','george-freestone':'jennie-lind','reuben-freestone':'adora-batty','tom-freestone':'maurine-peterson','judy':'robert'},'from Suffolk to Utah.',
         'Follow the Freestone family across the Atlantic and west with the Miller and Cooley company. Meet Tom Freestone and the family he raised with Maurine Peterson.',
-        'freestone-journey', 'c. 170', 'c. 1840',
-        'DIRECT LINE · THOMAS → GEORGE → REUBEN → TOM → JUDY',
+        'freestone-journey', 'c. 170', 'c. 1840', 2010,
+        'DIRECT LINE · JUDY → TOM → REUBEN → GEORGE → THOMAS',
         'The direct line is a starting point. Open an ancestor to explore additional marriages, children, and other relatives.',
         'Tom Freestone and Maurine Peterson connect the Freestone and Peterson branches.',
         'The count runs from the family’s move from Prince Edward Island to Ohio around 1840 through 2010, the year Tom Freestone died.',
         'freestone-history'),
-    'peterson':branch_entry('Peterson','hilmer',['johannes','hilmer','maurine-peterson','judy'],
+    'peterson':branch_entry('Peterson',['judy','maurine-peterson','hilmer','johannes'],
         {'johannes':'ericka','hilmer':'mary-alvey','maurine-peterson':'tom-freestone','judy':'robert'},'from Sweden to eastern Utah.',
         'Trace the Peterson and Pettersson names and compare the family accounts of Hilmer’s immigration.',
-        'peterson-story', '98+', 'By 1912',
-        'DIRECT LINE · JOHANNES → HILMER → MAURINE → JUDY',
+        'peterson-story', '98+', 'By 1912', 2010,
+        'DIRECT LINE · JUDY → MAURINE → HILMER → JOHANNES',
         'The family letter and other records disagree on the arrival chronology. The date and ship remain open.',
         'The family history lists nine children of Hilmer Peterson and Mary Alvey, including twins Maurine and Maxine.',
         'Hilmer was in Utah by 1912, at least 98 years before Maurine’s death in 2010. His arrival year remains unverified.',

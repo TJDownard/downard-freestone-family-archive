@@ -3,14 +3,14 @@ const treePeople = {"glennlambson":{"id":"glennlambson","name":"Glenn Cody Lambs
 const maternalBranches = {
   "freestone": {
     "copy": {
-      "era": "FREESTONE FAMILY ARCHIVE",
+      "era": "A LIVING HISTORY · C. 1840 — 2010",
       "headline": "The Freestone family",
       "emphasis": "from Suffolk to Utah.",
       "description": "Follow the Freestone family across the Atlantic and west with the Miller and Cooley company. Meet Tom Freestone and the family he raised with Maurine Peterson.",
       "storyTitle": "The Freestone Family Story",
       "storyDescription": "Follow the Freestone family across the Atlantic and west with the Miller and Cooley company. Meet Tom Freestone and the family he raised with Maurine Peterson.",
       "treeTitle": "The Freestone family tree",
-      "lineCaption": "DIRECT LINE · THOMAS → GEORGE → REUBEN → TOM → JUDY",
+      "lineCaption": "DIRECT LINE · JUDY → TOM → REUBEN → GEORGE → THOMAS",
       "caution": "The direct line is a starting point. Open an ancestor to explore additional marriages, children, and other relatives.",
       "connectionNote": "Tom Freestone and Maurine Peterson connect the Freestone and Peterson branches."
     },
@@ -31,13 +31,13 @@ const maternalBranches = {
     "statsNote": "The count runs from the family’s move from Prince Edward Island to Ohio around 1840 through 2010, the year Tom Freestone died.",
     "statsSource": "archive.html#freestone-history",
     "storyPath": "stories.html#freestone-journey",
-    "start": "thomas-freestone",
+    "start": "judy",
     "ancestors": [
-      "thomas-freestone",
-      "george-freestone",
-      "reuben-freestone",
+      "judy",
       "tom-freestone",
-      "judy"
+      "reuben-freestone",
+      "george-freestone",
+      "thomas-freestone"
     ],
     "spouses": {
       "thomas-freestone": "ann-fall",
@@ -47,23 +47,23 @@ const maternalBranches = {
       "judy": "robert"
     },
     "chapters": {
-      "thomas-freestone": "freestone-journey",
-      "george-freestone": "freestone-journey",
-      "reuben-freestone": "freestone-journey",
+      "judy": "freestone-journey",
       "tom-freestone": "freestone-journey",
-      "judy": "freestone-journey"
+      "reuben-freestone": "freestone-journey",
+      "george-freestone": "freestone-journey",
+      "thomas-freestone": "freestone-journey"
     }
   },
   "peterson": {
     "copy": {
-      "era": "PETERSON FAMILY ARCHIVE",
+      "era": "A LIVING HISTORY · BY 1912 — 2010",
       "headline": "The Peterson family",
       "emphasis": "from Sweden to eastern Utah.",
       "description": "Trace the Peterson and Pettersson names and compare the family accounts of Hilmer’s immigration.",
       "storyTitle": "The Peterson Family Story",
       "storyDescription": "Trace the Peterson and Pettersson names and compare the family accounts of Hilmer’s immigration.",
       "treeTitle": "The Peterson family tree",
-      "lineCaption": "DIRECT LINE · JOHANNES → HILMER → MAURINE → JUDY",
+      "lineCaption": "DIRECT LINE · JUDY → MAURINE → HILMER → JOHANNES",
       "caution": "The family letter and other records disagree on the arrival chronology. The date and ship remain open.",
       "connectionNote": "The family history lists nine children of Hilmer Peterson and Mary Alvey, including twins Maurine and Maxine."
     },
@@ -84,12 +84,12 @@ const maternalBranches = {
     "statsNote": "Hilmer was in Utah by 1912, at least 98 years before Maurine’s death in 2010. His arrival year remains unverified.",
     "statsSource": "archive.html#hilmer-marriage",
     "storyPath": "stories.html#peterson-story",
-    "start": "hilmer",
+    "start": "judy",
     "ancestors": [
-      "johannes",
-      "hilmer",
+      "judy",
       "maurine-peterson",
-      "judy"
+      "hilmer",
+      "johannes"
     ],
     "spouses": {
       "johannes": "ericka",
@@ -98,10 +98,10 @@ const maternalBranches = {
       "judy": "robert"
     },
     "chapters": {
-      "johannes": "peterson-story",
-      "hilmer": "peterson-story",
+      "judy": "peterson-story",
       "maurine-peterson": "peterson-story",
-      "judy": "peterson-story"
+      "hilmer": "peterson-story",
+      "johannes": "peterson-story"
     }
   }
 };
