@@ -59,7 +59,10 @@ class GenealogyAudit(unittest.TestCase):
         self.assertCountEqual(self.rels['norma']['children'],['robert','glen','quinn'])
         self.assertCountEqual(self.rels['thomas']['children'],['robert','glen','quinn'])
         self.assertIn('maxine-peterson',self.rels['maurine-peterson']['twins'])
-        self.assertNotIn('birth',self.people['judy'])
+        judy_bio = (archive['ROOT'] / 'person-judy.html').read_text()
+        self.assertIn('<dt>Born</dt><dd>February 14, 1948 · Vernal, Utah</dd>', judy_bio)
+        self.assertIn('<meta name="robots" content="noindex">', judy_bio)
+        self.assertNotIn('href="person-judy.html"', (archive['ROOT'] / 'search.html').read_text())
         self.assertNotIn('peterson-private-child',(archive['ROOT']/'search.html').read_text())
         self.assertNotIn('Anna Louise',(archive['ROOT']/'archive-branches.js').read_text())
 

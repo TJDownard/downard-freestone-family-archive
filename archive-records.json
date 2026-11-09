@@ -242,6 +242,11 @@
       "text": "Robert married Judy Freestone on March 30, 1968. They later had their marriage sealed in the Ogden Temple. He worked in law enforcement and enjoyed spending time with his grandchildren, going to Utah Jazz games, traveling, reading, and golfing with friends.",
       "notes": "Robert died at age 60. His obituary records that he had 11 grandchildren and that his son Robert Todd died before him. It lists Bountiful City Cemetery as his burial place."
     },
+    "judy": {
+      "birth": "February 14, 1948 · Vernal, Utah",
+      "publishBirth": true,
+      "sources": ["existing", "judy-birth"]
+    },
     "robert-todd": {
       "name": "Robert Todd",
       "branch": "Downard",

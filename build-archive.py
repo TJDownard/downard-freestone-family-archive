@@ -135,6 +135,11 @@ def has_limited_profile(person):
     return (person.get('private', False) or person.get('limitedProfile', False)
             or 'Living' in person['dates'] or 'Present' in person['dates'])
 
+def public_birth(person):
+    if person.get('private') or (has_limited_profile(person) and not person.get('publishBirth')):
+        return None
+    return person.get('birth')
+
 def searchable_person(person):
     return ' '.join([person['name'], person['dates'], person.get('birth',''), person.get('death',''),
                      person.get('story',''), person.get('text',''), *person.get('aliases', []),
@@ -167,9 +172,13 @@ def person_details(person):
     property_links = [link('places.html#' + prop['id'], prop['name']) for prop in data['properties'] if key in prop['people']]
     event_links = [link('timeline.html#' + event['id'], event['title']) for event in data['events'] if key in event.get('people', [])]
     story_links = [link('stories.html#' + story['id'], story['title']) for story in data['stories'] if key in story['people']]
-    life = pairs([('Names in the records', ', '.join(person.get('aliases', []))), ('Born', person.get('birth')),
-                  ('Died', person.get('death')), ('Burial', person.get('burial')),
-                  ('Occupations', ', '.join(person.get('occupations', [])))]) if not limited else ''
+    birth = public_birth(person)
+    if limited:
+        life = pairs([('Born', birth)]) if birth else ''
+    else:
+        life = pairs([('Names in the records', ', '.join(person.get('aliases', []))), ('Born', birth),
+                      ('Died', person.get('death')), ('Burial', person.get('burial')),
+                      ('Occupations', ', '.join(person.get('occupations', [])))])
     narrative = ''.join(f'<p>{esc(text)}</p>' for text in dict.fromkeys([person.get('story'), person.get('text'), person.get('notes')]) if text)
     family = ''
     if not person.get('private'):
@@ -584,7 +593,8 @@ def branch_entry(branch, ancestors, spouses, title, description, story, years_in
     }
 
 tree_people = {
-    key: {field:p[field] for field in ('id','name','branch','dates','aliases','birth','death','private') if field in p}
+    key: {field:p[field] for field in ('id','name','branch','dates','aliases','birth','death','private')
+          if field in p and (field != 'birth' or public_birth(p))}
     | {'role': p.get('role', p['branch']+' family'), 'story':p.get('text') or p.get('story',''),
        'path':person_path(key)}
     | ({'portrait': p['portrait'].get('thumbnail', p['portrait']['src'])} if p.get('portrait') and not has_limited_profile(p) else {})
