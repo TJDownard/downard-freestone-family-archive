@@ -41,10 +41,43 @@
 @media(max-width:650px){
  .tree{overflow:visible}
  .treeinner{min-width:0;padding:1rem}
- .lineage{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem .65rem}
+ .lineage{
+  --generation-gap:1rem;
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:var(--generation-gap);
+ }
  .lineage:before{display:none}
- .couple-column{width:auto;min-width:0}
- .story-profile-link{white-space:normal}
+ .couple-column{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 1rem minmax(0,1fr);
+  grid-template-rows:auto auto;
+  width:auto;
+  min-width:0;
+  gap:0;
+ }
+ .couple-column>.ancestor{grid-area:1/1}
+ .couple-column>.spouse-card{grid-area:1/3}
+ .couple-column>.ancestor,.couple-column>.spouse-card{
+  min-width:0;
+  min-height:116px;
+  padding:12px 8px;
+  overflow-wrap:anywhere;
+ }
+ .couple-column>.ancestor .avatar{width:40px;height:40px;font-size:18px;margin-bottom:8px}
+ .couple-link{grid-area:1/2;width:100%;height:2px;margin:0}
+ .spouse-caption{grid-area:2/3;margin:.4rem 0 0}
+ .couple-column:not(:last-child)::after{
+  content:'';
+  position:absolute;
+  grid-area:2/1/3/2;
+  inset:0 auto calc(-1 * var(--generation-gap)) 50%;
+  width:2px;
+  transform:translateX(-50%);
+  background:#b9c9b7;
+ }
+ .details{grid-template-columns:minmax(0,1fr)}
+ .sheet .story-profile-link{white-space:normal}
  .profile-detail-link{margin-left:0}
 }
 </style><style>
