@@ -3543,6 +3543,8 @@
     {
       "id": "freestone-journey",
       "title": "The Freestone Story",
+      "path": "stories/freestone.html",
+      "setting": "England to Utah",
       "period": "1795–2010",
       "branch": "Freestone",
       "people": [
@@ -3577,6 +3579,8 @@
       "related": "person-thomas-freestone.html",
       "chapters": [
         {
+          "id": "thomas",
+          "navLabel": "Thomas",
           "title": "Chapter One — Before the Mountains",
           "subtitle": "Thomas Freestone. A life in England.",
           "period": "1795–c. 1858",
@@ -3590,6 +3594,8 @@
           ]
         },
         {
+          "id": "george",
+          "navLabel": "George",
           "title": "Chapter Two — A Family Takes Shape",
           "subtitle": "George Freestone. The generations between.",
           "period": "1838–1920 (family dates)",
@@ -3605,6 +3611,8 @@
           ]
         },
         {
+          "id": "reuben",
+          "navLabel": "Reuben Thomas",
           "title": "Chapter Three — The Land and the Family",
           "subtitle": "Reuben Thomas Freestone. Building a life.",
           "period": "1888–1984",
@@ -3621,6 +3629,9 @@
           ]
         },
         {
+          "id": "tom",
+          "navLabel": "Tom",
+          "portraitPerson": "tom-freestone",
           "title": "Chapter Four — The War Came From the Sky",
           "subtitle": "Clyde Thomas “Tom” Freestone.",
           "period": "1923–2010",
@@ -3632,7 +3643,7 @@
             "The B-17 Flying Fortress was built to carry American aircrews deep into hostile territory. Its missions demanded long hours at altitude, in freezing conditions, with enemy aircraft and antiaircraft fire threatening the men aboard.",
             "According to that account, Tom’s aircraft was shot down near Vienna.",
             "He was wounded and became a prisoner of war.",
-            "The account describes an extraordinary chapter of his life. Yet they cannot fully explain what he experienced. The precise mission, the men who served alongside him, the circumstances of his capture, and his imprisonment deserve to be reconstructed from military records and his own recollections wherever available.",
+            "The account describes an extraordinary chapter of his life. Yet it cannot fully explain what he experienced. The precise mission, the men who served alongside him, the circumstances of his capture, and his imprisonment deserve to be reconstructed from military records and his own recollections wherever available.",
             "We should resist the temptation to invent his thoughts or words.",
             "What we know is enough to begin.",
             "A young man from the American West went to war in Europe. He survived the loss of his aircraft, an injury, and captivity.",
@@ -3641,6 +3652,8 @@
           ]
         },
         {
+          "id": "tom-and-maurine",
+          "navLabel": "Tom & Maurine",
           "title": "Chapter Five — The Life That Followed",
           "subtitle": "Tom and Maurine.",
           "period": "The years after the war",
@@ -3656,6 +3669,8 @@
           ]
         },
         {
+          "id": "two-days-in-april",
+          "navLabel": "Two Days in April",
           "title": "Chapter Six — Two Days in April",
           "subtitle": "Tom and Maurine Freestone.",
           "period": "2010",
@@ -3671,6 +3686,8 @@
           ]
         },
         {
+          "id": "epilogue",
+          "navLabel": "Epilogue",
           "title": "Epilogue — What Remains",
           "body": [
             "A family tree can show that Thomas Freestone was born in 1795, that Reuben lived nearly a century, and that Tom survived a war.",

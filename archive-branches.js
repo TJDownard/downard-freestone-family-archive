@@ -30,7 +30,7 @@ const maternalBranches = {
     ],
     "statsNote": "The count runs from the family’s move from Prince Edward Island to Ohio around 1840 through 2010, the year Tom Freestone died.",
     "statsSource": "archive.html#freestone-history",
-    "storyPath": "stories.html#freestone-journey",
+    "storyPath": "stories/freestone.html",
     "start": "judy",
     "ancestors": [
       "judy",
@@ -47,11 +47,11 @@ const maternalBranches = {
       "judy": "robert"
     },
     "chapters": {
-      "judy": "freestone-journey",
-      "tom-freestone": "freestone-journey",
-      "reuben-freestone": "freestone-journey",
-      "george-freestone": "freestone-journey",
-      "thomas-freestone": "freestone-journey"
+      "judy": "tom-and-maurine",
+      "tom-freestone": "tom",
+      "reuben-freestone": "reuben",
+      "george-freestone": "george",
+      "thomas-freestone": "thomas"
     }
   },
   "peterson": {
