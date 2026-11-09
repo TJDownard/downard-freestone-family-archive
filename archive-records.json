@@ -236,6 +236,36 @@
       ],
       "text": "Robert is part of the direct Downard line. The same-name Vernal police chief remains a separate research lead."
     },
+    "robert-todd": {
+      "name": "Robert Todd",
+      "branch": "Downard",
+      "limitedProfile": true,
+      "sources": ["robert-judy-family"]
+    },
+    "julie-maurine": {
+      "name": "Julie Maurine",
+      "branch": "Downard",
+      "limitedProfile": true,
+      "sources": ["robert-judy-family"]
+    },
+    "kimberly-jo": {
+      "name": "Kimberly Jo",
+      "branch": "Downard",
+      "limitedProfile": true,
+      "sources": ["robert-judy-family"]
+    },
+    "stacie-lynn": {
+      "name": "Stacie Lynn",
+      "branch": "Downard",
+      "limitedProfile": true,
+      "sources": ["robert-judy-family"]
+    },
+    "thomas-john-child": {
+      "name": "Thomas John",
+      "branch": "Downard",
+      "limitedProfile": true,
+      "sources": ["robert-judy-family"]
+    },
     "thomas-freestone": {
       "name": "Thomas Freestone",
       "dates": "1795–c. 1858",
@@ -2622,6 +2652,16 @@
         "brief"
       ]
     },
+    {"from": "robert", "to": "robert-todd", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "judy", "to": "robert-todd", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "robert", "to": "julie-maurine", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "judy", "to": "julie-maurine", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "robert", "to": "kimberly-jo", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "judy", "to": "kimberly-jo", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "robert", "to": "stacie-lynn", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "judy", "to": "stacie-lynn", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "robert", "to": "thomas-john-child", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
+    {"from": "judy", "to": "thomas-john-child", "type": "Parent", "status": "Family record", "sources": ["robert-judy-family"]},
     {
       "from": "maurine-peterson",
       "to": "judy",
@@ -3770,6 +3810,7 @@
     "thomas",
     "norma",
     "robert",
+    "judy",
     "thomas-freestone",
     "ann-fall",
     "george-freestone",
