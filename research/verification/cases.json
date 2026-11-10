@@ -128,19 +128,30 @@
   },
   {
     "id": "norma-wedding",
-    "title": "Which day in June 1942 did Thomas and Norma marry?",
-    "status": "Conflicting",
+    "title": "Thomas and Norma’s marriage date",
+    "status": "Resolved",
     "branch": "Lambson",
     "people": [
       "thomas",
       "norma"
     ],
-    "detail": "The family record gives June 26. The newspaper summary gives June 30 and names Bishop John A. Harter. It describes Mrs. T. A. Pedersen as Norma’s mother, but that identification has not been established independently.",
-    "next": "Locate the marriage return and original newspaper issue. Check the host’s identity separately.",
+    "detail": "The archive owner confirmed June 26, 1942, as listed on Thomas’s FamilySearch profile, on November 10, 2026. The earlier newspaper summary gives June 30. June 26 is the accepted marriage date in the archive.",
+    "next": "Retain the earlier summary as a source discrepancy. Research about the reception host is tracked separately.",
     "sources": [
       "lambson",
-      "norma-notice"
+      "norma-notice",
+      "fs-thomas"
     ]
+  },
+  {
+    "id": "norma-reception-host",
+    "title": "Identify the host of Norma’s 1942 gathering",
+    "status": "Research in progress",
+    "branch": "Lambson",
+    "people": ["thomas", "norma"],
+    "detail": "The supplied newspaper summary describes Mrs. T. A. Pedersen as Norma’s mother and names Bishop John A. Harter as officiant. These identifications still need the original issue.",
+    "next": "Locate the original newspaper issue and confirm the host’s identity and officiant.",
+    "sources": ["norma-notice"]
   },
   {
     "id": "freestone-robbery",
