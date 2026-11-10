@@ -167,7 +167,9 @@ def person_details(person):
                   'Stepchild': 'Stepparent' if key == rel['to'] else 'Stepchild'}).get(rel['type'], rel['type'])
         relation_html.append(f'<li><strong>{esc(label)}</strong> · {person_links([other])}'
                              + (f' · {chip(rel["status"])}' if rel.get('status') else '')
-                             + event_dates(rel) + citations(rel.get('sources')) + '</li>')
+                             + event_dates(rel)
+                             + (pairs([('Place', places[rel['place']]['name'])]) if rel.get('place') else '')
+                             + citations(rel.get('sources')) + '</li>')
     case_links = [link('research.html#' + case['id'], case['title']) for case in cases if key in case['people']]
     property_links = [link('places.html#' + prop['id'], prop['name']) for prop in data['properties'] if key in prop['people']]
     event_links = [link('timeline.html#' + event['id'], event['title']) for event in data['events'] if key in event.get('people', [])]
@@ -602,8 +604,9 @@ tree_people = {
                        'marriages': [
                            [people[edge['to'] if key == edge['from'] else edge['from']]['name'],
                             ' · '.join(filter(None,[
-                                edge.get('date') or ' or '.join(edge.get('dateOptions', [])) or
+                                edge.get('date') or ' or '.join(edge.get('dateOptions', [])) or edge.get('estimated') or
                                 ('License publication: '+edge['publication'] if edge.get('publication') else 'Date unrecorded'),
+                                places[edge['place']]['name'] if edge.get('place') else None,
                                 edge.get('status') if edge.get('status') in OPEN_STATUSES or 'Divorced' in edge.get('status','') else None]))]
                            for (a,b,kind),edge in edges.items()
                            if key in (a,b) and kind=='Partner' and edge['type']!='Partner' and edge.get('status')!='Unverified'
