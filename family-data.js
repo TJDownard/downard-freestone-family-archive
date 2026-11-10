@@ -398,7 +398,7 @@ const people = [
   },
   {
     "id": "glen",
-    "name": "Glen L. Downard",
+    "name": "Glenn L. Downard",
     "dates": "1951–2007",
     "role": "Thomas and Norma’s son",
     "story": "Brother of Robert T.",

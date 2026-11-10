@@ -192,7 +192,8 @@
     },
     "thomas": {
       "birth": "December 3, 1921 · Bluebell, Utah",
-      "death": "May 22, 1982 · Salt Lake City, Utah",
+      "death": "May 22, 1982 · University of Utah Hospital, Salt Lake City, Utah",
+      "burial": "May 26, 1982 · Vernal Memorial Park Cemetery, Vernal, Utah",
       "occupations": [
         "Postal Service"
       ],
@@ -203,9 +204,10 @@
       "sources": [
         "existing",
         "lambson",
-        "norma-notice"
+        "norma-notice",
+        "fs-thomas"
       ],
-      "text": "Family information describes US Army service during World War II and later Postal Service work. The unit assignment awaits service records. The family record and newspaper summary give different dates for his wedding to Norma."
+      "text": "Thomas married Norma Lucille Lambson on June 26, 1942, in Salt Lake City, Utah. Family information describes U.S. Army service during World War II and later Postal Service work. The unit assignment awaits service records."
     },
     "norma": {
       "aliases": [
@@ -220,9 +222,10 @@
       ],
       "sources": [
         "lambson",
-        "norma-notice"
+        "norma-notice",
+        "fs-thomas"
       ],
-      "text": "Norma’s 1942 marriage joined the Lambson and Downard branches. The family record gives June 26 and the supplied newspaper summary gives June 30. Robert, Glen and Quinn are listed as their children."
+      "text": "Norma married Thomas John Downard on June 26, 1942, in Salt Lake City, Utah, joining the Lambson and Downard branches. Their children were Robert, Glenn, and Quinn."
     },
     "robert": {
       "birth": "September 12, 1948 · Vernal, Utah",
@@ -247,6 +250,9 @@
       "birth": "February 14, 1948 · Vernal, Utah",
       "publishBirth": true,
       "sources": ["existing", "judy-birth"]
+    },
+    "glen": {
+      "sources": ["existing", "fs-thomas"]
     },
     "robert-todd": {
       "name": "Robert Todd Downard",
@@ -1390,15 +1396,13 @@
       "from": "thomas",
       "to": "norma",
       "type": "Marriage",
-      "dateOptions": [
-        "1942-06-26",
-        "1942-06-30"
-      ],
+      "date": "1942-06-26",
       "place": "salt-lake",
-      "status": "Conflicting",
+      "status": "Confirmed by archive owner",
       "sources": [
         "lambson",
-        "norma-notice"
+        "norma-notice",
+        "fs-thomas"
       ]
     },
     {
@@ -3370,10 +3374,7 @@
     {
       "id": "norma-thomas",
       "title": "Norma Lambson and Thomas Downard marry",
-      "dateOptions": [
-        "1942-06-26",
-        "1942-06-30"
-      ],
+      "date": "1942-06-26",
       "branch": "Lambson",
       "type": "Marriage",
       "people": [
@@ -3381,10 +3382,11 @@
         "thomas"
       ],
       "place": "salt-lake",
-      "status": "Conflicting",
+      "status": "Confirmed by archive owner",
       "sources": [
         "lambson",
-        "norma-notice"
+        "norma-notice",
+        "fs-thomas"
       ]
     },
     {
@@ -3595,14 +3597,15 @@
       "places": [
         "salt-lake"
       ],
-      "status": "Conflicting",
+      "status": "Family history",
       "sources": [
         "lambson",
-        "norma-notice"
+        "norma-notice",
+        "fs-thomas"
       ],
       "body": [
         "The supplied summary of Bride-Elect Complimented describes a gathering at Mrs. T. A. Pedersen’s home, co-hosted by Mrs. Joseph Timothy. It records about 39 guests, a prize won by Mrs. Walter Downard, and a blue-and-green seersucker suit for the wedding.",
-        "The family record dates the marriage to June 26. The newspaper summary reports June 30 and identifies Bishop John A. Harter as officiant. The marriage return and the original newspaper issue are needed to resolve the difference and confirm the host’s identity."
+        "Thomas and Norma married on June 26, 1942, in Salt Lake City, Utah. The archive owner confirmed the date listed on Thomas’s FamilySearch profile. The newspaper summary’s June 30 date is retained as a source discrepancy in the research notebook. The original newspaper issue is still needed to confirm the host’s identity and the reported officiant, Bishop John A. Harter."
       ],
       "related": "research.html#norma-wedding"
     },
