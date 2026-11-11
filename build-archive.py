@@ -205,7 +205,7 @@ def person_details(person):
                        paragraph('Research questions', ' · '.join(case_links))])
     tree_link = link('index.html?' + 'branch=' + person['branch'].lower() + '&person=' + quote(key) + '#tree', 'Open in the family tree') if not person.get('private') else ''
     audit_link = paragraph('Data review', link('individual-audit.html#'+key, 'Individual audit and evidence status')) if not person.get('private') else ''
-    return f'<div class="reading">{paragraph("", tree_link)}{life}{narrative}{family}{related}{audit_link}{citations(person["sources"]) if not person.get("private") else ""}</div>' 
+    return f'<div class="reading">{paragraph("", tree_link)}{life}{narrative}{family}{related}{audit_link}{citations(person["sources"]) if not person.get("private") else ""}</div>'
 
 
 def person_portrait(person, prefix='', lazy=False):
