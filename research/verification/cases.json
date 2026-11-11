@@ -684,5 +684,21 @@
       "fs-barnabas",
       "fs-martha-lamson-rice"
     ]
+  },
+  {
+    "id": "glenn-wwi-service",
+    "title": "Identify Glenn’s cavalry service and resolve the repeated dates",
+    "status": "Probable",
+    "branch": "Lambson",
+    "people": [
+      "glennlambson"
+    ],
+    "detail": "The 1924 Utah military roster lists a starred Glenn C. Lambson of Springville under cavalry. Its key identifies the star as overseas duty. This is a probable match to Glenn Cody Lambson, born in Springville in 1898, and supports the family’s overseas-service recollection without independently establishing France. Both enlistment and discharge are printed as May 9, 1918. No corrected discharge year, regiment, or exact deployment location is assigned.",
+    "next": "Locate a full-name service card, enlistment or discharge document, and passenger or transport record. Compare birth details or a service number to establish identity, resolve the dates, and test Clara’s recollection of France.",
+    "sources": [
+      "glenn-wwi-roster",
+      "lambson",
+      "fs-glennlambson"
+    ]
   }
 ]
