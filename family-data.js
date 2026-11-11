@@ -543,7 +543,7 @@ const lambsonGenerations = [
   },
   {
     id:'glennlambson', chapter:'glennwar',
-    story:'Born in Springville and died in Bingham Canyon. His sister Clara recalled that he went to war in France. Military records have yet to confirm that account.',
+    story:'Born in Springville and died in Bingham Canyon. His sister Clara recalled wartime service in France. A 1924 roster lists a probable matching Glenn C. Lambson of Springville as cavalry with overseas service; the exact unit and discharge date remain unresolved.',
     spouse:{id:'marylucille'}
   },
   {
