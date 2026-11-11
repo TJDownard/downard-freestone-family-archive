@@ -342,5 +342,34 @@
     ],
     "detail": "Mary’s life history names her parents and siblings and all nine children. The children are represented; one public tree card is anonymous. The other children’s marriages, dates, and descendants are not complete in the sources inspected.",
     "next": "Obtain a Peterson–Alvey GEDCOM or annotated family group sheet, census pages, and relevant obituaries or vital records. Confirm publication permission for any living relatives."
+  },
+  {
+    "id": "arba-death-year",
+    "title": "Arba Sr.’s death year and place",
+    "status": "Resolved",
+    "branch": "Lambson",
+    "people": [
+      "arba-lambson-sr"
+    ],
+    "detail": "Earlier archive accounts gave 1870 or 1871 and a Utah death location. On November 10, 2026, the archive owner confirmed the FamilySearch values: 1870, Bartlett, Fremont County, Iowa.",
+    "next": "Retain the earlier accounts as source discrepancies.",
+    "sources": [
+      "lambson",
+      "fs-arba-lambson-sr"
+    ]
+  },
+  {
+    "id": "arba-jr-second-marriage",
+    "title": "Review the additional marriage attached to Arba Jr.",
+    "status": "Research in progress",
+    "branch": "Lambson",
+    "people": [
+      "arba-lambson-jr"
+    ],
+    "detail": "FamilySearch LYQH-LLW lists a January 9, 1890 marriage to Villette Mattie Rose Stradling in St Johns, London, England, and a son, Paulous Byron Lambson (1898–1976). One displayed legacy source instead refers to an 1867 birth in Rush Valley. The identity and location need review before this marriage and child are connected to the archive tree.",
+    "next": "Check the marriage record and child’s parents against the underlying documents.",
+    "sources": [
+      "fs-arba-lambson-jr"
+    ]
   }
 ]

@@ -43,5 +43,82 @@
   {"id": "freestone-early-family", "title": "Jane Marie Freestone’s family profile", "type": "Compiled genealogy", "reference": "FamilySearch KWNF-Y25 identifies Jane Marie and Phoebe Ellen in the Thomas Freestone and Ann Fall family. The overland roster lists travelers, not every child.", "url": "https://ancestors.familysearch.org/en/KWNF-Y25"},
   {"id": "ann-fall-roster", "title": "Ann Fall in the Church History Biographical Database", "type": "Immigration record", "reference": "PER-V10SSS2 gives birth in 1812; the family audit gives 1814. Both give death in 1888.", "url": "https://history.churchofjesuschrist.org/chd/individual/ann-fall-1812?lang=eng"},
   {"id": "freestone-elizabeth-history", "title": "Elizabeth Ann Freestone Jensen family biography", "type": "Family history", "reference": "Memorial 8408994 reproduces a family biography that identifies both parents and names Phoebe Ellen among their children.", "url": "https://www.findagrave.com/memorial/8408994/elizabeth-ann-jensen"},
-  {"id": "emery-freestone-obit", "title": "Emery Lind Freestone obituary", "type": "Obituary", "reference": "Salt Lake Tribune, February 7, 1973, p. 23, col. 7, as transcribed in memorial 26864428. Names his parents, former wife and seven surviving children. The memorial links provide expanded child names and lifespan years.", "url": "https://www.findagrave.com/memorial/26864428/emery-lind-freestone"}
+  {"id": "emery-freestone-obit", "title": "Emery Lind Freestone obituary", "type": "Obituary", "reference": "Salt Lake Tribune, February 7, 1973, p. 23, col. 7, as transcribed in memorial 26864428. Names his parents, former wife and seven surviving children. The memorial links provide expanded child names and lifespan years.", "url": "https://www.findagrave.com/memorial/26864428/emery-lind-freestone"},
+  {
+    "id": "fs-norma",
+    "title": "FamilySearch profile · Norma Lucille Lambson",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch KWCB-JHR. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/KWCB-JHR/norma-lucille-lambson-1923-2000"
+  },
+  {
+    "id": "fs-glennlambson",
+    "title": "FamilySearch profile · Glenn Cody Lambson",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch 273Q-746. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/273Q-746/glenn-cody-lambson-1898-1934"
+  },
+  {
+    "id": "fs-marylucille",
+    "title": "FamilySearch profile · Mary Lucille Jamieson",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch KW68-27X. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/KW68-27X/mary-lucille-jamieson-1905-1984"
+  },
+  {
+    "id": "fs-arba-lambson-jr",
+    "title": "FamilySearch profile · Arba Lorenzo Lambson",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch LYQH-LLW. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/LYQH-LLW/arba-lorenzo-lambson-1860-1910"
+  },
+  {
+    "id": "fs-rosella-blanchard",
+    "title": "FamilySearch profile · Rosella Francenia Blanchard",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch LL3Y-J76. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/LL3Y-J76/rosella-francenia-blanchard-1865-1909"
+  },
+  {
+    "id": "fs-arba-lambson-sr",
+    "title": "FamilySearch profile · Arba Lorenzo Lambson",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch KWJ2-CLW. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/KWJ2-CLW/arba-lorenzo-lambson-1818-1870"
+  },
+  {
+    "id": "fs-sarah-harrington",
+    "title": "FamilySearch profile · Sarah Cordellia Harrington",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch KWJB-DWX. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/KWJB-DWX/sarah-cordellia-harrington-1833-1899"
+  },
+  {
+    "id": "fs-boaz-lambson",
+    "title": "FamilySearch profile · Boaz Lambson",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch LLQ6-F9S. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/LLQ6-F9S/boaz-lambson-1789-1837"
+  },
+  {
+    "id": "fs-polly-walworth",
+    "title": "FamilySearch profile · Polly Walworth",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch LLQ6-FM1. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/LLQ6-FM1/polly-walworth-1799-1889"
+  },
+  {
+    "id": "fs-jesse-lambson",
+    "title": "FamilySearch profile · Jesse Lambson Sr",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch LKKM-XVN. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/LKKM-XVN/jesse-lambson-sr-1756-1818"
+  },
+  {
+    "id": "fs-ruth-miller",
+    "title": "FamilySearch profile · Ruth Miller",
+    "type": "Compiled genealogy",
+    "reference": "FamilySearch LKKM-XVF. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
+    "url": "https://ancestors.familysearch.org/en/LKKM-XVF/ruth-miller-1757-1813"
+  }
 ]

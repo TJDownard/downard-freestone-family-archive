@@ -15,7 +15,7 @@ const people = [
     "name": "Mary Lucille Jamieson Lambson Pedersen",
     "dates": "1905–1984",
     "role": "Norma’s mother · Lambson branch",
-    "story": "Mother of Norma Lucille Lambson. Her maiden surname is also transcribed Jameson in some family material; verify against original records.",
+    "story": "Mary Lucille Jamieson married Glenn Cody Lambson in 1922 and Antone Theodore Pedersen in 1937. Mother of Norma Lucille, Vera Elaine, and Glenn Jamieson Lambson.",
     "parents": [],
     "spouses": [
       "glennlambson"
@@ -529,11 +529,11 @@ const lambsonGenerations = [
   {
     id:'boaz-lambson', name:'Boaz Lambson', dates:'1789–1837',
     story:'Born in Granby, Connecticut, and living in Michigan by 1830. The supplied family record places his marriage to Polly Walworth in 1813.',
-    spouse:{id:'polly-walworth', name:'Polly Walworth', dates:'1799–1889', story:'Reportedly born in New York and later lived in the Midwest. Her reported age at first marriage warrants checking the original record.'}
+    spouse:{id:'polly-walworth', name:'Polly Walworth', dates:'1799–1889', story:'Born in Hartford, New York. Married Boaz Lambson in 1813 and later Luther Leander Ward in 1846. Died in Holt, Missouri, in 1889.'}
   },
   {
-    id:'arba-lambson-sr', name:'Arba Lorenzo Lambson Sr.', dates:'1818–1870/71', chapter:'west',
-    story:'Captained overland wagon companies in 1861 and 1862. Institutional sources disagree on his death year.',
+    id:'arba-lambson-sr', name:'Arba Lorenzo Lambson Sr.', dates:'1818–1870', chapter:'west',
+    story:'Captained overland wagon companies in 1861 and 1862. Died in Bartlett, Iowa, in 1870, as confirmed by the archive owner from FamilySearch.',
     spouse:{id:'sarah-harrington', name:'Sarah Cordellia Harrington', dates:'1833–1899', story:'Listed in Arba’s 1861 traveling group with their children, including the infant Arba Jr.'}
   },
   {

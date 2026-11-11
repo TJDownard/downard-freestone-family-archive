@@ -215,7 +215,7 @@
         "Norma Lucille Lambson Downard"
       ],
       "birth": "April 18, 1923 · Bingham Canyon, Utah",
-      "death": "October 23, 2000",
+      "death": "October 23, 2000 · Salt Lake City, Utah",
       "places": [
         "bingham",
         "salt-lake"
@@ -223,9 +223,15 @@
       "sources": [
         "lambson",
         "norma-notice",
-        "fs-thomas"
+        "fs-thomas",
+        "fs-norma",
+        "fs-glennlambson"
       ],
-      "text": "Norma married Thomas John Downard on June 26, 1942, in Salt Lake City, Utah, joining the Lambson and Downard branches. Their children were Robert, Glenn, and Quinn."
+      "text": "Norma married Thomas John Downard on June 26, 1942, in Salt Lake City, Utah, joining the Lambson and Downard branches. Their children were Robert, Glenn, and Quinn.",
+      "branch": "Lambson",
+      "burial": "Vernal, Utah",
+      "name": "Norma Lucille Lambson",
+      "dates": "1923–2000"
     },
     "robert": {
       "birth": "September 12, 1948 · Vernal, Utah",
@@ -1282,6 +1288,979 @@
       "branch": "Freestone",
       "sources": [
         "emery-freestone-obit"
+      ]
+    },
+    "glennlambson": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-glennlambson",
+        "fs-rosella-blanchard"
+      ],
+      "birth": "January 26, 1898 · Springville, Utah",
+      "death": "June 18, 1934 · Bingham Canyon, Utah",
+      "burial": "Mount Olivet Cemetery, Salt Lake City, Utah",
+      "text": "Glenn Cody married Mary Lucille Jamieson on September 11, 1922, in Salt Lake City. Their children were Norma Lucille, Vera Elaine, and Glenn Jamieson. His sister Clara recalled that he went to war in France. Military records have yet to confirm that account.",
+      "name": "Glenn Cody Lambson",
+      "dates": "1898–1934"
+    },
+    "marylucille": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-marylucille"
+      ],
+      "birth": "March 11, 1905 · Salt Lake City, Utah",
+      "death": "February 20, 1984 · Murray, Utah",
+      "burial": "Larkin Sunset Gardens Cemetery, Sandy, Utah",
+      "aliases": [
+        "Mary Lucille Jamieson",
+        "Mary Lucille Jameson (variant spelling)"
+      ],
+      "text": "Mary Lucille married Glenn Cody Lambson on September 11, 1922, in Salt Lake City. They had three children: Norma Lucille, Vera Elaine, and Glenn Jamieson. After Glenn Cody’s death, she married Antone Theodore Pedersen on March 29, 1937, in Preston, Idaho.",
+      "dates": "1905–1984"
+    },
+    "arba-lambson-jr": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-jr",
+        "fs-sarah-harrington"
+      ],
+      "birth": "July 20, 1860 · Lyons Township, Mills County, Iowa",
+      "death": "May 1, 1910 · Springville, Utah",
+      "burial": "Evergreen Cemetery, Springville, Utah",
+      "dates": "1860–1910"
+    },
+    "rosella-blanchard": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ],
+      "birth": "January 14, 1865 · Springville, Utah",
+      "death": "May 26, 1909 · Springville, Utah",
+      "burial": "Evergreen Cemetery, Springville, Utah",
+      "name": "Rosella Francenia Blanchard",
+      "dates": "1865–1909"
+    },
+    "arba-lambson-sr": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr",
+        "fs-boaz-lambson"
+      ],
+      "birth": "November 24, 1818 · Royalton, Niagara County, New York",
+      "death": "1870 · Bartlett, Fremont County, Iowa",
+      "dates": "1818–1870",
+      "text": "Arba Lorenzo Lambson captained overland wagon companies in 1861 and 1862. He married Elizabeth Bonner in 1836 and Sarah Cordellia Harrington in 1854. The archive owner confirmed the FamilySearch death year and location: 1870 in Bartlett, Iowa."
+    },
+    "sarah-harrington": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ],
+      "birth": "April 22, 1833 · Mexico, Oswego County, New York",
+      "death": "April 4, 1899 · Springville, Utah",
+      "burial": "Springville City Cemetery, Springville, Utah",
+      "text": "Sarah married Arba Lorenzo Lambson on May 23, 1854, in Mills County, Iowa. Their five children included Arba Jr. She traveled with the family in the 1861 wagon company and later married George Henry Jagger after 1871.",
+      "name": "Sarah Cordellia Harrington",
+      "dates": "1833–1899"
+    },
+    "boaz-lambson": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson",
+        "fs-jesse-lambson"
+      ],
+      "birth": "May 2, 1789 · Granby, Connecticut",
+      "death": "September 27, 1837 · Kinderhook, Michigan",
+      "burial": "Waterhouse Cemetery, Kinderhook, Michigan",
+      "text": "Boaz married Polly Walworth on December 26, 1813, in Alabama, New York. Their family included twelve children. By 1830 he lived in Saline, Michigan.",
+      "name": "Boaz Lambson",
+      "dates": "1789–1837"
+    },
+    "polly-walworth": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ],
+      "birth": "April 7, 1799 · Hartford, Washington County, New York",
+      "death": "March 22, 1889 · Holt, Clay County, Missouri",
+      "burial": "Antioch Cemetery, Washington Township, Clay County, Missouri",
+      "text": "Polly married Boaz Lambson on December 26, 1813, in Alabama, New York. Their family included twelve children. She later married Luther Leander Ward on November 25, 1846, in Kinderhook, Michigan.",
+      "name": "Polly Walworth",
+      "dates": "1799–1889"
+    },
+    "jesse-lambson": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ],
+      "birth": "September 10, 1756 · Simsbury, Connecticut",
+      "death": "September 25, 1818 · Granville, Massachusetts",
+      "burial": "Woodlands Cemetery, Granville, Massachusetts",
+      "text": "Jesse married Ruth Miller about 1786 in Ridgefield, Connecticut. Their family included nine children. After Ruth’s death, he married Elisabeth Dibble on February 20, 1814, in Granville, Massachusetts. Military registration in 1780 is reported; wartime service remains unconfirmed.",
+      "name": "Jesse Lambson Sr.",
+      "dates": "1756–1818"
+    },
+    "ruth-miller": {
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ],
+      "birth": "April 29, 1757 · Simsbury, Connecticut",
+      "death": "1813 · Granville, Massachusetts",
+      "burial": "Granville, Massachusetts",
+      "text": "Ruth was the daughter of Ichabod Miller and Sarah Holcomb. She married Jesse Lambson about 1786 in Ridgefield, Connecticut. Their family included nine children.",
+      "name": "Ruth Miller",
+      "dates": "1757–1813"
+    },
+    "henry-raymond-jamieson": {
+      "name": "Henry Raymond Jamieson",
+      "dates": "1884–1906",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-marylucille"
+      ]
+    },
+    "mary-eliza-smith": {
+      "name": "Mary Eliza Smith",
+      "dates": "1884–1947",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-marylucille"
+      ]
+    },
+    "antone-theodore-pedersen": {
+      "name": "Antone Theodore Pedersen",
+      "dates": "1906–1971",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-marylucille"
+      ]
+    },
+    "asaph-blanchard": {
+      "name": "Asaph Blanchard",
+      "dates": "1800–1878",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "eunice-elizabeth-thompson": {
+      "name": "Eunice Elizabeth Thompson",
+      "dates": "1824–1907",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "elizabeth-bonner": {
+      "name": "Elizabeth Bonner",
+      "dates": "1819–1852",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "george-henry-jagger": {
+      "name": "George Henry Jagger",
+      "dates": "1835–1922",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "jonathan-cyrus-harrington": {
+      "name": "Jonathan Cyrus Harrington",
+      "dates": "1794–1852",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "julia-ann-clark": {
+      "name": "Julia Ann Clark",
+      "dates": "1803–1886",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "james-walworth": {
+      "name": "James Walworth",
+      "dates": "1772–1841",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "mary-rogers-walworth": {
+      "name": "Mary Rogers",
+      "dates": "1777–1840",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "luther-leander-ward": {
+      "name": "Luther Leander Ward",
+      "dates": "1798–1870",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "elisabeth-dibble": {
+      "name": "Elisabeth Dibble",
+      "dates": "1767–1849",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "ichabod-miller": {
+      "name": "Ichabod Miller",
+      "dates": "1704–1793",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "sarah-holcomb": {
+      "name": "Sarah Holcomb",
+      "dates": "1719–1800",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "vera-elaine-lambson": {
+      "name": "Vera Elaine Lambson",
+      "dates": "1924–2010",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-glennlambson"
+      ]
+    },
+    "glenn-jamieson-lambson": {
+      "name": "Glenn Jamieson Lambson",
+      "dates": "1930–1968",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-glennlambson"
+      ]
+    },
+    "henry-raymond-jamieson-infant": {
+      "name": "Henry Raymond Jamieson",
+      "dates": "1906–1906",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-marylucille"
+      ]
+    },
+    "minnie-jane-lambson": {
+      "name": "Minnie Jane Lambson",
+      "dates": "1882–1967",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "ernest-labar-lambson": {
+      "name": "Ernest Labar Lambson",
+      "dates": "1883–1906",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "rosella-francina-lambson": {
+      "dates": "1885–1944",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "clara-cordelia-lambson": {
+      "dates": "1888–1981",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "archibald-arba-lambson": {
+      "name": "Archibald Arba Lambson",
+      "dates": "1894–1940",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "theadore-lambson": {
+      "name": "Theadore Lambson",
+      "dates": "1896–1896",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "infant-lambson-1909": {
+      "dates": "1909–1909",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "alma-moroni-blanchard": {
+      "name": "Alma Moroni Blanchard Sr.",
+      "dates": "1842–1913",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "jane-elizabeth-blanchard": {
+      "name": "Jane Elizabeth Blanchard",
+      "dates": "1845–1929",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "ether-enoch-blanchard": {
+      "name": "Ether Enoch Blanchard",
+      "dates": "1846–1918",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "junietta-charlotte-blanchard": {
+      "name": "Junietta Charlotte Blanchard",
+      "dates": "1850–1899",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-rosella-blanchard"
+      ]
+    },
+    "drusilla-lambson": {
+      "name": "Drusilla Lambson",
+      "dates": "1839–1839",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "unnamed-twin-sister-lambson": {
+      "dates": "1839–1839",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "anna-hopkins-lambson": {
+      "name": "Anna Hopkins Lambson",
+      "dates": "1840–1942",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "apollos-boaz-lambson": {
+      "name": "Apollas Boaz Lambson",
+      "dates": "1843–1914",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "mary-paulina-lambson": {
+      "name": "Mary Paulina Lambson",
+      "dates": "1845–1924",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "john-allen-lambson": {
+      "name": "John Allen Lambson",
+      "dates": "1847–1915",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "almon-marion-lambson": {
+      "name": "Almon Marion Lambson",
+      "dates": "1852–1921",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-arba-lambson-sr"
+      ]
+    },
+    "jonathan-thomas-lambson": {
+      "name": "Jonathan Thomas Lambson",
+      "dates": "1855–1927",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "elizabeth-lillian-lambson": {
+      "name": "Elizabeth Lillian Lambson",
+      "dates": "1857–1930",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "albert-edwin-lambson": {
+      "name": "Albert Edwin Lambson",
+      "dates": "1863–1933",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "daniel-byron-lambson": {
+      "name": "Daniel Byron Lambson",
+      "dates": "1867–1928",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "thomas-harrington": {
+      "name": "Thomas Harrington",
+      "dates": "1825–1825",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "mary-marinda-harrington": {
+      "name": "Mary Marinda Harrington",
+      "dates": "1827–1905",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "lydia-louisa-harrington": {
+      "name": "Lydia Louisa Harrington",
+      "dates": "1829–1869",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "daniel-burt-harrington": {
+      "name": "Daniel Burt Harrington",
+      "dates": "1831–1874",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "harriet-elizabeth-harrington": {
+      "name": "Harriet Elizabeth Harrington",
+      "dates": "1835–1866",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "julia-viola-harrington": {
+      "name": "Julia Viola Harrington",
+      "dates": "1836–1847",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "ophelia-arthusa-harrington": {
+      "name": "Ophelia Arthusa Harrington",
+      "dates": "1838–1910",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "orissa-ethelinda-harrington": {
+      "name": "Orissa Ethelinda Harrington",
+      "dates": "1841–1906",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "jonathan-cyrus-harrington-jr": {
+      "name": "Jonathan Cyrus Harrington",
+      "dates": "1844–1916",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-sarah-harrington"
+      ]
+    },
+    "mary-louisa-lambson": {
+      "name": "Mary Louisa Lambson",
+      "dates": "1816–1854",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "alfred-boaz-lambson": {
+      "name": "Alfred Boaz Lambson",
+      "dates": "1820–1905",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "apollos-walworth-lambson": {
+      "name": "Apollos Walworth Lambson",
+      "dates": "1822–1911",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "sarah-jane-lambson": {
+      "name": "Sarah Jane Lambson",
+      "dates": "1825–1847",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "esther-julina-lambson": {
+      "name": "Esther Julina Lambson",
+      "dates": "1827–1894",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "asenath-margetta-lambson": {
+      "name": "Asenath Margretta Lambson",
+      "dates": "1829–1875",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "unnamed-twin-lambson": {
+      "dates": "1831–1831",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "edwin-harlow-lambson": {
+      "name": "Edwin Harlow Lambson",
+      "dates": "1831–1888",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "theodore-wallis-lambson": {
+      "name": "Theodore Wallis Lambson",
+      "dates": "1833–1841",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "pelina-lodema-lambson": {
+      "name": "Paulina Lodema Lambson",
+      "dates": "1835–1840",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "james-farley-lambson": {
+      "name": "James Farley Lambson",
+      "dates": "1838–1918",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-boaz-lambson"
+      ]
+    },
+    "benjamin-r-walworth": {
+      "name": "Benjamin R. Walworth",
+      "dates": "1794–1876",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "louis-walworth": {
+      "name": "Louis Walworth",
+      "dates": "1796–1806",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "john-walworth-1796": {
+      "name": "John Walworth",
+      "dates": "1796–1813",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "rev-john-walworth": {
+      "name": "Rev. John Walworth",
+      "dates": "1804–1895",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "george-walworth": {
+      "name": "George Walworth",
+      "dates": "1805–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "horatio-nelson-walworth": {
+      "name": "Horatio Nelson Walworth",
+      "dates": "1808–1849",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "lanson-walworth": {
+      "name": "Lanson Walworth",
+      "dates": "1808–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "aseneth-walworth": {
+      "name": "Aseneth Walworth",
+      "dates": "1810–1892",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "phebe-louisa-walworth": {
+      "name": "Phebe Louisa Walworth",
+      "dates": "1813–1895",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "alba-lorenzo-walworth": {
+      "name": "Alba Lorenzo Walworth",
+      "dates": "1815–1885",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "chloe-orilla-walworth": {
+      "name": "Chloe Orilla Walworth",
+      "dates": "1817–1898",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "james-farley-walworth": {
+      "name": "James Farley Walworth",
+      "dates": "1819–1829",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-polly-walworth"
+      ]
+    },
+    "horace-lambson": {
+      "name": "Horace Lambson",
+      "dates": "1786–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "mary-ruth-lambson": {
+      "name": "Mary Ruth Lambson",
+      "dates": "1786–1859",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "jesse-lambson-jr": {
+      "name": "Jesse Lambson Jr.",
+      "dates": "1787–1848",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "japheth-lambson": {
+      "name": "Japheth Lambson",
+      "dates": "1787–1851",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "apollas-lambson": {
+      "name": "Apollas Lambson",
+      "dates": "1794–1866",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "arba-lambson-1797": {
+      "name": "Arba Lambson",
+      "dates": "1797–1851",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "orpha-lambson": {
+      "name": "Orpha Lambson",
+      "dates": "1799–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "sylvia-lambson": {
+      "name": "Sylvia Lambson",
+      "dates": "1804–1854",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "elnathan-lamson-1752": {
+      "name": "Elnathan Lamson",
+      "dates": "1752–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "lucy-lamson": {
+      "name": "Lucy Lamson",
+      "dates": "1754–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "john-lamson-1757": {
+      "name": "John Lamson",
+      "dates": "1757–1818",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "james-lamson-1758": {
+      "name": "James Lamson",
+      "dates": "1758–1762",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "jane-lamson": {
+      "name": "Jean “Jane” Lamson",
+      "dates": "1761–1830",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-jesse-lambson"
+      ]
+    },
+    "dudley-miller-1742": {
+      "name": "Dudley Miller",
+      "dates": "1742–1762",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "aaron-miller": {
+      "name": "Aaron Miller",
+      "dates": "1744–1813",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "samuel-miller": {
+      "name": "Samuel Miller",
+      "dates": "1746–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "sarah-miller": {
+      "name": "Sarah Miller",
+      "dates": "1749–1820",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "mehetable-miller": {
+      "name": "Mehetable Miller",
+      "dates": "1752–1836",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "sabrea-miller": {
+      "name": "Sabrea Miller",
+      "dates": "1755–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "moses-miller": {
+      "name": "Moses Miller",
+      "dates": "1760–1825",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "dudley-miller-1762": {
+      "name": "Dudley Miller",
+      "dates": "1762–1787",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
+      ]
+    },
+    "grant-miller": {
+      "name": "Grant Miller",
+      "dates": "1769–Deceased",
+      "branch": "Lambson",
+      "sources": [
+        "lambson",
+        "fs-ruth-miller"
       ]
     }
   },
@@ -2783,6 +3762,1735 @@
       "sources": [
         "emery-freestone-obit"
       ]
+    },
+    {
+      "from": "glennlambson",
+      "to": "norma",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "marylucille",
+      "to": "norma",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "glennlambson",
+      "to": "vera-elaine-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "marylucille",
+      "to": "vera-elaine-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "glennlambson",
+      "to": "glenn-jamieson-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "marylucille",
+      "to": "glenn-jamieson-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "henry-raymond-jamieson",
+      "to": "marylucille",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-marylucille"
+      ]
+    },
+    {
+      "from": "mary-eliza-smith",
+      "to": "marylucille",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-marylucille"
+      ]
+    },
+    {
+      "from": "henry-raymond-jamieson",
+      "to": "henry-raymond-jamieson-infant",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-marylucille"
+      ]
+    },
+    {
+      "from": "mary-eliza-smith",
+      "to": "henry-raymond-jamieson-infant",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-marylucille"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "minnie-jane-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "minnie-jane-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "ernest-labar-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "ernest-labar-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "rosella-francina-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "rosella-francina-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "clara-cordelia-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "clara-cordelia-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "archibald-arba-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "archibald-arba-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "theadore-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "theadore-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "glennlambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "glennlambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "infant-lambson-1909",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "rosella-blanchard",
+      "to": "infant-lambson-1909",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "asaph-blanchard",
+      "to": "alma-moroni-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "eunice-elizabeth-thompson",
+      "to": "alma-moroni-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "asaph-blanchard",
+      "to": "jane-elizabeth-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "eunice-elizabeth-thompson",
+      "to": "jane-elizabeth-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "asaph-blanchard",
+      "to": "ether-enoch-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "eunice-elizabeth-thompson",
+      "to": "ether-enoch-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "asaph-blanchard",
+      "to": "junietta-charlotte-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "eunice-elizabeth-thompson",
+      "to": "junietta-charlotte-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "asaph-blanchard",
+      "to": "rosella-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "eunice-elizabeth-thompson",
+      "to": "rosella-blanchard",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-rosella-blanchard"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "drusilla-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "drusilla-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "unnamed-twin-sister-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "unnamed-twin-sister-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "anna-hopkins-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "anna-hopkins-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "apollos-boaz-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "apollos-boaz-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "mary-paulina-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "mary-paulina-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "john-allen-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "john-allen-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "almon-marion-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "elizabeth-bonner",
+      "to": "almon-marion-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "jonathan-thomas-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "sarah-harrington",
+      "to": "jonathan-thomas-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "elizabeth-lillian-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "sarah-harrington",
+      "to": "elizabeth-lillian-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "arba-lambson-jr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "sarah-harrington",
+      "to": "arba-lambson-jr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "albert-edwin-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "sarah-harrington",
+      "to": "albert-edwin-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "daniel-byron-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "sarah-harrington",
+      "to": "daniel-byron-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "thomas-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "thomas-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "mary-marinda-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "mary-marinda-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "lydia-louisa-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "lydia-louisa-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "daniel-burt-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "daniel-burt-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "sarah-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "sarah-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "harriet-elizabeth-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "harriet-elizabeth-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "julia-viola-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "julia-viola-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "ophelia-arthusa-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "ophelia-arthusa-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "orissa-ethelinda-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "orissa-ethelinda-harrington",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "jonathan-cyrus-harrington",
+      "to": "jonathan-cyrus-harrington-jr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "julia-ann-clark",
+      "to": "jonathan-cyrus-harrington-jr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "mary-louisa-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "mary-louisa-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "arba-lambson-sr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "arba-lambson-sr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "alfred-boaz-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "alfred-boaz-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "apollos-walworth-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "apollos-walworth-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "sarah-jane-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "sarah-jane-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "esther-julina-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "esther-julina-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "asenath-margetta-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "asenath-margetta-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "unnamed-twin-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "unnamed-twin-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "edwin-harlow-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "edwin-harlow-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "theodore-wallis-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "theodore-wallis-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "pelina-lodema-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "pelina-lodema-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "james-farley-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "james-farley-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "benjamin-r-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "benjamin-r-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "louis-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "louis-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "john-walworth-1796",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "john-walworth-1796",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "polly-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "polly-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "rev-john-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "rev-john-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "george-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "george-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "horatio-nelson-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "horatio-nelson-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "lanson-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "lanson-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "aseneth-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "aseneth-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "phebe-louisa-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "phebe-louisa-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "alba-lorenzo-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "alba-lorenzo-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "chloe-orilla-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "chloe-orilla-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "james-walworth",
+      "to": "james-farley-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "mary-rogers-walworth",
+      "to": "james-farley-walworth",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "horace-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "horace-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "mary-ruth-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "mary-ruth-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "jesse-lambson-jr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "jesse-lambson-jr",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "japheth-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "japheth-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "boaz-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "boaz-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "apollas-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "apollas-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "arba-lambson-1797",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "arba-lambson-1797",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "orpha-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "orpha-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "sylvia-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ruth-miller",
+      "to": "sylvia-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "elnathan-lambson",
+      "to": "elnathan-lamson-1752",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jane-hayes",
+      "to": "elnathan-lamson-1752",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "elnathan-lambson",
+      "to": "lucy-lamson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jane-hayes",
+      "to": "lucy-lamson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "elnathan-lambson",
+      "to": "jesse-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jane-hayes",
+      "to": "jesse-lambson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "elnathan-lambson",
+      "to": "john-lamson-1757",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jane-hayes",
+      "to": "john-lamson-1757",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "elnathan-lambson",
+      "to": "james-lamson-1758",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jane-hayes",
+      "to": "james-lamson-1758",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "elnathan-lambson",
+      "to": "jane-lamson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "jane-hayes",
+      "to": "jane-lamson",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "dudley-miller-1742",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "dudley-miller-1742",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "aaron-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "aaron-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "samuel-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "samuel-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "sarah-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "sarah-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "mehetable-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "mehetable-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "sabrea-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "sabrea-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "ruth-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "ruth-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "moses-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "moses-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "dudley-miller-1762",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "dudley-miller-1762",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "ichabod-miller",
+      "to": "grant-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "sarah-holcomb",
+      "to": "grant-miller",
+      "type": "Parent",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "glennlambson",
+      "to": "marylucille",
+      "type": "Marriage",
+      "date": "1922-09-11",
+      "place": "salt-lake",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-glennlambson"
+      ]
+    },
+    {
+      "from": "marylucille",
+      "to": "antone-theodore-pedersen",
+      "type": "Marriage",
+      "date": "1937-03-29",
+      "place": "preston",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-marylucille"
+      ]
+    },
+    {
+      "from": "arba-lambson-jr",
+      "to": "rosella-blanchard",
+      "type": "Marriage",
+      "date": "1881-01-13",
+      "place": "springville",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-jr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "elizabeth-bonner",
+      "type": "Marriage",
+      "date": "1836-09-14",
+      "place": "kinderhook",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-arba-lambson-sr"
+      ]
+    },
+    {
+      "from": "arba-lambson-sr",
+      "to": "sarah-harrington",
+      "type": "Marriage",
+      "date": "1854-05-23",
+      "place": "mills-county",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
+    },
+    {
+      "from": "boaz-lambson",
+      "to": "polly-walworth",
+      "type": "Marriage",
+      "date": "1813-12-26",
+      "place": "alabama-ny",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-boaz-lambson"
+      ]
+    },
+    {
+      "from": "polly-walworth",
+      "to": "luther-leander-ward",
+      "type": "Marriage",
+      "date": "1846-11-25",
+      "place": "kinderhook",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-polly-walworth"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "ruth-miller",
+      "type": "Marriage",
+      "estimated": "about 1786",
+      "place": "ridgefield",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-ruth-miller"
+      ]
+    },
+    {
+      "from": "jesse-lambson",
+      "to": "elisabeth-dibble",
+      "type": "Marriage",
+      "date": "1814-02-20",
+      "place": "granville",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-jesse-lambson"
+      ]
+    },
+    {
+      "from": "sarah-harrington",
+      "to": "george-henry-jagger",
+      "type": "Marriage",
+      "estimated": "after 1871",
+      "status": "Documented in FamilySearch",
+      "sources": [
+        "fs-sarah-harrington"
+      ]
     }
   ],
   "places": [
@@ -2945,6 +5653,55 @@
       "region": "Utah",
       "kind": "Area · ranch boundary not established",
       "map": "Little Brush Creek, Uintah County, Utah"
+    },
+    {
+      "id": "preston",
+      "name": "Preston, Idaho",
+      "region": "North America",
+      "kind": "Town",
+      "map": "Preston, Idaho"
+    },
+    {
+      "id": "springville",
+      "name": "Springville, Utah",
+      "region": "Utah",
+      "kind": "Town",
+      "map": "Springville, Utah"
+    },
+    {
+      "id": "kinderhook",
+      "name": "Kinderhook, Michigan",
+      "region": "North America",
+      "kind": "Town",
+      "map": "Kinderhook, Michigan"
+    },
+    {
+      "id": "mills-county",
+      "name": "Mills County, Iowa",
+      "region": "North America",
+      "kind": "County",
+      "map": "Mills County, Iowa"
+    },
+    {
+      "id": "alabama-ny",
+      "name": "Alabama, Genesee County, New York",
+      "region": "North America",
+      "kind": "Town",
+      "map": "Alabama, Genesee County, New York"
+    },
+    {
+      "id": "granville",
+      "name": "Granville, Massachusetts",
+      "region": "North America",
+      "kind": "Town",
+      "map": "Granville, Massachusetts"
+    },
+    {
+      "id": "ridgefield",
+      "name": "Ridgefield, Connecticut",
+      "region": "North America",
+      "kind": "Town",
+      "map": "Ridgefield, Connecticut"
     }
   ],
   "properties": [
