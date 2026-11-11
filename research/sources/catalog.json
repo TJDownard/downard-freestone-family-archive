@@ -14,7 +14,13 @@
   {"id":"brief","title":"Family research brief","type":"Family research","reference":"Research supplied for this edition. Excerpts are labeled where original scans, OCR, or full issue citations are unavailable."},
   {"id":"robert-judy-family","title":"Children of Robert T. Downard and Judy Maurine Freestone","type":"Family record","reference":"The archive owner supplied the five names and identified Robert and Judy as their parents."},
   {"id":"judy-birth","title":"Family record of Judy Maurine Freestone’s birth","type":"Family record","reference":"The archive owner supplied Judy’s birth date and birthplace."},
-  {"id":"fs-thomas","title":"Thomas John Downard’s FamilySearch profile","type":"Compiled genealogy","reference":"FamilySearch KWCB-JH5. The archive owner confirmed the June 26, 1942 marriage date, death at University of Utah Hospital, burial on May 26, 1982 at Vernal Memorial Park Cemetery, and son Glenn’s name on November 10, 2026.","url":"https://ancestors.familysearch.org/en/KWCB-JH5/thomas-john-downard-1921-1982"},
+  {
+      "id": "fs-thomas",
+      "title": "FamilySearch profile · Thomas John Downard",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWCB-JH5. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWCB-JH5/thomas-john-downard-1921-1982"
+    },
   {"id":"robert-todd-funeral","title":"Funeral Services Held for Infant Downard","type":"Newspaper","reference":"Funeral notice supplied by the archive owner as a transcription. It reports Robert Todd Downard’s birth in Vernal on October 1, 1968, death at the Second General Hospital in Landstuhl on June 9, and burial at Vernal Memorial Park Cemetery. The archive owner supplied the death year, 1969. The newspaper title, issue date, and page remain unverified."},
   {"id":"george-obit","title":"George Downard’s obituary","type":"Obituary","reference":"Supplied summary. Newspaper title, issue and page to verify. Reports age 81 and arrival in Price around 1879."},
   {"id":"minnie-license","title":"John L. Downard and Minnie E. Rogers marriage-license notice","type":"Newspaper","publication":"1915-04-29","reference":"Supplied notice dated April 29, 1915. Newspaper title and page to verify. The date is the publication date."},
@@ -120,5 +126,159 @@
     "type": "Compiled genealogy",
     "reference": "FamilySearch LKKM-XVF. Public profile and expanded immediate-family groups reviewed November 10, 2026.",
     "url": "https://ancestors.familysearch.org/en/LKKM-XVF/ruth-miller-1757-1813"
-  }
+  },
+    {
+      "id": "fs-elnathan-lambson",
+      "title": "FamilySearch profile · Elnathan Lambson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch L41J-3CR. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/L41J-3CR/elnathan-lambson-1733-1827"
+    },
+    {
+      "id": "fs-jane-hayes",
+      "title": "FamilySearch profile · Jane Hayes",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LHT5-MFT. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LHT5-MFT/jane-hayes-1733-1761"
+    },
+    {
+      "id": "fs-ebenezer-lamson",
+      "title": "FamilySearch profile · Ebenezer Lamson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LHLT-FQ2. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LHLT-FQ2/ebenezer-lamson-1694-1772"
+    },
+    {
+      "id": "fs-mary-matson",
+      "title": "FamilySearch profile · Mary Matson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LZBP-CXC. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LZBP-CXC/mary-matson-1698-1773"
+    },
+    {
+      "id": "fs-joseph-lamson-jr",
+      "title": "FamilySearch profile · Joseph Lamson Jr.",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LDC8-47B. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LDC8-47B/joseph-lamson-jr-1664-1743"
+    },
+    {
+      "id": "fs-elizabeth-adams",
+      "title": "FamilySearch profile · Elizabeth Adams",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LTPF-H2P. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LTPF-H2P/elizabeth-adams-1665-1710"
+    },
+    {
+      "id": "fs-joseph-lambson",
+      "title": "FamilySearch profile · Joseph Lambson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch MQ74-FCK. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/MQ74-FCK/joseph-lambson-1636"
+    },
+    {
+      "id": "fs-elizabeth-rice",
+      "title": "FamilySearch profile · Elizabeth Rice",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LDC8-4HZ. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LDC8-4HZ/elizabeth-rice-1641-1708"
+    },
+    {
+      "id": "fs-barnabas",
+      "title": "FamilySearch profile · Barnabas Lamson / Lambson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch LDC8-4CX. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/LDC8-4CX/barnabas-lambson-1597-1640"
+    },
+    {
+      "id": "fs-marie",
+      "title": "FamilySearch profile · Marie (Mary) Liggett",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch 9KXN-KCW. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/9KXN-KCW/marie-liggett-1608-1638"
+    },
+    {
+      "id": "fs-walter",
+      "title": "FamilySearch profile · Walter William Downard",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch K2WS-P27. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/K2WS-P27/walter-william-downard-1899-1975"
+    },
+    {
+      "id": "fs-clace",
+      "title": "FamilySearch profile · Clace Sabey",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWZ7-378. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWZ7-378/clace-sabey-1895-1989"
+    },
+    {
+      "id": "fs-john",
+      "title": "FamilySearch profile · John Louis Downard",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWC4-4MZ. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWC4-4MZ/john-louis-downard-1869-1944"
+    },
+    {
+      "id": "fs-angeline",
+      "title": "FamilySearch profile · Angeline Rebecca King",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWC4-4MC. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWC4-4MC/angeline-rebecca-king-1881-1913"
+    },
+    {
+      "id": "fs-george",
+      "title": "FamilySearch profile · George Downard",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWJW-MZG. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWJW-MZG/george-downard-1821-1902"
+    },
+    {
+      "id": "fs-mary",
+      "title": "FamilySearch profile · Mary Emma Carlisle",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWJW-MZR. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWJW-MZR/mary-emma-carlisle-1833-1897"
+    },
+    {
+      "id": "fs-william",
+      "title": "FamilySearch profile · William Downard",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch MRDP-QBL. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/MRDP-QBL/william-downard-1778-1860"
+    },
+    {
+      "id": "fs-kitty",
+      "title": "FamilySearch profile · Catharine “Kitty” Welch",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch L412-W6N. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/L412-W6N/catharine-welch-1785-1856"
+    },
+    {
+      "id": "fs-tom-freestone",
+      "title": "FamilySearch profile · Clyde Thomas Freestone",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWCL-64Y. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWCL-64Y/clyde-thomas-freestone-1923-2010"
+    },
+    {
+      "id": "fs-maurine-peterson",
+      "title": "FamilySearch profile · Maurine Peterson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWCL-64T. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWCL-64T/maurine-peterson-1930-2010"
+    },
+    {
+      "id": "fs-hilmer",
+      "title": "FamilySearch profile · Erik Hilmer Pettersson",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWJJ-NDW. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWJJ-NDW/erik-hilmer-pettersson-1882-1962"
+    },
+    {
+      "id": "fs-mary-alvey",
+      "title": "FamilySearch profile · Mary Alvey",
+      "type": "Compiled genealogy",
+      "reference": "FamilySearch KWJ8-ZCR. Public vital details and immediate-family groups reviewed November 10, 2026. FamilySearch summaries are compiled genealogy; internal contradictions are recorded in the research notebook.",
+      "url": "https://ancestors.familysearch.org/en/KWJ8-ZCR/mary-alvey-1894-1969"
+    }
 ]
