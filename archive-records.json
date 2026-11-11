@@ -353,7 +353,7 @@
     },
     "thomas-freestone": {
       "name": "Thomas Freestone",
-      "dates": "1795–c. 1858",
+      "dates": "1795–1858",
       "branch": "Freestone",
       "spouses": [
         "ann-fall"
@@ -366,13 +366,17 @@
       ],
       "sources": [
         "freestone-pioneers",
-        "brief"
+        "brief",
+        "fs-thomas-freestone",
+        "fs-george-freestone-1760"
       ],
-      "text": "Thomas and Ann appear together in the 1853 Daniel A. Miller and John W. Cooley traveling group. Family accounts connect their earlier route to Suffolk, Prince Edward Island and Iowa."
+      "text": "Born May 19, 1795, in Flixton, Suffolk, England, to George Freestone and Ann Youngman. Married Ann Fall on August 1, 1837, in Crapaud, Prince Edward Island. Their family included eight children. Thomas and Ann traveled to Utah in the 1853 Miller and Cooley company. FamilySearch records his death on July 1, 1858; the precise locality and circumstances remain disputed.",
+      "birth": "May 19, 1795 · Flixton, Suffolk, England",
+      "death": "July 1, 1858 · Utah (locality disputed)"
     },
     "ann-fall": {
       "name": "Ann Fall",
-      "dates": "1812 or 1814–1888",
+      "dates": "1814–1888",
       "branch": "Freestone",
       "spouses": [
         "thomas-freestone"
@@ -385,17 +389,20 @@
       "sources": [
         "freestone-pioneers",
         "brief",
-        "ann-fall-roster"
+        "ann-fall-roster",
+        "fs-ann-fall"
       ],
-      "text": "Ann appears in the 1853 traveling group with Thomas and children including George, James Fall, Elizabeth Ann, Rhoda Francis, Johannah and Emma Sarah Freestone.",
-      "birth": "1812 (pioneer database); 1814 (family account)",
+      "text": "FamilySearch records Ann’s birth as August 7, 1814, in Aldbrough St John, Yorkshire, England. A family sketch calls that date her christening, and the pioneer database gives 1812. She married Thomas Freestone on August 1, 1837, in Crapaud, Prince Edward Island. Their family included eight children. She later married Andrew Hodnett on May 17, 1862, in Salt Lake City. She died December 25, 1888, in Alpine and was buried in Alpine Cemetery.",
+      "birth": "August 7, 1814 · Aldbrough St John, Yorkshire, England",
       "aliases": [
         "Ann Freestone"
-      ]
+      ],
+      "death": "December 25, 1888 · Alpine, Utah",
+      "burial": "Alpine Cemetery, Alpine, Utah"
     },
     "george-freestone": {
       "name": "George Freestone",
-      "dates": "1838–1920 (family dates)",
+      "dates": "1838–1920",
       "branch": "Freestone",
       "parents": [
         "thomas-freestone",
@@ -405,8 +412,8 @@
         "alice-carlisle",
         "jennie-lind"
       ],
-      "birth": "August 13, 1838 · Prince Edward Island (family research)",
-      "death": "August 1920 · Utah (family research)",
+      "birth": "August 13, 1838 · Prince Edward Island, Canada",
+      "death": "August 24, 1920 · Utah (family research)",
       "places": [
         "pei",
         "vernal"
@@ -415,9 +422,11 @@
         "brief",
         "freestone-pioneers",
         "freestone-history",
-        "county"
+        "county",
+        "fs-george-freestone",
+        "fs-ann-fall"
       ],
-      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional. A family history lists four children with Alice Jane Carlisle and eleven with Eraimine Georgine Lind.",
+      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional. A family history lists four children with Alice Jane Carlisle and eleven with Eraimine Georgine Lind. FamilySearch’s current vital dates are August 13, 1838, and August 24, 1920. Its pasted family narrative contains other dates; these remain recorded as discrepancies. He married Alice Carlisle on December 24, 1861, in Alpine and Eraimine Georgine Lind on August 12, 1872, in Salt Lake City.",
       "portrait": {
         "src": "george-freestone-portrait.png",
         "width": 1087,
@@ -467,41 +476,51 @@
       ],
       "sources": [
         "freestone-history",
-        "brief"
+        "brief",
+        "fs-jennie-lind"
       ],
-      "text": "The family account identifies Jennie Lind as George Freestone’s second wife. The supplied research records their marriage in 1872.",
-      "dates": "1855–1936 (family dates)"
+      "text": "Eraimine, known as Jennie, was born March 26, 1855, in Ålborg, Denmark. Married George Freestone on August 12, 1872, in Salt Lake City. Their family group lists eleven children, including Reuben Thomas. She died August 30, 1936, in Vernal. The earlier family narrative gives a different death day; the discrepancy remains in the research notebook.",
+      "dates": "1855–1936",
+      "birth": "March 26, 1855 · Ålborg, Vor Frue, Ålborghus, Denmark",
+      "death": "August 30, 1936 · Vernal, Utah",
+      "burial": "Vernal, Utah"
     },
     "reuben-freestone": {
       "name": "Reuben Thomas Freestone",
       "dates": "1888–1984",
       "branch": "Freestone",
-      "birth": "April 11, 1888",
-      "death": "December 7, 1984",
+      "birth": "April 11, 1888 · Vernal, Utah",
+      "death": "December 7, 1984 · Vernal, Utah",
       "spouses": [
         "adora-batty"
       ],
       "sources": [
         "brief",
-        "freestone-history"
+        "freestone-history",
+        "fs-reuben-freestone",
+        "fs-jennie-lind"
       ],
-      "text": "The family account lists Reuben among the children of George Freestone and Jennie Lind. He married Adora Elvira Batty; they were the parents of Clyde Thomas Freestone.",
+      "text": "Born April 11, 1888, in Vernal, Utah, to George Freestone and Eraimine Georgine Lind. Married Adora Elvira Batty on February 1, 1910, in Vernal. Their children were LeeOra, Ivan Wilson, and Clyde Thomas. He died December 7, 1984, in Vernal and was buried in Vernal Memorial Park.",
       "aliases": [
         "Rueben Thomas Freestone"
-      ]
+      ],
+      "burial": "Vernal Memorial Park, Vernal, Utah"
     },
     "adora-batty": {
       "name": "Adora Elvira Batty",
       "dates": "1891–1984",
       "branch": "Freestone",
-      "birth": "December 9, 1891",
-      "death": "September 20, 1984",
+      "birth": "December 9, 1891 · Wallsburg, Utah",
+      "death": "September 20, 1984 · Vernal, Utah",
       "spouses": [
         "reuben-freestone"
       ],
       "sources": [
-        "brief"
-      ]
+        "brief",
+        "fs-adora-batty"
+      ],
+      "burial": "Vernal, Utah",
+      "text": "Born December 9, 1891, in Wallsburg, Utah, to Miles Marquis Batty and Permelia Emily Bigelow. Married Reuben Thomas Freestone on February 1, 1910, in Vernal. Their children were LeeOra, Ivan Wilson, and Clyde Thomas. She died September 20, 1984, in Vernal."
     },
     "tom-freestone": {
       "name": "Clyde Thomas Freestone",
@@ -608,8 +627,13 @@
         "sweden"
       ],
       "sources": [
-        "brief"
-      ]
+        "brief",
+        "fs-johannes"
+      ],
+      "birth": "May 31, 1846 · Vaksala, Uppsala, Sweden",
+      "death": "October 8, 1911 · Salina, Utah",
+      "burial": "Pioneer Cemetery, Salina, Utah",
+      "text": "Born May 31, 1846, in Vaksala, Uppsala, Sweden, to Per Andersson and Greta Stina Jonsson Jansdotter. Married Ericka Munter on October 18, 1873, in Rasbo. Their family group lists eight children. He died October 8, 1911, in Salina, Utah, and was buried in Pioneer Cemetery."
     },
     "ericka": {
       "name": "Ericka Munter",
@@ -622,8 +646,13 @@
         "sweden"
       ],
       "sources": [
-        "brief"
-      ]
+        "brief",
+        "fs-ericka"
+      ],
+      "birth": "March 24, 1847 · Uppsala, Sweden",
+      "death": "September 6, 1932 · Provo, Utah",
+      "burial": "Pioneer Cemetery, Salina, Utah",
+      "text": "Born March 24, 1847, in Uppsala, Sweden, to Pehr Gustaf Ersson and Ulrika Pehrsdr. Married Johannes Gustaf Pettersson on October 18, 1873, in Rasbo. Their family group lists eight children. She died September 6, 1932, in Provo, Utah, and was buried in Pioneer Cemetery in Salina."
     },
     "hilmer": {
       "name": "Erik Hilmer Pettersson",
@@ -687,9 +716,11 @@
         "ann-fall"
       ],
       "sources": [
-        "freestone-pioneers"
+        "freestone-pioneers",
+        "fs-ann-fall"
       ],
-      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database.",
+      "dates": "1840–1917"
     },
     "elizabeth-ann-freestone": {
       "name": "Elizabeth Ann Freestone",
@@ -699,9 +730,11 @@
         "ann-fall"
       ],
       "sources": [
-        "freestone-pioneers"
+        "freestone-pioneers",
+        "fs-ann-fall"
       ],
-      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database.",
+      "dates": "1842–1898"
     },
     "rhoda-francis-freestone": {
       "name": "Rhoda Francis Freestone",
@@ -711,21 +744,28 @@
         "ann-fall"
       ],
       "sources": [
-        "freestone-pioneers"
+        "freestone-pioneers",
+        "fs-ann-fall"
       ],
-      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database.",
+      "dates": "1844–1924"
     },
     "johannah-freestone": {
-      "name": "Johannah Freestone",
+      "name": "Johanna Freestone",
       "branch": "Freestone",
       "parents": [
         "thomas-freestone",
         "ann-fall"
       ],
       "sources": [
-        "freestone-pioneers"
+        "freestone-pioneers",
+        "fs-ann-fall"
       ],
-      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database.",
+      "aliases": [
+        "Johannah Freestone"
+      ],
+      "dates": "1849–1903"
     },
     "emma-sarah-freestone": {
       "name": "Emma Sarah Freestone",
@@ -735,9 +775,11 @@
         "ann-fall"
       ],
       "sources": [
-        "freestone-pioneers"
+        "freestone-pioneers",
+        "fs-ann-fall"
       ],
-      "text": "Listed in the Freestone traveling group in the 1853 pioneer database."
+      "text": "Listed in the Freestone traveling group in the 1853 pioneer database.",
+      "dates": "1852–1906"
     },
     "david-wilkin": {
       "name": "David Wilkin",
@@ -775,9 +817,10 @@
       "name": "Rhoda Eliza Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-george-freestone"
       ],
-      "dates": "Born 1866",
+      "dates": "1866–1899",
       "aliases": [
         "Rhoda Eliza Reynolds"
       ]
@@ -797,15 +840,17 @@
       "name": "George Oscar Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1873"
+      "dates": "1873–1955"
     },
     "georgiana-maria-freestone": {
       "name": "Georgiana Maria Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "dates": "1875–1879",
       "aliases": [
@@ -816,25 +861,28 @@
       "name": "Rosella Caroline Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1877"
+      "dates": "1877–1955"
     },
     "james-anton-freestone": {
       "name": "James Anton Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1880"
+      "dates": "1880–1960"
     },
     "emma-zina-freestone": {
       "name": "Emma Zina Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1883",
+      "dates": "1883–1935",
       "aliases": [
         "Emma Zina Beers"
       ]
@@ -843,16 +891,18 @@
       "name": "Louis Alonzo Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1885 (family history)"
+      "dates": "1884–1961"
     },
     "emery-lind-freestone": {
       "name": "Emery Lind Freestone",
       "branch": "Freestone",
       "sources": [
         "freestone-history",
-        "emery-freestone-obit"
+        "emery-freestone-obit",
+        "fs-jennie-lind"
       ],
       "dates": "1890–1973",
       "text": "His obituary names George Freestone and Jennie Lind as his parents and lists seven children. Emery and Ida Crouse married in 1928 and later divorced."
@@ -861,27 +911,31 @@
       "name": "Charles Royal Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1893"
+      "dates": "1893–1977"
     },
     "may-afton-freestone": {
       "name": "May Afton Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1895"
+      "dates": "1895–1966"
     },
     "clarence-fall-freestone": {
-      "name": "Clarence Fall Freestone",
+      "name": "Clarence Betts Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
-      "dates": "Born 1898",
+      "dates": "1898–1975",
       "aliases": [
-        "Betts Freestone"
+        "Betts Freestone",
+        "Clarence Fall Freestone"
       ]
     },
     "jeannette-young-wilkin": {
@@ -968,8 +1022,10 @@
       "name": "Emily Vilate Batty",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
-      ]
+        "freestone-history",
+        "fs-adora-batty"
+      ],
+      "dates": "1888–1967"
     },
     "james-warren-beers": {
       "name": "James Warren Beers",
@@ -1020,14 +1076,17 @@
       "branch": "Freestone",
       "sources": [
         "freestone-early-family",
-        "freestone-elizabeth-history"
-      ]
+        "freestone-elizabeth-history",
+        "fs-ann-fall"
+      ],
+      "dates": "1847–1847"
     },
     "jane-marie-freestone": {
       "name": "Jane Marie Freestone",
       "branch": "Freestone",
       "sources": [
-        "freestone-early-family"
+        "freestone-early-family",
+        "fs-ann-fall"
       ],
       "dates": "1855–1936"
     },
@@ -1338,18 +1397,28 @@
       "dates": "1920–1981"
     },
     "jens-christian-anton-lind": {
-      "name": "Jens Christian Anton Lind",
+      "name": "Jens Christian Anthon Lind",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
-      ]
+        "freestone-history",
+        "fs-jennie-lind"
+      ],
+      "aliases": [
+        "Jens Christian Anton Lind"
+      ],
+      "dates": "1822–1878"
     },
     "mary-ann-nielson": {
-      "name": "Mary Ann Nielson",
+      "name": "Mariane Nielsdatter Nørgaard",
       "branch": "Freestone",
       "sources": [
-        "freestone-history"
-      ]
+        "freestone-history",
+        "fs-jennie-lind"
+      ],
+      "aliases": [
+        "Mary Ann Nielson"
+      ],
+      "dates": "1826–1899"
     },
     "melvin-emery-freestone": {
       "name": "Melvin Emery Freestone",
@@ -3687,6 +3756,951 @@
         "existing",
         "fs-mary"
       ]
+    },
+    "per-andersson": {
+      "name": "Per Andersson",
+      "dates": "1796–1866",
+      "branch": "Peterson",
+      "sources": [
+        "fs-per-andersson"
+      ],
+      "birth": "April 21, 1796 · Uppsala, Sweden",
+      "death": "April 1, 1866 · Vaksala, Uppsala, Sweden",
+      "burial": "Rasbo, Uppsala, Sweden",
+      "text": "Born April 21, 1796, in Uppsala, Sweden. Married Greta Stina Jonsson Jansdotter on November 19, 1835, in Vaksala. Their family group lists six children. He died April 1, 1866, in Vaksala and was buried in Rasbo. A second Greta Stina entry attached to his FamilySearch page is under review as a possible duplicate."
+    },
+    "greta-stina-jansdotter": {
+      "name": "Greta Stina Jonsson Jansdotter",
+      "dates": "1812–1857",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ],
+      "birth": "April 4, 1812 · Uppsala, Sweden",
+      "death": "October 10, 1857 · Uppsala, Sweden",
+      "burial": "Rasbo, Uppsala, Sweden",
+      "text": "Born April 4, 1812, in Uppsala, Sweden, to Jan Ersson and Anna Greta Pehrsdotter. Married Per Andersson on November 19, 1835, in Vaksala. Their family group lists six children. She died October 10, 1857, in Uppsala and was buried in Rasbo."
+    },
+    "george-freestone-1760": {
+      "name": "George Freestone",
+      "dates": "1760–1849",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760",
+        "fs-thomas-freestone-1728"
+      ],
+      "birth": "December 10, 1760 · Flixton, Suffolk, England",
+      "death": "March 15, 1849 · Hingham, Norfolk, England",
+      "burial": "Flixton, Suffolk, England",
+      "text": "Born December 10, 1760, in Flixton, Suffolk, England. Married Ann Youngman on November 3, 1789, at St Peter’s Church in St Peter South Elmham. Their family group lists ten children, including Thomas, born in 1795. He died March 15, 1849, in Hingham, Norfolk, and was buried in Flixton."
+    },
+    "ann-youngman": {
+      "name": "Ann Youngman",
+      "dates": "1763–1830",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ],
+      "birth": "November 27, 1763 · Flixton, Suffolk, England",
+      "death": "February 24, 1830 · St Peter South Elmham, Suffolk, England",
+      "burial": "St Mary The Virgin’s Church, Hutton, Somerset, England (FamilySearch; locality under review)",
+      "text": "Born November 27, 1763, in Flixton, Suffolk, England, to Richard Youngman and Elizabeth Ralph. Married George Freestone on November 3, 1789, in St Peter South Elmham. Their family group lists ten children. She died February 24, 1830, in St Peter South Elmham. The burial locality listed by FamilySearch remains under review."
+    },
+    "thomas-freestone-1728": {
+      "name": "Thomas Freestone",
+      "dates": "1728–1812",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ],
+      "birth": "March 1, 1728 · Flixton, Suffolk, England",
+      "death": "March 24, 1812 · South Elmham St Peter, Suffolk, England",
+      "burial": "St Peter South Elmham, Suffolk, England",
+      "text": "Born March 1, 1728, in Flixton, Suffolk, England, to Thomas Freestone and Dorothy Morries. Married Elizabeth Wyatt on January 7, 1753, in St Peter South Elmham. Their family group lists twelve children. He died March 24, 1812, in South Elmham St Peter and was buried there."
+    },
+    "elizabeth-wyatt": {
+      "name": "Elizabeth Wyatt",
+      "dates": "1719–1793",
+      "branch": "Freestone",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ],
+      "birth": "September 13, 1719 · Suffolk, England",
+      "death": "November 13, 1793 · Suffolk, England",
+      "burial": "South Elmham St Peter, Suffolk, England",
+      "text": "Born September 13, 1719, in Suffolk, England, as a daughter of Thomas Wyatt. Married Thomas Freestone on January 7, 1753, in St Peter South Elmham. Their family group lists twelve children. She died November 13, 1793, in Suffolk and was buried in South Elmham St Peter."
+    },
+    "margreta-catharina-pehrsson": {
+      "name": "Margreta Catharina Pehrsson Anderson",
+      "dates": "1836–1837",
+      "branch": "Peterson",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    "maria-christina-pehrsson": {
+      "name": "Maria Christina Pehrsson Anderson",
+      "dates": "1838–1907",
+      "branch": "Peterson",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    "per-erik-persson-eklund": {
+      "name": "Per Erik Persson Eklund",
+      "dates": "1840–1922",
+      "branch": "Peterson",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    "johan-robert-persson": {
+      "name": "Johan Robert Persson",
+      "dates": "1841–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    "josefina-pehrsson": {
+      "name": "Josefina Perhrsson Anderson",
+      "dates": "1856–1857",
+      "branch": "Peterson",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    "johan-erik-munter": {
+      "name": "Johan Erik Munter",
+      "dates": "1851–1919",
+      "branch": "Peterson",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    "gustava-pehrsdotter": {
+      "name": "Gustava Pehrsdotter",
+      "dates": "1861–1861",
+      "branch": "Peterson",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    "cattrina-margreta-andersdotter": {
+      "name": "Cattrina Margreta Andersdotter",
+      "dates": "1799–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    "brita-christina-andersdotter": {
+      "name": "Brita Christina Andersdotter",
+      "dates": "1802–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    "greta-stina-jonsson-1800": {
+      "name": "Greta Stina Jonsson",
+      "dates": "1800–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "anna-caisa-jonsson": {
+      "name": "Anna Caisa Jonsson",
+      "dates": "1802–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "eric-jansson": {
+      "name": "Eric Jansson",
+      "dates": "1804–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "anna-greta-jansdotter": {
+      "name": "Anna Greta Jansdotter",
+      "dates": "1804–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "maria-elisabeth-jonsson": {
+      "name": "Maria Elisabeth Jonsson",
+      "dates": "1806–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "brita-jonsson": {
+      "name": "Brita Jonsson",
+      "dates": "1808–1808",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "jan-petter-jansson": {
+      "name": "Jan Petter Jansson",
+      "dates": "1810–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "carl-gustaf-jansson": {
+      "name": "Carl Gustaf Jansson",
+      "dates": "1811–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "anders-jonsson": {
+      "name": "Anders Jonsson",
+      "dates": "1812–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "brita-stina-jonsson": {
+      "name": "Brita Stina Jonsson",
+      "dates": "1814–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "eva-brita-jonsson": {
+      "name": "Eva Brita Jonsson",
+      "dates": "1815–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "anna-jonsson": {
+      "name": "Anna Jonsson",
+      "dates": "1816–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "jan-petter-jonsson": {
+      "name": "Jan Petter Jonsson",
+      "dates": "1821–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "carl-jonsson": {
+      "name": "Carl Jonsson",
+      "dates": "1821–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "permelia-henrietta-batty": {
+      "name": "Permelia Henrietta Batty",
+      "dates": "1887–1891",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "zina-batty": {
+      "name": "Zina Batty",
+      "dates": "1890–1962",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "may-batty": {
+      "name": "May Batty",
+      "dates": "1893–1894",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "celestia-batty": {
+      "name": "Celestia Batty",
+      "dates": "1895–1986",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "marquis-ivan-batty": {
+      "name": "Marquis Ivan Batty",
+      "dates": "1896–1989",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "mary-belle-batty": {
+      "name": "Mary Belle Batty",
+      "dates": "1898–1986",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "daniel-vern-batty": {
+      "name": "Daniel Vern Batty",
+      "dates": "1900–1992",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "albert-don-batty": {
+      "name": "Albert Don Batty",
+      "dates": "1902–1973",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "laura-batty": {
+      "name": "Laura Batty",
+      "dates": "1904–1905",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "dorothy-batty": {
+      "name": "Dorothy Batty",
+      "dates": "1912–1913",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "paul-miles-batty": {
+      "name": "Paul Miles Batty",
+      "dates": "1915–2005",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "larsina-marie-lind": {
+      "name": "Larsina Marie Lind",
+      "dates": "1849–1849",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "niels-peter-lind": {
+      "name": "Niels Peter Lind",
+      "dates": "1850–1850",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "maria-magdalena-lind": {
+      "name": "Maria Magdalena Lind",
+      "dates": "1851–1933",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "jensina-katrina-lind": {
+      "name": "Jensina Katrina Lind",
+      "dates": "1853–1929",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "caroline-henrietta-lind": {
+      "name": "Caroline Henrietta Lind",
+      "dates": "1857–1906",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "jens-christian-anton-lind-1860": {
+      "name": "Jens Christian Anton Lind",
+      "dates": "1860–1861",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "george-christian-lind": {
+      "name": "George Christian Lind",
+      "dates": "1863–1944",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "louis-peter-lind": {
+      "name": "Louis Peter Lind",
+      "dates": "1863–1944",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "niels-marinus-lind": {
+      "name": "Niels Marinus Lind",
+      "dates": "1867–1868",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "marian-christina-lind": {
+      "name": "Marian Christina Lind",
+      "dates": "1870–1946",
+      "branch": "Freestone",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    "george-hodnett": {
+      "name": "George Hodnett",
+      "dates": "1861–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "mary-fall": {
+      "name": "Mary Fall",
+      "dates": "1812–1812",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "john-fallas": {
+      "name": "John Fallas",
+      "dates": "1812–1834",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "thomas-fall": {
+      "name": "Thomas Fall",
+      "dates": "1816–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "george-fall": {
+      "name": "George Fall",
+      "dates": "1817–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "james-fall-jr": {
+      "name": "James Fall Jr.",
+      "dates": "1820–1895",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "charlotte-fall": {
+      "name": "Charlotte Fall",
+      "dates": "Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "lydia-freestone-1790": {
+      "name": "Lydia Freestone",
+      "dates": "1790–1803",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "george-freestone-1791": {
+      "name": "George Freestone",
+      "dates": "1791–1852",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "ann-freestone-1793": {
+      "name": "Ann Freestone",
+      "dates": "1793–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "james-freestone-1796": {
+      "name": "James Freestone",
+      "dates": "1796–1881",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "mary-freestone-1798": {
+      "name": "Mary Freestone",
+      "dates": "1798–1886",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "john-freestone-1800": {
+      "name": "John Freestone",
+      "dates": "1800–1870",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "rhoda-freestone-1802": {
+      "name": "Rhoda Freestone",
+      "dates": "1802–1803",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "rhoda-freestone-1804": {
+      "name": "Rhoda Freestone",
+      "dates": "1804–1885",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "henry-freestone-1806": {
+      "name": "Henry Freestone",
+      "dates": "1806–1807",
+      "branch": "Freestone",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    "thomas-freestone-1753": {
+      "name": "Thomas Freestone",
+      "dates": "1753–1800",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "elizabeth-freestone-1754": {
+      "name": "Elizabeth Freestone",
+      "dates": "1754–1754",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "john-freestone-1755": {
+      "name": "John Freestone",
+      "dates": "1755–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "elizabeth-freestone-1756": {
+      "name": "Elizabeth Freestone",
+      "dates": "1756–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "henry-george-freestone-1763": {
+      "name": "Henry George Freestone",
+      "dates": "1763–1763",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "mary-freestone-1763": {
+      "name": "Mary Freestone",
+      "dates": "1763–1843",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "abraham-freestone-1765": {
+      "name": "Abraham Freestone",
+      "dates": "1765–1765",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "jacob-freestone-1765": {
+      "name": "Jacob Freestone",
+      "dates": "1765–1849",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "abraham-freestone-1768": {
+      "name": "Abraham Freestone",
+      "dates": "1768–1853",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "alice-freestone-1769": {
+      "name": "Alice Freestone",
+      "dates": "1769–1769",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "isaac-freestone-1770": {
+      "name": "Isaac Freestone",
+      "dates": "1770–1852",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "richard-youngman-jr": {
+      "name": "Richard Youngman",
+      "dates": "1757–1822",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "john-youngman": {
+      "name": "John Youngman",
+      "dates": "1761–1799",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "daniel-youngman": {
+      "name": "Daniel Youngman",
+      "dates": "1767–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "james-youngman": {
+      "name": "James Youngman",
+      "dates": "1768–1790",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "lydia-youngman": {
+      "name": "Lydia Youngman",
+      "dates": "1771–1794",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "hannah-youngman": {
+      "name": "Hannah Youngman",
+      "dates": "1773–1791",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "thomas-youngman-1775": {
+      "name": "Thomas Youngman",
+      "dates": "1775–1849",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "susan-youngman": {
+      "name": "Susan Youngman",
+      "dates": "1779–1802",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "elizabeth-youngman": {
+      "name": "Elizabeth Youngman",
+      "dates": "1781–1794",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "thomas-youngman-1781": {
+      "name": "Thomas Youngman",
+      "dates": "1781–1857",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "sarah-youngman": {
+      "name": "Sarah Youngman",
+      "dates": "1783–1854",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "john-freestone-1714": {
+      "name": "John Freestone",
+      "dates": "1714–1783",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "sarah-freestone-1716": {
+      "name": "Sarah Freestone",
+      "dates": "1716–1785",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "elizabeth-freestone-1718": {
+      "name": "Elizabeth Freestone",
+      "dates": "1718–1720",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "mary-freestone-1719": {
+      "name": "Mary Freestone",
+      "dates": "1719–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "anthony-freestone-1720": {
+      "name": "Anthony Freestone",
+      "dates": "1720–1783",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "solomon-freestone-1723": {
+      "name": "Solomon Freestone",
+      "dates": "1723–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "elizabeth-freestone-1725": {
+      "name": "Elizabeth Freestone",
+      "dates": "1725–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "henry-freestone-1727": {
+      "name": "Henry Freestone",
+      "dates": "1727–1728",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "margaret-wyatt": {
+      "name": "Margaret Wyatt",
+      "dates": "1719–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    "ann-wyatt": {
+      "name": "Ann Wyatt",
+      "dates": "1729–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    "thomas-wyatt-jr": {
+      "name": "Thomas Wyatt",
+      "dates": "1732–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    "pehr-gustaf-ersson": {
+      "name": "Pehr Gustaf Ersson",
+      "dates": "1821–1895",
+      "branch": "Peterson",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    "ulrika-pehrsdr": {
+      "name": "Ulrika Pehrsdr",
+      "dates": "1820–1910",
+      "branch": "Peterson",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    "anders-persson": {
+      "name": "Anders Persson",
+      "dates": "1768–1841",
+      "branch": "Peterson",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    "anna-caisa-zacrisdotter": {
+      "name": "Anna Caisa Zacrisdotter",
+      "dates": "1763–1834",
+      "branch": "Peterson",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    "jan-ersson": {
+      "name": "Jan Ersson",
+      "dates": "1778–Deceased",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "anna-greta-pehrsdotter": {
+      "name": "Anna Greta Pehrsdotter",
+      "dates": "1782–1858",
+      "branch": "Peterson",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    "miles-marquis-batty": {
+      "name": "Miles Marquis Batty",
+      "dates": "1865–1934",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "permelia-emily-bigelow": {
+      "name": "Permelia Emily Bigelow",
+      "dates": "1867–1953",
+      "branch": "Freestone",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    "andrew-hodnett": {
+      "name": "Andrew Hodnett",
+      "dates": "1816–1894",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "james-fall": {
+      "name": "James Fall",
+      "dates": "1776–1870",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "elizabeth-rowston": {
+      "name": "Elizabeth Rowston",
+      "dates": "1780–1841",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    "richard-youngman": {
+      "name": "Richard Youngman",
+      "dates": "1736–1794",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "elizabeth-ralph": {
+      "name": "Elizabeth Ralph",
+      "dates": "1735–1823",
+      "branch": "Freestone",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    "thomas-freestone-1694": {
+      "name": "Thomas Freestone",
+      "dates": "1694–1773",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "dorothy-morries": {
+      "name": "Dorothy Morries",
+      "dates": "1691–1770",
+      "branch": "Freestone",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    "thomas-wyatt": {
+      "name": "Thomas Wyatt",
+      "dates": "1693–Deceased",
+      "branch": "Freestone",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
     }
   },
   "relationships": [
@@ -3823,11 +4837,13 @@
       "from": "reuben-freestone",
       "to": "adora-batty",
       "type": "Marriage",
-      "date": "1910",
+      "date": "1910-02-01",
       "status": "Family record",
       "sources": [
-        "brief"
-      ]
+        "brief",
+        "fs-reuben-freestone"
+      ],
+      "place": "vernal"
     },
     {
       "from": "tom-freestone",
@@ -3846,20 +4862,24 @@
       "to": "alice-carlisle",
       "type": "Marriage",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-george-freestone"
       ],
       "status": "Documented in family history",
-      "date": "1861-12-24"
+      "date": "1861-12-24",
+      "place": "alpine"
     },
     {
       "from": "george-freestone",
       "to": "jennie-lind",
       "type": "Marriage",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history",
-      "date": "1872"
+      "date": "1872-08-12",
+      "place": "salt-lake"
     },
     {
       "from": "david-wilkin",
@@ -3947,7 +4967,8 @@
       "to": "george-oscar-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -3956,7 +4977,8 @@
       "to": "george-oscar-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -3965,7 +4987,8 @@
       "to": "georgiana-maria-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -3974,7 +4997,8 @@
       "to": "georgiana-maria-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -3983,7 +5007,8 @@
       "to": "rosella-caroline-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -3992,7 +5017,8 @@
       "to": "rosella-caroline-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4001,7 +5027,8 @@
       "to": "james-anton-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4010,7 +5037,8 @@
       "to": "james-anton-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4019,7 +5047,8 @@
       "to": "emma-zina-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4028,7 +5057,8 @@
       "to": "emma-zina-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4037,7 +5067,8 @@
       "to": "louis-alonzo-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4046,7 +5077,8 @@
       "to": "louis-alonzo-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4055,7 +5087,8 @@
       "to": "reuben-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4064,7 +5097,8 @@
       "to": "reuben-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4073,7 +5107,8 @@
       "to": "emery-lind-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4082,7 +5117,8 @@
       "to": "emery-lind-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4091,7 +5127,8 @@
       "to": "charles-royal-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4100,7 +5137,8 @@
       "to": "charles-royal-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4109,7 +5147,8 @@
       "to": "may-afton-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4118,7 +5157,8 @@
       "to": "may-afton-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4127,7 +5167,8 @@
       "to": "clarence-fall-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4136,7 +5177,8 @@
       "to": "clarence-fall-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ],
       "status": "Documented in family history"
     },
@@ -4363,7 +5405,8 @@
       "to": "phoebe-ellen-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-early-family"
+        "freestone-early-family",
+        "fs-ann-fall"
       ],
       "status": "Compiled family record"
     },
@@ -4372,7 +5415,8 @@
       "to": "phoebe-ellen-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-early-family"
+        "freestone-early-family",
+        "fs-ann-fall"
       ],
       "status": "Compiled family record"
     },
@@ -4381,7 +5425,8 @@
       "to": "jane-marie-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-early-family"
+        "freestone-early-family",
+        "fs-ann-fall"
       ],
       "status": "Compiled family record"
     },
@@ -4390,7 +5435,8 @@
       "to": "jane-marie-freestone",
       "type": "Parent",
       "sources": [
-        "freestone-early-family"
+        "freestone-early-family",
+        "fs-ann-fall"
       ],
       "status": "Compiled family record"
     },
@@ -5123,7 +6169,8 @@
       "type": "Parent",
       "status": "Documented in family history",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ]
     },
     {
@@ -5132,7 +6179,8 @@
       "type": "Parent",
       "status": "Documented in family history",
       "sources": [
-        "freestone-history"
+        "freestone-history",
+        "fs-jennie-lind"
       ]
     },
     {
@@ -9448,6 +10496,2034 @@
       "sources": [
         "fs-marie"
       ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "margreta-catharina-pehrsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "greta-stina-jansdotter",
+      "to": "margreta-catharina-pehrsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "maria-christina-pehrsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "greta-stina-jansdotter",
+      "to": "maria-christina-pehrsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "per-erik-persson-eklund",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "greta-stina-jansdotter",
+      "to": "per-erik-persson-eklund",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "johan-robert-persson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "greta-stina-jansdotter",
+      "to": "johan-robert-persson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "johannes",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "greta-stina-jansdotter",
+      "to": "johannes",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "josefina-pehrsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "greta-stina-jansdotter",
+      "to": "josefina-pehrsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "pehr-gustaf-ersson",
+      "to": "ericka",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    {
+      "from": "ulrika-pehrsdr",
+      "to": "ericka",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    {
+      "from": "pehr-gustaf-ersson",
+      "to": "johan-erik-munter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    {
+      "from": "ulrika-pehrsdr",
+      "to": "johan-erik-munter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    {
+      "from": "pehr-gustaf-ersson",
+      "to": "gustava-pehrsdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    {
+      "from": "ulrika-pehrsdr",
+      "to": "gustava-pehrsdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ericka"
+      ]
+    },
+    {
+      "from": "anders-persson",
+      "to": "per-andersson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    {
+      "from": "anna-caisa-zacrisdotter",
+      "to": "per-andersson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    {
+      "from": "anders-persson",
+      "to": "cattrina-margreta-andersdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    {
+      "from": "anna-caisa-zacrisdotter",
+      "to": "cattrina-margreta-andersdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    {
+      "from": "anders-persson",
+      "to": "brita-christina-andersdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    {
+      "from": "anna-caisa-zacrisdotter",
+      "to": "brita-christina-andersdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-per-andersson"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "greta-stina-jonsson-1800",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "greta-stina-jonsson-1800",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "anna-caisa-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "anna-caisa-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "eric-jansson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "eric-jansson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "anna-greta-jansdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "anna-greta-jansdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "maria-elisabeth-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "maria-elisabeth-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "brita-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "brita-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "jan-petter-jansson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "jan-petter-jansson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "carl-gustaf-jansson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "carl-gustaf-jansson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "greta-stina-jansdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "greta-stina-jansdotter",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "anders-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "anders-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "brita-stina-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "brita-stina-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "eva-brita-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "eva-brita-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "anna-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "anna-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "jan-petter-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "jan-petter-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "jan-ersson",
+      "to": "carl-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "anna-greta-pehrsdotter",
+      "to": "carl-jonsson",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "permelia-henrietta-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "permelia-henrietta-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "emily-vilate-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "emily-vilate-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "zina-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "zina-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "adora-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "adora-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "may-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "may-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "celestia-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "celestia-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "marquis-ivan-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "marquis-ivan-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "mary-belle-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "mary-belle-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "daniel-vern-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "daniel-vern-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "albert-don-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "albert-don-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "laura-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "laura-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "dorothy-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "dorothy-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "miles-marquis-batty",
+      "to": "paul-miles-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "permelia-emily-bigelow",
+      "to": "paul-miles-batty",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-adora-batty"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "larsina-marie-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "larsina-marie-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "niels-peter-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "niels-peter-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "maria-magdalena-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "maria-magdalena-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "jensina-katrina-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "jensina-katrina-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "caroline-henrietta-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "caroline-henrietta-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "jens-christian-anton-lind-1860",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "jens-christian-anton-lind-1860",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "george-christian-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "george-christian-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "louis-peter-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "louis-peter-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "niels-marinus-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "niels-marinus-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "jens-christian-anton-lind",
+      "to": "marian-christina-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "mary-ann-nielson",
+      "to": "marian-christina-lind",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-jennie-lind"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "george-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "george-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "james-fall-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "james-fall-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "elizabeth-ann-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "elizabeth-ann-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "rhoda-francis-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "rhoda-francis-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "johannah-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "johannah-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "emma-sarah-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "emma-sarah-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "andrew-hodnett",
+      "to": "george-hodnett",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "ann-fall",
+      "to": "george-hodnett",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "mary-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "mary-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "john-fallas",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "john-fallas",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "ann-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "ann-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "thomas-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "thomas-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "george-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "george-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "james-fall-jr",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "james-fall-jr",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "james-fall",
+      "to": "charlotte-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "elizabeth-rowston",
+      "to": "charlotte-fall",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "lydia-freestone-1790",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "lydia-freestone-1790",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "george-freestone-1791",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "george-freestone-1791",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "ann-freestone-1793",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "ann-freestone-1793",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "thomas-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "thomas-freestone",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "james-freestone-1796",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "james-freestone-1796",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "mary-freestone-1798",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "mary-freestone-1798",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "john-freestone-1800",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "john-freestone-1800",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "rhoda-freestone-1802",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "rhoda-freestone-1802",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "rhoda-freestone-1804",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "rhoda-freestone-1804",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "henry-freestone-1806",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "ann-youngman",
+      "to": "henry-freestone-1806",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "thomas-freestone-1753",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "thomas-freestone-1753",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "elizabeth-freestone-1754",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "elizabeth-freestone-1754",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "john-freestone-1755",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "john-freestone-1755",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "elizabeth-freestone-1756",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "elizabeth-freestone-1756",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "george-freestone-1760",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "george-freestone-1760",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "henry-george-freestone-1763",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "henry-george-freestone-1763",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "mary-freestone-1763",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "mary-freestone-1763",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "abraham-freestone-1765",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "abraham-freestone-1765",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "jacob-freestone-1765",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "jacob-freestone-1765",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "abraham-freestone-1768",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "abraham-freestone-1768",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "alice-freestone-1769",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "alice-freestone-1769",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "isaac-freestone-1770",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "elizabeth-wyatt",
+      "to": "isaac-freestone-1770",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "richard-youngman-jr",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "richard-youngman-jr",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "john-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "john-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "ann-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "ann-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "daniel-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "daniel-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "james-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "james-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "lydia-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "lydia-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "hannah-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "hannah-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "thomas-youngman-1775",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "thomas-youngman-1775",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "susan-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "susan-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "elizabeth-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "elizabeth-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "thomas-youngman-1781",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "thomas-youngman-1781",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "richard-youngman",
+      "to": "sarah-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "elizabeth-ralph",
+      "to": "sarah-youngman",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-youngman"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "john-freestone-1714",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "john-freestone-1714",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "sarah-freestone-1716",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "sarah-freestone-1716",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "elizabeth-freestone-1718",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "elizabeth-freestone-1718",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "mary-freestone-1719",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "mary-freestone-1719",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "anthony-freestone-1720",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "anthony-freestone-1720",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "solomon-freestone-1723",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "solomon-freestone-1723",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "elizabeth-freestone-1725",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "elizabeth-freestone-1725",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "henry-freestone-1727",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "henry-freestone-1727",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1694",
+      "to": "thomas-freestone-1728",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "dorothy-morries",
+      "to": "thomas-freestone-1728",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ]
+    },
+    {
+      "from": "thomas-wyatt",
+      "to": "margaret-wyatt",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    {
+      "from": "thomas-wyatt",
+      "to": "elizabeth-wyatt",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    {
+      "from": "thomas-wyatt",
+      "to": "ann-wyatt",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    {
+      "from": "thomas-wyatt",
+      "to": "thomas-wyatt-jr",
+      "type": "Parent",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
+    },
+    {
+      "from": "johannes",
+      "to": "ericka",
+      "type": "Marriage",
+      "place": "rasbo",
+      "date": "1873-10-18",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-johannes"
+      ]
+    },
+    {
+      "from": "per-andersson",
+      "to": "greta-stina-jansdotter",
+      "type": "Marriage",
+      "place": "vaksala",
+      "date": "1835-11-19",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-greta-stina-jansdotter"
+      ]
+    },
+    {
+      "from": "thomas-freestone",
+      "to": "ann-fall",
+      "type": "Marriage",
+      "place": "crapaud",
+      "date": "1837-08-01",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "andrew-hodnett",
+      "to": "ann-fall",
+      "type": "Marriage",
+      "place": "salt-lake",
+      "date": "1862-05-17",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-ann-fall"
+      ]
+    },
+    {
+      "from": "george-freestone-1760",
+      "to": "ann-youngman",
+      "type": "Marriage",
+      "place": "st-peter-south-elmham",
+      "date": "1789-11-03",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-george-freestone-1760"
+      ]
+    },
+    {
+      "from": "thomas-freestone-1728",
+      "to": "elizabeth-wyatt",
+      "type": "Marriage",
+      "place": "st-peter-south-elmham",
+      "date": "1753-01-07",
+      "status": "Reported by FamilySearch",
+      "sources": [
+        "fs-elizabeth-wyatt"
+      ]
     }
   ],
   "places": [
@@ -9708,6 +12784,41 @@
       "region": "Utah",
       "kind": "Town",
       "map": "Manti, Utah"
+    },
+    {
+      "id": "rasbo",
+      "name": "Rasbo, Uppsala, Sweden",
+      "region": "Sweden",
+      "kind": "Town",
+      "map": "Rasbo, Uppsala, Sweden"
+    },
+    {
+      "id": "vaksala",
+      "name": "Vaksala, Uppsala, Sweden",
+      "region": "Sweden",
+      "kind": "Town",
+      "map": "Vaksala, Uppsala, Sweden"
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine, Utah",
+      "region": "Utah",
+      "kind": "Town",
+      "map": "Alpine, Utah"
+    },
+    {
+      "id": "crapaud",
+      "name": "Crapaud, Queens, Prince Edward Island, Canada",
+      "region": "North America",
+      "kind": "Town",
+      "map": "Crapaud, Queens, Prince Edward Island, Canada"
+    },
+    {
+      "id": "st-peter-south-elmham",
+      "name": "St Peter’s Church, St Peter South Elmham, Suffolk, England",
+      "region": "England",
+      "kind": "Church",
+      "map": "St Peter’s Church, St Peter South Elmham, Suffolk, England"
     }
   ],
   "properties": [
@@ -10403,7 +13514,17 @@
         "ann-fall-roster",
         "freestone-history",
         "tom-obit",
-        "county"
+        "county",
+        "fs-thomas-freestone",
+        "fs-ann-fall",
+        "fs-george-freestone",
+        "fs-jennie-lind",
+        "fs-reuben-freestone",
+        "fs-adora-batty",
+        "fs-george-freestone-1760",
+        "fs-ann-youngman",
+        "fs-thomas-freestone-1728",
+        "fs-elizabeth-wyatt"
       ],
       "body": [
         "From distant beginnings to the people who made a place their own."
@@ -10415,12 +13536,12 @@
           "navLabel": "Thomas",
           "title": "Chapter One — Before the Mountains",
           "subtitle": "Thomas Freestone. A life in England.",
-          "period": "1795–c. 1858",
+          "period": "1795–1858",
           "body": [
             "Every family story begins somewhere before anyone thinks to call it history.",
-            "For the Freestones, one of those beginnings belongs to Thomas Freestone, born in England in 1795. His life unfolded in a world that would have been almost unrecognizable to the generations that followed: a country transformed by industry, by movement, and by the growing possibility that ordinary families might someday build lives far from the places where they were born.",
-            "Thomas and Ann Fall belong to the earliest generations we can presently trace along this line. The pioneer database gives Ann’s birth year as 1812, while family records give 1814. Their names survive in the family record, even as the smaller details of their daily lives remain to be discovered.",
-            "We do not yet know enough to describe their home, their occupations, or the circumstances of their marriage with confidence. But we know something that matters: their family continued.",
+            "Thomas Freestone was born on May 19, 1795, in Flixton, Suffolk, England, to George Freestone and Ann Youngman. The family line now reaches back through George (1760–1849) to Thomas Freestone (1728–1812) and Elizabeth Wyatt (1719–1793).",
+            "Thomas married Ann Fall on August 1, 1837, in Crapaud, Prince Edward Island. FamilySearch gives her birth as August 7, 1814, while the pioneer database gives 1812 and a family sketch identifies the 1814 date as her christening. These differences remain in the research notebook.",
+            "The family group lists eight children. After Thomas’s death, recorded by FamilySearch as July 1, 1858, Ann married Andrew Hodnett in 1862. Thomas’s exact death locality and burial remain unsettled. Ann died December 25, 1888, in Alpine, Utah.",
             "Their son George Freestone would carry the name into another generation. Family accounts trace the Freestones through Suffolk, Prince Edward Island, and the American Midwest. In 1853, the pioneer database records Thomas, Ann, and six children in the Daniel A. Miller and John W. Cooley wagon company.",
             "History remembers the famous. Families remember the people who made everyone else possible."
           ]
@@ -10430,12 +13551,12 @@
           "navLabel": "George",
           "title": "Chapter Two — A Family Takes Shape",
           "subtitle": "George Freestone. The generations between.",
-          "period": "1838–1920 (family dates)",
+          "period": "1838–1920",
           "body": [
-            "The family account places George Freestone’s birth on Prince Edward Island in 1838, during the early years of Queen Victoria’s reign.",
+            "George Freestone was born on August 13, 1838, on Prince Edward Island. FamilySearch’s current death date is August 24, 1920. Conflicting dates in its attached family narrative remain in the research notebook.",
             "He lived long enough to see the world transformed. Railways connected distant places. Steamships shortened ocean voyages. Entire communities left Europe in search of new opportunities.",
-            "George’s own family history includes more than one marriage. Among the women connected to his life were Alice Carlisle and, later, Eraimine Georgine Lind, known as Jennie.",
-            "Jennie, born in 1855, would become the mother of Reuben Thomas Freestone.",
+            "George married Alice Carlisle on December 24, 1861, in Alpine, Utah, and Eraimine Georgine Lind, known as Jennie, on August 12, 1872, in Salt Lake City. The two family groups list four and eleven children respectively.",
+            "Jennie was born March 26, 1855, in Ålborg, Denmark, and died August 30, 1936, in Vernal, Utah. She was the mother of Reuben Thomas Freestone.",
             "The years separating George’s birth from Reuben’s tell a story larger than any single person. The family was moving toward a new century, and the world in which its children would grow up would look very different from the one George had known.",
             "Yet family history is not simply a record of change. It is also a record of continuity.",
             "Names were passed down. Children were raised. Relationships connected one generation to the next.",
@@ -10449,13 +13570,13 @@
           "subtitle": "Reuben Thomas Freestone. Building a life.",
           "period": "1888–1984",
           "body": [
-            "Reuben Thomas Freestone was born in 1888.",
+            "Reuben Thomas Freestone was born on April 11, 1888, in Vernal, Utah.",
             "He would live through nearly a century of American history: the arrival of the automobile, two world wars, the Great Depression, the space age, and a world increasingly connected by technology.",
             "But the most important events in a family history are not always the ones found in history books.",
-            "Reuben married Adora Elvira Batty, born in 1891. Together, they became the next generation in the Freestone family line.",
+            "Reuben married Adora Elvira Batty on February 1, 1910, in Vernal. Adora was born December 9, 1891, in Wallsburg, Utah. Their children were LeeOra, Ivan Wilson, and Clyde Thomas Freestone.",
             "Their son Clyde Thomas Freestone was born on November 25, 1923.",
             "The family’s history in the American West provides an important setting for this generation. Ranching and rural life would become particularly significant in the story of Clyde Thomas, although the precise occupations and residences of Reuben and Adora still deserve further documentation.",
-            "Reuben and Adora both died in 1984.",
+            "Adora died September 20, 1984, and Reuben died December 7, 1984, both in Vernal.",
             "They lived long enough to see their son return from a world war, build a family, and enter the later chapters of his own life.",
             "Between the generations, history is carried not only in names and dates, but in the ordinary work of raising a family."
           ]
@@ -10576,10 +13697,15 @@
       "status": "Conflicting",
       "sources": [
         "peterson-letter",
-        "brief"
+        "brief",
+        "fs-johannes",
+        "fs-ericka",
+        "fs-per-andersson",
+        "fs-greta-stina-jansdotter"
       ],
       "body": [
         "The family records preserve both Pettersson and Peterson for Hilmer. A 1959 letter recalls his arrival as a boy and a stay with the Anderson family before his parents arrived. Other family accounts suggest a later arrival. Swedish parish records, census entries and passenger lists remain research targets.",
+        "Johannes Gustaf Pettersson was born May 31, 1846, in Vaksala, Sweden, to Per Andersson and Greta Stina Jonsson Jansdotter. He married Ericka Munter in Rasbo on October 18, 1873. Their eight children included Hilmer. Johannes died October 8, 1911, in Salina, Utah; Ericka died September 6, 1932, in Provo. Both were buried in Pioneer Cemetery in Salina.",
         "The family tree connects the Peterson and Freestone branches through Maurine’s marriage to Tom Freestone in 1947."
       ],
       "related": "research.html#peterson-immigration"
