@@ -474,5 +474,103 @@
         "lambson"
       ],
       "status": "Research in progress"
+    },
+    {
+      "id": "per-greta-duplicate",
+      "title": "Possible duplicate Greta Stina spouse entries",
+      "branch": "Peterson",
+      "people": [
+        "per-andersson",
+        "greta-stina-jansdotter"
+      ],
+      "detail": "Per’s FamilySearch page attaches both Greta Stina Jonsson Jansdotter and Greta Stina Klang with 1812–1857 dates and the same November 19, 1835 marriage. Both groups include the same Per Erik Persson Eklund. The archive uses the requested LC8B-5TD profile and its six-child group. A second wife and a duplicate child have not been created.",
+      "next": "Compare Swedish parish marriage and household records before deciding whether the two profiles represent one person.",
+      "sources": [
+        "fs-per-andersson",
+        "fs-greta-stina-jansdotter"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "george-jennie-vital-dates",
+      "title": "George and Jennie’s conflicting narrative dates",
+      "branch": "Freestone",
+      "people": [
+        "george-freestone",
+        "jennie-lind",
+        "louis-alonzo-freestone",
+        "clarence-fall-freestone"
+      ],
+      "detail": "The current FamilySearch profile dates are August 13, 1838–August 24, 1920 for George and March 26, 1855–August 30, 1936 for Jennie. George’s long family narrative also gives August 18, 1838, an 1837 blessing transcription, August 20, 1920 and August 10, 1936. Its Alice marriage says December 25, while the structured group says December 24, 1861. The archive follows the main profile and structured marriage dates, preserving the other claims here. The family cards give Louis Alonzo’s birth as 1884 rather than the earlier 1885 and name Clarence Betts rather than Clarence Fall. Stable person IDs and former name aliases are retained. George’s Utah death locality remains only broadly established in the earlier family research.",
+      "next": "Compare the original birth, marriage, death and burial records; do not treat the narrative’s conflicting dates as separate people.",
+      "sources": [
+        "fs-george-freestone",
+        "fs-jennie-lind",
+        "freestone-history"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "ann-fall-birth",
+      "title": "Ann Fall’s birth year and christening date",
+      "branch": "Freestone",
+      "people": [
+        "ann-fall"
+      ],
+      "detail": "FamilySearch’s current birth date is August 7, 1814. The sketch on Thomas’s page calls August 7, 1814 a christening, while the pioneer database gives 1812. The current display follows FamilySearch as requested and keeps both earlier interpretations here.",
+      "next": "Inspect the parish register to distinguish baptism from birth.",
+      "sources": [
+        "fs-ann-fall",
+        "fs-thomas-freestone",
+        "ann-fall-roster"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "thomas-freestone-death",
+      "title": "Thomas Freestone’s death date and locality",
+      "branch": "Freestone",
+      "people": [
+        "thomas-freestone"
+      ],
+      "detail": "FamilySearch’s current vital heading gives July 1, 1858. The attached family sketches describe departure in July and different southern Utah localities, including the Parowan area and a Santa Clara account. His burial place is not established. The archive records the profile date and Utah without choosing a precise locality or repeating unverified circumstances as settled fact.",
+      "next": "Compare the original contemporary correspondence and any death or burial evidence.",
+      "sources": [
+        "fs-thomas-freestone",
+        "brief"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "ann-youngman-burial",
+      "title": "Ann Youngman’s burial locality",
+      "branch": "Freestone",
+      "people": [
+        "ann-youngman",
+        "george-freestone-1760"
+      ],
+      "detail": "FamilySearch lists St Mary The Virgin’s Church in Hutton, Somerset, while George Freestone’s later family-history diary describes his grandparents’ unmarked graves in Flixton, Suffolk. The archive retains the FamilySearch burial entry with an explicit locality-under-review label.",
+      "next": "Check the original burial entry and reconcile the Somerset and Suffolk references.",
+      "sources": [
+        "fs-ann-youngman",
+        "fs-george-freestone-1760",
+        "fs-george-freestone"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "dorothy-generated-age",
+      "title": "Erroneous age in Thomas’s generated life summary",
+      "branch": "Freestone",
+      "people": [
+        "thomas-freestone-1728",
+        "dorothy-morries"
+      ],
+      "detail": "Thomas’s generated FamilySearch summary prints an impossible maternal age. The expanded family cards instead give Dorothy Morries as 1691–1770 and Thomas as born in 1728. The nonsensical generated age is not imported.",
+      "next": "Use the underlying parish records and dates rather than the generated age sentence.",
+      "sources": [
+        "fs-thomas-freestone-1728"
+      ],
+      "status": "Research in progress"
     }
 ]
