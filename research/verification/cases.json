@@ -663,5 +663,26 @@
     "sources": [
       "fs-george-henry-jagger"
     ]
+  },
+  {
+    "id": "coolidge-connection",
+    "title": "Trace the reported Calvin Coolidge connection",
+    "status": "Research in progress",
+    "branch": "Lambson",
+    "people": [
+      "barnabas",
+      "martha-lamson-rice",
+      "joseph-lambson",
+      "norma"
+    ],
+    "detail": "FamousKin lists Barnabas Lambson as Calvin Coolidge’s seventh-great-grandfather. The reported chain is Barnabas → Martha Lambson → Martha Rice → John Bent → Martha Bent → Eliab Brewer → Israel Chase Brewer → Sarah Almeda Brewer → John Calvin Coolidge → President Calvin Coolidge. The archive’s recorded line proceeds through Martha’s brother Joseph. The Coolidge Foundation lists the chart as an outside resource, with an explicit accuracy disclaimer. This is a reported collateral connection, not a completed genealogical proof; no exact cousin degree is assigned.",
+    "next": "Check each parent–child link in the Coolidge descent using cited vital, church, probate and published genealogical records; compare the common Barnabas identity and the archive’s Joseph line. Preserve conflicting dates and surname variants rather than merging on names alone.",
+    "sources": [
+      "coolidge-ancestry",
+      "coolidge-foundation-genealogy",
+      "coolidge-fabpedigree-lead",
+      "fs-barnabas",
+      "fs-martha-lamson-rice"
+    ]
   }
 ]
