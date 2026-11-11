@@ -1865,14 +1865,16 @@
       "sources": [
         "lambson",
         "fs-glennlambson",
-        "fs-rosella-blanchard"
+        "fs-rosella-blanchard",
+        "glenn-wwi-roster"
       ],
       "birth": "January 26, 1898 · Springville, Utah",
       "death": "June 18, 1934 · Bingham Canyon, Utah",
       "burial": "Mount Olivet Cemetery, Salt Lake City, Utah",
-      "text": "Glenn Cody married Mary Lucille Jamieson on September 11, 1922, in Salt Lake City. Their children were Norma Lucille, Vera Elaine, and Glenn Jamieson. His sister Clara recalled that he went to war in France. Military records have yet to confirm that account.",
+      "text": "Glenn Cody married Mary Lucille Jamieson on September 11, 1922, in Salt Lake City. Their children were Norma Lucille, Vera Elaine, and Glenn Jamieson. A World War I roster published in 1924 lists Glenn C. Lambson of Springville in the cavalry and marks him as having served overseas. His name, initial, and Springville connection make this a probable match for Glenn Cody Lambson.",
       "name": "Glenn Cody Lambson",
-      "dates": "1898–1934"
+      "dates": "1898–1934",
+      "notes": "The roster prints both enlistment and discharge as May 9, 1918. This unresolved date anomaly must not be interpreted as one day of service or silently corrected to a different year. His sister Clara recalled that he went to war in France; the roster identifies overseas service for the listed man but does not name France or a regiment. His exact unit, discharge date, and identification through a full-name service record still need corroboration."
     },
     "marylucille": {
       "branch": "Lambson",
