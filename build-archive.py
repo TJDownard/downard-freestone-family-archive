@@ -1,5 +1,6 @@
 """Regenerate the archive's static pages. Requires Python 3 and Node.js for the shared tree data."""
 from html import escape
+from datetime import date
 import json
 from pathlib import Path
 import re
@@ -610,10 +611,12 @@ page('about.html','About the archive','Every family has a history worth preservi
      ]) + '<h2>Living relatives</h2><p>Living relatives appear with limited information where they connect the family tree. The public search omits their profiles.</p>'
      '<p>Corrections are tracked in the <a href="research.html">research notebook</a>.</p></div>')
 
-def branch_entry(branch, ancestors, spouses, title, description, story, years_in_america,
-                 journey_year, history_end, caption, caution, connection, stats_note, stats_source, chapters=None):
+def branch_entry(branch, ancestors, spouses, title, description, story,
+                 journey_year, caption, caution, connection, stats_note, stats_source, chapters=None):
+    elapsed = date.today().year - int(re.search(r'\d{4}', journey_year).group())
+    years_in_america = ('c. ' if journey_year.startswith('c.') else '') + str(elapsed) + ('+' if journey_year.startswith('By ') else '')
     return {
-        'copy': {'era':f'A LIVING HISTORY · {journey_year.upper()} — {history_end}', 'headline':'The '+branch+' family',
+        'copy': {'era':f'A LIVING HISTORY · {journey_year.upper()} — PRESENT', 'headline':'The '+branch+' family',
                  'emphasis':title,'description':description,'storyTitle':'The '+branch+' Family Story',
                  'storyDescription':description,'treeTitle':'The '+branch+' family tree','lineCaption':caption,
                  'caution':caution,'connectionNote':connection},
@@ -649,22 +652,22 @@ maternal_branches = {
         ['judy','tom-freestone','reuben-freestone','george-freestone','thomas-freestone','george-freestone-1760','thomas-freestone-1728'],
         {'thomas-freestone-1728':'elizabeth-wyatt','george-freestone-1760':'ann-youngman','thomas-freestone':'ann-fall','george-freestone':'jennie-lind','reuben-freestone':'adora-batty','tom-freestone':'maurine-peterson','judy':'robert'},'from Suffolk to Utah.',
         'Follow the Freestone family across the Atlantic and west with the Miller and Cooley company. Meet Tom Freestone and the family he raised with Maurine Peterson.',
-        'freestone-journey', 'c. 170', 'c. 1840', 2010,
+        'freestone-journey', 'c. 1840',
         'DIRECT LINE · JUDY → TOM → REUBEN → GEORGE (1838) → THOMAS (1795) → GEORGE (1760) → THOMAS (1728)',
         'The direct line is a starting point. Open an ancestor to explore additional marriages, children, and other relatives.',
         'Tom Freestone and Maurine Peterson connect the Freestone and Peterson branches.',
-        'The count runs from the family’s move from Prince Edward Island to Ohio around 1840 through 2010, the year Tom Freestone died.',
+        'The count begins with the family’s move from Prince Edward Island to Ohio around 1840 and continues to the present.',
         'freestone-history',
         chapters={'judy':'tom-and-maurine','tom-freestone':'tom','reuben-freestone':'reuben',
                   'george-freestone':'george','thomas-freestone':'thomas','george-freestone-1760':'thomas','thomas-freestone-1728':'thomas'}),
     'peterson':branch_entry('Peterson',['judy','maurine-peterson','hilmer','johannes','per-andersson'],
         {'per-andersson':'greta-stina-jansdotter','johannes':'ericka','hilmer':'mary-alvey','maurine-peterson':'tom-freestone','judy':'robert'},'from Sweden to eastern Utah.',
         'Trace the Peterson and Pettersson names and compare the family accounts of Hilmer’s immigration.',
-        'peterson-story', '98+', 'By 1912', 2010,
+        'peterson-story', 'By 1912',
         'DIRECT LINE · JUDY → MAURINE → HILMER → JOHANNES → PER',
         'The family letter and other records disagree on the arrival chronology. The date and ship remain open.',
         'The family history lists nine children of Hilmer Peterson and Mary Alvey, including twins Maurine and Maxine.',
-        'Hilmer was in Utah by 1912, at least 98 years before Maurine’s death in 2010. His arrival year remains unverified.',
+        'Hilmer was in Utah by 1912. The count continues to the present; his arrival year remains unverified.',
         'hilmer-marriage')
 }
 write('archive-branches.js',
