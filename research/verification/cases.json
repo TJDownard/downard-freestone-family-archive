@@ -184,20 +184,21 @@
     ]
   },
   {
-    "id": "peterson-immigration",
-    "title": "When did Hilmer Peterson arrive in America?",
-    "status": "Conflicting",
-    "branch": "Peterson",
-    "people": [
-      "hilmer"
-    ],
-    "detail": "A 1959 family letter says he arrived as a boy and stayed with the Anderson family before his parents arrived. Other family records suggest a later arrival.",
-    "next": "Compare the letter with Swedish parish records, US census entries and passenger records. The ship and arrival date remain open.",
-    "sources": [
-      "peterson-letter",
-      "brief"
-    ]
-  },
+      "id": "peterson-immigration",
+      "title": "When did Hilmer Peterson arrive in America?",
+      "status": "Conflicting",
+      "branch": "Peterson",
+      "people": [
+        "hilmer"
+      ],
+      "detail": "FamilySearch reports immigration to New York City in 1899. A 1959 family letter says Hilmer arrived as a boy before his parents. The archive records both leads without choosing a ship or exact arrival date.",
+      "next": "Compare the letter with Swedish departure registers, passenger lists and US census records.",
+      "sources": [
+        "peterson-letter",
+        "brief",
+        "fs-hilmer"
+      ]
+    },
   {
     "id": "police-chief",
     "title": "Was Robert T. Downard the Vernal police chief?",
@@ -302,47 +303,42 @@
     "next": "Check Ann’s original baptism or birth record, the Thomas and Ann household and any earlier unions, the complete Jane Marie and Daniel Johnson family group sheet, and original records for George’s two households."
   },
   {
-    "id": "peterson-swedish-household",
-    "title": "Complete the Johannes Pettersson and Ericka Munter household",
-    "branch": "Peterson",
-    "status": "Research in progress",
-    "people": [
-      "johannes",
-      "ericka",
-      "hilmer",
-      "johan-axel-peterson",
-      "karl-gustaf-pettersson",
-      "ida-gustava-pettersson",
-      "august-emanuel-peterson"
-    ],
-    "sources": [
-      "johan-axel-profile",
-      "brief"
-    ],
-    "detail": "The compiled Johan Axel profile lists eight people under siblings, including Johan and Hilmer. The accessible view names five; three names, additional spouses, and earlier parents are not established by the sources inspected.",
-    "next": "Obtain the full FamilySearch or GEDCOM family group for Johannes and Ericka and the Rasbo, Tensta, and Björklinge parish household examination, birth, and departure registers."
-  },
+      "id": "peterson-swedish-household",
+      "title": "Complete the Johannes Pettersson and Ericka Munter household",
+      "branch": "Peterson",
+      "status": "Research in progress",
+      "people": [
+        "johannes",
+        "ericka",
+        "hilmer",
+        "johan-axel-peterson"
+      ],
+      "sources": [
+        "fs-hilmer",
+        "johan-axel-profile"
+      ],
+      "detail": "The expanded FamilySearch group names all eight siblings, including Signy, Josef and Maria, and supplies lifespan years. It gives Johan Axel’s birth as 1879, while the earlier compiled profile gives 1878. The archive uses 1879 in the current display and preserves the discrepancy here.",
+      "next": "Verify the sibling roster and Johan Axel’s birth year in Swedish parish records."
+    },
   {
-    "id": "peterson-alvey-household",
-    "title": "Corroborate the Peterson–Alvey family roster",
-    "branch": "Peterson",
-    "status": "Research in progress",
-    "people": [
-      "hilmer",
-      "mary-alvey",
-      "maurine-peterson",
-      "maxine-peterson",
-      "john-alvey",
-      "margret-leah-harris"
-    ],
-    "sources": [
-      "mary-alvey-history",
-      "hilmer-marriage",
-      "brief"
-    ],
-    "detail": "Mary’s life history names her parents and siblings and all nine children. The children are represented; one public tree card is anonymous. The other children’s marriages, dates, and descendants are not complete in the sources inspected.",
-    "next": "Obtain a Peterson–Alvey GEDCOM or annotated family group sheet, census pages, and relevant obituaries or vital records. Confirm publication permission for any living relatives."
-  },
+      "id": "peterson-alvey-household",
+      "title": "Corroborate the Peterson–Alvey family roster",
+      "branch": "Peterson",
+      "status": "Research in progress",
+      "people": [
+        "hilmer",
+        "mary-alvey",
+        "maurine-peterson",
+        "maxine-peterson"
+      ],
+      "sources": [
+        "fs-hilmer",
+        "fs-mary-alvey",
+        "mary-alvey-history"
+      ],
+      "detail": "The expanded FamilySearch groups list nine children and supply lifespan years. The existing anonymous private entry remains private, and no identity is assigned to it in the public archive. FamilySearch gives Robert Glen’s death year as 1966 rather than the earlier family-history 1964. The archive uses 1966 with both sources retained.",
+      "next": "Keep the private entry unpublished. Verify the remaining lifespan differences against original vital records."
+    },
   {
     "id": "arba-death-year",
     "title": "Arba Sr.’s death year and place",
@@ -371,5 +367,112 @@
     "sources": [
       "fs-arba-lambson-jr"
     ]
-  }
+  },
+    {
+      "id": "elnathan-overlapping-marriages",
+      "title": "Elnathan’s overlapping marriage dates",
+      "branch": "Lambson",
+      "people": [
+        "elnathan-lambson",
+        "jane-hayes"
+      ],
+      "detail": "FamilySearch gives the Jane Hayes marriage as 1751 and Jane’s death as July 16, 1761. Its expanded family group also gives April 20, 1759 in Fairfield for Lucine Griffin (1732–1803), with Rebecca (1763–1794), Naomi (1765–1844), Abigail (1768–1849), James (1770–1838), and Joseph (1774–1844). The 1759 date overlaps Jane’s lifetime. The archive retains the five existing paternal links but does not assign Lucine as their mother or publish this marriage as established. Joseph’s existing 1777 birth label also differs from the FamilySearch 1774 year.",
+      "next": "Inspect the marriage and children’s original records before resolving dates or parentage.",
+      "sources": [
+        "fs-elnathan-lambson",
+        "fs-jane-hayes"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "rice-billings-marriage",
+      "title": "Elizabeth Rice’s reported later marriage",
+      "branch": "Lambson",
+      "people": [
+        "elizabeth-rice",
+        "joseph-lambson"
+      ],
+      "detail": "FamilySearch lists a second marriage to John Billings (1640–1704) on December 31, 1685 in Concord. The archive’s earlier historical reconstruction already flags the later-marriage chronology. Joseph’s death date is unknown, and the identity has not been checked in the original marriage record.",
+      "next": "Verify the original entry and identity before connecting the additional spouse.",
+      "sources": [
+        "fs-elizabeth-rice",
+        "lambson"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "bradley-relationships",
+      "title": "Bradley daughters and conflicting marriage details",
+      "branch": "Downard",
+      "people": [
+        "clace",
+        "walter",
+        "mack",
+        "oaka",
+        "barbara",
+        "maryj"
+      ],
+      "detail": "FamilySearch’s family groups list the three Bradley daughters under both Walter and Marshall Bradley. Its Clace narrative identifies Bradley as their father and Walter as their stepfather. The structured Walter–Clace marriage is September 12, 1921 in Provo, while the narrative says September 21. The Bradley marriage narrative places June 4, 1917 in Duchesne, while the structured group says Vernal. Existing Bradley parentage and Walter stepchild links are retained; no marriage place is selected for the Bradley wedding.",
+      "next": "Compare the original marriage certificates and birth records; retain the September 12 Provo date supported by the archive’s newspaper notice.",
+      "sources": [
+        "fs-clace",
+        "fs-walter",
+        "clace-notice"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "thomas-marriage-location",
+      "title": "Thomas and Norma’s marriage-location field",
+      "branch": "Downard",
+      "people": [
+        "thomas",
+        "norma"
+      ],
+      "detail": "FamilySearch’s expanded group attaches University of Utah Hospital to the June 26, 1942 marriage. The life history places the marriage in Salt Lake City and identifies that hospital as the death location. The archive retains Salt Lake City for marriage and the hospital for death. Living son Quinn is preserved although the public FamilySearch child list omits him.",
+      "next": "Check the original marriage certificate before attributing a specific building.",
+      "sources": [
+        "fs-thomas",
+        "norma-notice"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "lamson-extra-child",
+      "title": "Additional child in the earlier Joseph Jr. roster",
+      "branch": "Lambson",
+      "people": [
+        "joseph-lamson-jr",
+        "elizabeth-adams",
+        "joseph-lamson-son"
+      ],
+      "detail": "The earlier archive includes an undated Joseph Lamson as a son of Joseph Jr. and Elizabeth Adams. FamilySearch lists eight other children and omits this Joseph. Existing links are retained; the extra child is not silently removed.",
+      "next": "Reconcile the earlier roster with birth and probate records.",
+      "sources": [
+        "lambson-children",
+        "fs-joseph-lamson-jr"
+      ],
+      "status": "Research in progress"
+    },
+    {
+      "id": "early-lambson-vitals",
+      "title": "Early Lambson dates and Marie’s reported parentage",
+      "branch": "Lambson",
+      "people": [
+        "barnabas",
+        "marie",
+        "elizabeth-rice",
+        "joseph-lambson"
+      ],
+      "detail": "The current display follows FamilySearch: Barnabas born about 1597 and died before February 1640; Marie died March 17, 1638; Elizabeth Rice died after December 27, 1708. Earlier archive estimates for Barnabas were about 1602 and about 1640. FamilySearch names Thomas Liggett (1575–1612) as Marie’s father; the earlier historical study treats this parentage as unproven. That parent link is not established in the archive. Joseph’s death remains unknown. The family-tree marriage to Elizabeth in 1663 also differs from the historical reconstruction’s about 1661.",
+      "next": "Check original parish, probate and marriage records; retain approximate and after/before qualifiers.",
+      "sources": [
+        "fs-barnabas",
+        "fs-marie",
+        "fs-elizabeth-rice",
+        "fs-joseph-lambson",
+        "lambson"
+      ],
+      "status": "Research in progress"
+    }
 ]
