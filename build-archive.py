@@ -30,6 +30,7 @@ def pairs(values):
 data = read('archive-records.json')
 sources = {record['id']: record for record in read('research/sources/catalog.json')}
 cases = read('research/verification/cases.json')
+individual_audit = read('research/verification/individual-audit.json')
 baseline = read('research/verification/tree-baseline.json')
 shared = (ROOT / 'family-data.js').read_text()
 people_code = """
@@ -203,7 +204,8 @@ def person_details(person):
                        paragraph('Stories', ' · '.join(story_links)),
                        paragraph('Research questions', ' · '.join(case_links))])
     tree_link = link('index.html?' + 'branch=' + person['branch'].lower() + '&person=' + quote(key) + '#tree', 'Open in the family tree') if not person.get('private') else ''
-    return f'<div class="reading">{paragraph("", tree_link)}{life}{narrative}{family}{related}{citations(person["sources"]) if not person.get("private") else ""}</div>' 
+    audit_link = paragraph('Data review', link('individual-audit.html#'+key, 'Individual audit and evidence status')) if not person.get('private') else ''
+    return f'<div class="reading">{paragraph("", tree_link)}{life}{narrative}{family}{related}{audit_link}{citations(person["sources"]) if not person.get("private") else ""}</div>'
 
 
 def person_portrait(person, prefix='', lazy=False):
@@ -543,8 +545,36 @@ audit_intro = (
            ('Prior links retained',len(old_edges & edges.keys()))]) +
     '<p>Relationship totals count each parent–child link, spouse or partner pair, stepchild link and twin pair once. This is a record of the sources inspected, not a claim that all descendants are known.</p>' +
     '<p>'+' · '.join(link('#'+b.lower(),b) for b in FAMILY_BRANCHES)+'</p></div>')
+coverage = individual_audit['counts']
+coverage_intro = ('<section class="reading"><h2>Individual data review · November 11, 2026</h2>'
+    '<p>All 510 current records have an individual review entry: 498 public FamilySearch profiles, '
+    'eight owner-approved records, and four entries with unresolved identity or source evidence. '
+    'Twenty-three public profiles list no attached historical documents. A completed comparison does not certify every historical claim.</p>'
+    '<p>'+link('individual-audit.html','Read the individual results and unresolved evidence')+'</p></section>')
 page('family-audit.html','Family tree completeness report','What changed in the genealogy, which records are visible, and where evidence is still needed.',
-     audit_intro + records(branch_reports), section='Research · Genealogy audit')
+     coverage_intro + audit_intro + records(branch_reports), section='Research · Genealogy audit')
+
+audit_rows = []
+for review in individual_audit['people']:
+    key = review['id']
+    if people[key].get('private'):
+        continue
+    evidence = link(review['profileUrl'], 'Reviewed FamilySearch profile') if review.get('profileUrl') else (
+        link('archive.html#'+review['source'], 'Reviewed source notes') if review.get('source') else 'Owner-approved information; no additional private data published.')
+    questions = ' · '.join(link('research.html#'+cid, next(c['title'] for c in cases if c['id']==cid)) for cid in review['researchCases'])
+    audit_rows.append(f'<article class="record reading" id="{esc(key)}" {attrs(review["name"]+" "+review["status"], branch=review["branch"], status=review["status"])}>'
+        f'<p class="kicker">{esc(review["branch"])}</p><h2>{link(person_path(key),review["name"])}</h2>'
+        f'<p>{esc(review["status"])}</p>' + pairs((field.title(),value) for field,value in review['fields'].items())
+        + ''.join(f'<p>{esc(note)}</p>' for note in review['notes'])
+        + paragraph('Evidence', evidence) + paragraph('Open questions', questions) + '</article>')
+page('individual-audit.html', 'Individual data audit', 'Individual findings for every current family record, with source limits and unresolved questions kept visible.',
+     '<div class="reading"><p>Reviewed November 11, 2026. '+esc(individual_audit['scope'])+'</p>'
+     + pairs([('Current records reviewed',coverage['people']),('Individual FamilySearch profiles',coverage['individualFamilySearchProfiles']),
+              ('Owner-approved records',coverage['ownerRecords']),('Identity or source unresolved',coverage['identityOrSourceUnresolved']),
+              ('Profiles with no attached historical documents',coverage['profilesWithNoAttachedHistoricalDocuments'])])
+     + '<p>Private records are included in the coverage totals and omitted from this public listing. Unknown dates and absent relatives are not inferred.</p></div>'
+     + filter_form('Find a reviewed person',branch=('Branch',branch_choices),status=('Review status',choices(r['status'] for r in individual_audit['people'])))
+     + records(audit_rows), section='Research · Individual review')
 
 search_entries = []
 def search_entry(kind, title, url, terms, description=''):
