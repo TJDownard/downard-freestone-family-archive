@@ -29,7 +29,26 @@
       ],
       "text": "A passenger register records George as a painter. In Spring City, the preservation inventory associates him with house painting and carpentry. The family research reports a GD livestock brand in Sanpete County on May 24, 1876. The entry image remains to be located.",
       "burial": "Price City Cemetery, Price, Utah",
-      "dates": "1821–1902"
+      "dates": "1821–1902",
+      "portrait": {
+        "src": "george-downard-portrait.png",
+        "width": 1086,
+        "height": 1448,
+        "caption": "George Downard · Colorized historical photograph",
+        "thumbnail": "george-downard-portrait-160.webp",
+        "display": [
+          {
+            "src": "george-downard-portrait-480.webp",
+            "width": 480,
+            "height": 640
+          },
+          {
+            "src": "george-downard-portrait-960.webp",
+            "width": 960,
+            "height": 1280
+          }
+        ]
+      }
     },
     "sarah": {
       "birth": "May 10, 1831",
@@ -88,7 +107,26 @@
         "fs-john"
       ],
       "text": "Newspaper excerpts connect John to ranching around Woodside and Nine Mile. A published marriage-license notice places John and Minnie in Harper in 1915. The archive keeps undated land reports separate from dated life events.",
-      "burial": "Price City Cemetery, Price, Utah"
+      "burial": "Price City Cemetery, Price, Utah",
+      "portrait": {
+        "src": "john-louis-downard-portrait.png",
+        "width": 1199,
+        "height": 1312,
+        "caption": "John Louis Downard · Colorized historical photograph",
+        "thumbnail": "john-louis-downard-portrait-160.webp",
+        "display": [
+          {
+            "src": "john-louis-downard-portrait-480.webp",
+            "width": 480,
+            "height": 525
+          },
+          {
+            "src": "john-louis-downard-portrait-960.webp",
+            "width": 960,
+            "height": 1050
+          }
+        ]
+      }
     },
     "angeline": {
       "aliases": [
@@ -379,7 +417,26 @@
         "freestone-history",
         "county"
       ],
-      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional. A family history lists four children with Alice Jane Carlisle and eleven with Eraimine Georgine Lind."
+      "text": "George appears in the 1853 traveling group. The county history reportedly lists a George Freestone among bishops associated with the early Uintah Stake and names a man of that name among those present at the 1888 Co-op robbery. The robbery identification remains provisional. A family history lists four children with Alice Jane Carlisle and eleven with Eraimine Georgine Lind.",
+      "portrait": {
+        "src": "george-freestone-portrait.png",
+        "width": 1087,
+        "height": 1447,
+        "caption": "George Freestone · Colorized historical photograph",
+        "thumbnail": "george-freestone-portrait-160.webp",
+        "display": [
+          {
+            "src": "george-freestone-portrait-480.webp",
+            "width": 480,
+            "height": 639
+          },
+          {
+            "src": "george-freestone-portrait-960.webp",
+            "width": 960,
+            "height": 1278
+          }
+        ]
+      }
     },
     "alice-carlisle": {
       "name": "Alice Jane Carlisle",
