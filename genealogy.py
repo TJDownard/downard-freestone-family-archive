@@ -1,11 +1,14 @@
 """Normalize the archive's declared genealogy into a bidirectional view."""
 from collections import defaultdict
+from datetime import datetime
 import re
 import unicodedata
 
 FAMILY_BRANCHES = ('Downard', 'Freestone', 'Peterson', 'Lambson')
 PARTNER_TYPES = {'Marriage', 'Marriage license reported', 'Partner'}
 OPEN_STATUSES = {'Unverified', 'Probable', 'Conflicting'}
+# The owner supplied this birth sequence; living birth dates remain unpublished.
+OWNER_SIBLING_ORDER = ('robert-todd', 'julie-maurine', 'kimberly-jo', 'stacie-lynn', 'thomas-john-child')
 
 def normalize_name(value):
     return ''.join(c for c in unicodedata.normalize('NFKD', value.casefold()) if not unicodedata.combining(c))
@@ -49,6 +52,27 @@ def genealogy(people, explicit, sources):
         relatives[b][group_b].append(a)
     def name_order(k):
         return normalize_name(people[k]['name']),k
+    def birth_order(k):
+        person = people[k]
+        birth = person.get('birth', '').split(' · ')[0]
+        year = re.search(r'\b(\d{4})\b', birth)
+        if not year:
+            year = re.match(r'^(?:c\.\s*|about\s+|before\s+|after\s+|Born\s+)?(\d{4})', person['dates'])
+        if not year:
+            return (9999, 0, 0, *name_order(k))
+        month, day = 0, 0
+        for pattern in ('%B %d, %Y', '%Y-%m-%d'):
+            try:
+                parsed = datetime.strptime(birth, pattern)
+                month, day = parsed.month, parsed.day
+                break
+            except ValueError:
+                pass
+        return (int(year[1]), month, day, *name_order(k))
+    def family_order(keys):
+        if keys and set(keys).issubset(OWNER_SIBLING_ORDER):
+            return sorted(keys, key=OWNER_SIBLING_ORDER.index)
+        return sorted(keys, key=birth_order)
     def ancestor_walk(k, trail):
         if k in trail:
             raise ValueError(f'Parent cycle at {k}')
@@ -61,19 +85,19 @@ def genealogy(people, explicit, sources):
         rel['grandparents'] = sorted({grand for p in parents for grand in relatives[p]['parents']} - parents,key=name_order)
         siblings = {s for p in parents for s in relatives[p]['children']} - {k}
         rel['siblings'] = []
-        for sib in sorted(siblings,key=name_order):
+        for sib in family_order(siblings):
             other = set(relatives[sib]['parents'])
             relation = ('Full sibling' if len(parents & other) > 1 else
                         'Half-sibling' if parents - other and other - parents else
                         'Sibling · other parent not established')
             rel['siblings'].append({'id':sib,'label':'Twin' if sib in rel['twins'] else relation})
         child_groups = defaultdict(list)
-        for child in sorted(rel['children'],key=name_order):
+        for child in family_order(rel['children']):
             others = tuple(sorted(set(relatives[child]['parents']) - {k},key=name_order))
             child_groups[others].append(child)
         groups[k] = [{'coParents':others,'children':ids} for others,ids in child_groups.items()]
         for group in rel.keys() - {'siblings'}:
-            rel[group].sort(key=name_order)
+            rel[group] = family_order(rel[group]) if group in {'children', 'stepchildren'} else sorted(rel[group], key=name_order)
     return edges, relatives, groups, open_edges
 
 def duplicate_candidates(people):

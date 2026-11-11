@@ -12,6 +12,32 @@ class GenealogyAudit(unittest.TestCase):
         self.rels = archive['relatives']
         self.groups = archive['child_groups']
 
+    def test_children_and_siblings_follow_birth_order(self):
+        self.assertEqual(self.rels['thomas']['children'], ['robert', 'glen', 'quinn'])
+        self.assertEqual(self.rels['norma']['children'], ['robert', 'glen', 'quinn'])
+        self.assertEqual([p['id'] for p in self.rels['quinn']['siblings']], ['robert', 'glen'])
+        sequence = ['robert-todd', 'julie-maurine', 'kimberly-jo', 'stacie-lynn', 'thomas-john-child']
+        for parent in ['robert', 'judy']:
+            self.assertEqual(self.rels[parent]['children'], sequence)
+            self.assertEqual(self.groups[parent][0]['children'], sequence)
+        for child in sequence:
+            self.assertEqual([p['id'] for p in self.rels[child]['siblings']], [k for k in sequence if k != child])
+
+    def test_same_year_dates_and_unknown_births(self):
+        from genealogy import genealogy
+        people = {key: {'id':key, 'name':name, 'dates':dates, 'parents':['parent'] if key != 'parent' else [],
+                        'spouses':[], 'sources':['fixture'], **({'birth':birth} if birth else {})}
+                  for key,name,dates,birth in [
+                      ('parent','Parent','1950–Present',None),
+                      ('november','Aaron','1980–Present','November 3, 1980'),
+                      ('february','Zelda','1980–Present','February 2, 1980'),
+                      ('year','Middle','Born 1979',None),
+                      ('unknown','First alphabetically','Living',None)]}
+        _, relatives, groups, _ = genealogy(people, [], {'fixture':{}})
+        self.assertEqual(relatives['parent']['children'], ['year','february','november','unknown'])
+        self.assertEqual(groups['parent'][0]['children'], ['year','february','november','unknown'])
+        self.assertEqual([p['id'] for p in relatives['november']['siblings']], ['year','february','unknown'])
+
     def test_individual_audit_covers_the_current_roster(self):
         audit = archive['individual_audit']
         entries = {row['id']: row for row in audit['people']}
