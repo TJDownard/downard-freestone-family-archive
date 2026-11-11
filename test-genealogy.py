@@ -12,6 +12,31 @@ class GenealogyAudit(unittest.TestCase):
         self.rels = archive['relatives']
         self.groups = archive['child_groups']
 
+    def test_individual_audit_covers_the_current_roster(self):
+        audit = archive['individual_audit']
+        entries = {row['id']: row for row in audit['people']}
+        self.assertEqual(set(entries), set(self.people))
+        self.assertEqual(len(entries), 510)
+        profiles = [row for row in entries.values() if row['profileId']]
+        self.assertEqual(len(profiles), 498)
+        self.assertEqual(len({row['profileId'] for row in profiles}), 498)
+        for row in profiles:
+            self.assertIn(row['source'], self.people[row['id']]['sources'])
+            self.assertEqual(archive['sources'][row['source']]['url'], row['profileUrl'])
+        self.assertEqual(entries['peterson-private-child']['profileId'], None)
+
+    def test_individual_audit_corrections_and_uncertainty(self):
+        self.assertEqual(self.people['joseph-lamson-1777']['birth'].split(' · ')[0], 'April 2, 1774')
+        self.assertTrue(self.people['george-h-hayes']['birth'].startswith('about 1720'))
+        self.assertNotIn('birth', self.people['ann-wyatt'])
+        self.assertIn('Christened', self.people['ann-wyatt']['dates'])
+        self.assertFalse(self.rels['joseph-lamson-son']['parents'])
+        self.assertEqual(len(archive['open_edges']['joseph-lamson-son']), 2)
+        self.assertEqual(len(self.rels['ida-vilate-crouse']['children']), 7)
+        wedding = next(edge for edge in archive['edges'].values()
+                       if {edge['from'], edge['to']} == {'emery-lind-freestone', 'ida-vilate-crouse'})
+        self.assertEqual(wedding['date'], '1928-02-20')
+
     def test_tree_and_directory_cover_all_ids(self):
         root = archive['ROOT']
         tree = (root / 'archive-branches.js').read_text().split('const treePeople = ',1)[1].split(';\n',1)[0]
