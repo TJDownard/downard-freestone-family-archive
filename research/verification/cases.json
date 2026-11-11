@@ -148,10 +148,15 @@
     "title": "Identify the host of Norma’s 1942 gathering",
     "status": "Research in progress",
     "branch": "Lambson",
-    "people": ["thomas", "norma"],
+    "people": [
+      "thomas",
+      "norma"
+    ],
     "detail": "The supplied newspaper summary describes Mrs. T. A. Pedersen as Norma’s mother and names Bishop John A. Harter as officiant. These identifications still need the original issue.",
     "next": "Locate the original newspaper issue and confirm the host’s identity and officiant.",
-    "sources": ["norma-notice"]
+    "sources": [
+      "norma-notice"
+    ]
   },
   {
     "id": "freestone-robbery",
@@ -184,21 +189,21 @@
     ]
   },
   {
-      "id": "peterson-immigration",
-      "title": "When did Hilmer Peterson arrive in America?",
-      "status": "Conflicting",
-      "branch": "Peterson",
-      "people": [
-        "hilmer"
-      ],
-      "detail": "FamilySearch reports immigration to New York City in 1899. A 1959 family letter says Hilmer arrived as a boy before his parents. The archive records both leads without choosing a ship or exact arrival date.",
-      "next": "Compare the letter with Swedish departure registers, passenger lists and US census records.",
-      "sources": [
-        "peterson-letter",
-        "brief",
-        "fs-hilmer"
-      ]
-    },
+    "id": "peterson-immigration",
+    "title": "When did Hilmer Peterson arrive in America?",
+    "status": "Conflicting",
+    "branch": "Peterson",
+    "people": [
+      "hilmer"
+    ],
+    "detail": "FamilySearch reports immigration to New York City in 1899. A 1959 family letter says Hilmer arrived as a boy before his parents. The archive records both leads without choosing a ship or exact arrival date.",
+    "next": "Compare the letter with Swedish departure registers, passenger lists and US census records.",
+    "sources": [
+      "peterson-letter",
+      "brief",
+      "fs-hilmer"
+    ]
+  },
   {
     "id": "police-chief",
     "title": "Was Robert T. Downard the Vernal police chief?",
@@ -275,7 +280,7 @@
       "freestone-history",
       "tom-obit"
     ],
-    "detail": "The cited records connect Reuben and Adora to Tom. They do not provide a complete, corroborated list of Tom’s siblings or of the next generation. Names of potentially living relatives are withheld.",
+    "detail": "Individual FamilySearch profiles for the existing Reuben–Adora household and collateral relatives have now been reviewed. Their available dates and family links are cited separately. This is a comparison with compiled profiles, not proof that the historical household is complete; potentially living relatives remain withheld.",
     "next": "Obtain a Freestone–Batty GEDCOM or family group sheet with source references, the 1920–1950 Vernal household census pages, and the full Reuben, Adora, Tom, and Maurine obituaries."
   },
   {
@@ -299,46 +304,46 @@
       "freestone-early-family",
       "freestone-elizabeth-history"
     ],
-    "detail": "Ann Fall’s birth year is given as 1812 in the pioneer database and 1814 in family notes. The company roster names travelers rather than every child. Jane Marie and Phoebe Ellen are recorded separately. The accessible Jane Marie profile gives seven children with Daniel Johnson but exposes only five names.",
+    "detail": "Ann Fall’s birth year is given as 1812 in the pioneer database and 1814 in family notes. The company roster names travelers rather than every child. Jane Marie and Phoebe Ellen are recorded separately. The accessible Jane Marie profile gives seven children with Daniel Johnson but exposes only five names. The individual Daniel Johnson children already in the archive have now also been reviewed. The original-record birth-year disagreement remains open.",
     "next": "Check Ann’s original baptism or birth record, the Thomas and Ann household and any earlier unions, the complete Jane Marie and Daniel Johnson family group sheet, and original records for George’s two households."
   },
   {
-      "id": "peterson-swedish-household",
-      "title": "Complete the Johannes Pettersson and Ericka Munter household",
-      "branch": "Peterson",
-      "status": "Research in progress",
-      "people": [
-        "johannes",
-        "ericka",
-        "hilmer",
-        "johan-axel-peterson"
-      ],
-      "sources": [
-        "fs-hilmer",
-        "johan-axel-profile"
-      ],
-      "detail": "The expanded FamilySearch group names all eight siblings, including Signy, Josef and Maria, and supplies lifespan years. It gives Johan Axel’s birth as 1879, while the earlier compiled profile gives 1878. The archive uses 1879 in the current display and preserves the discrepancy here.",
-      "next": "Verify the sibling roster and Johan Axel’s birth year in Swedish parish records."
-    },
+    "id": "peterson-swedish-household",
+    "title": "Complete the Johannes Pettersson and Ericka Munter household",
+    "branch": "Peterson",
+    "status": "Research in progress",
+    "people": [
+      "johannes",
+      "ericka",
+      "hilmer",
+      "johan-axel-peterson"
+    ],
+    "sources": [
+      "fs-hilmer",
+      "johan-axel-profile"
+    ],
+    "detail": "The expanded FamilySearch group names all eight siblings, including Signy, Josef and Maria, and supplies lifespan years. It gives Johan Axel’s birth as 1879, while the earlier compiled profile gives 1878. The archive uses 1879 in the current display and preserves the discrepancy here.",
+    "next": "Verify the sibling roster and Johan Axel’s birth year in Swedish parish records."
+  },
   {
-      "id": "peterson-alvey-household",
-      "title": "Corroborate the Peterson–Alvey family roster",
-      "branch": "Peterson",
-      "status": "Research in progress",
-      "people": [
-        "hilmer",
-        "mary-alvey",
-        "maurine-peterson",
-        "maxine-peterson"
-      ],
-      "sources": [
-        "fs-hilmer",
-        "fs-mary-alvey",
-        "mary-alvey-history"
-      ],
-      "detail": "The expanded FamilySearch groups list nine children and supply lifespan years. The existing anonymous private entry remains private, and no identity is assigned to it in the public archive. FamilySearch gives Robert Glen’s death year as 1966 rather than the earlier family-history 1964. The archive uses 1966 with both sources retained.",
-      "next": "Keep the private entry unpublished. Verify the remaining lifespan differences against original vital records."
-    },
+    "id": "peterson-alvey-household",
+    "title": "Corroborate the Peterson–Alvey family roster",
+    "branch": "Peterson",
+    "status": "Research in progress",
+    "people": [
+      "hilmer",
+      "mary-alvey",
+      "maurine-peterson",
+      "maxine-peterson"
+    ],
+    "sources": [
+      "fs-hilmer",
+      "fs-mary-alvey",
+      "mary-alvey-history"
+    ],
+    "detail": "The expanded FamilySearch groups list nine children and supply lifespan years. The existing anonymous private entry remains private, and no identity is assigned to it in the public archive. FamilySearch gives Robert Glen’s death year as 1966 rather than the earlier family-history 1964. The archive uses 1966 with both sources retained.",
+    "next": "Keep the private entry unpublished. Verify the remaining lifespan differences against original vital records."
+  },
   {
     "id": "arba-death-year",
     "title": "Arba Sr.’s death year and place",
@@ -368,209 +373,295 @@
       "fs-arba-lambson-jr"
     ]
   },
-    {
-      "id": "elnathan-overlapping-marriages",
-      "title": "Elnathan’s overlapping marriage dates",
-      "branch": "Lambson",
-      "people": [
-        "elnathan-lambson",
-        "jane-hayes"
-      ],
-      "detail": "FamilySearch gives the Jane Hayes marriage as 1751 and Jane’s death as July 16, 1761. Its expanded family group also gives April 20, 1759 in Fairfield for Lucine Griffin (1732–1803), with Rebecca (1763–1794), Naomi (1765–1844), Abigail (1768–1849), James (1770–1838), and Joseph (1774–1844). The 1759 date overlaps Jane’s lifetime. The archive retains the five existing paternal links but does not assign Lucine as their mother or publish this marriage as established. Joseph’s existing 1777 birth label also differs from the FamilySearch 1774 year.",
-      "next": "Inspect the marriage and children’s original records before resolving dates or parentage.",
-      "sources": [
-        "fs-elnathan-lambson",
-        "fs-jane-hayes"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "rice-billings-marriage",
-      "title": "Elizabeth Rice’s reported later marriage",
-      "branch": "Lambson",
-      "people": [
-        "elizabeth-rice",
-        "joseph-lambson"
-      ],
-      "detail": "FamilySearch lists a second marriage to John Billings (1640–1704) on December 31, 1685 in Concord. The archive’s earlier historical reconstruction already flags the later-marriage chronology. Joseph’s death date is unknown, and the identity has not been checked in the original marriage record.",
-      "next": "Verify the original entry and identity before connecting the additional spouse.",
-      "sources": [
-        "fs-elizabeth-rice",
-        "lambson"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "bradley-relationships",
-      "title": "Bradley daughters and conflicting marriage details",
-      "branch": "Downard",
-      "people": [
-        "clace",
-        "walter",
-        "mack",
-        "oaka",
-        "barbara",
-        "maryj"
-      ],
-      "detail": "FamilySearch’s family groups list the three Bradley daughters under both Walter and Marshall Bradley. Its Clace narrative identifies Bradley as their father and Walter as their stepfather. The structured Walter–Clace marriage is September 12, 1921 in Provo, while the narrative says September 21. The Bradley marriage narrative places June 4, 1917 in Duchesne, while the structured group says Vernal. Existing Bradley parentage and Walter stepchild links are retained; no marriage place is selected for the Bradley wedding.",
-      "next": "Compare the original marriage certificates and birth records; retain the September 12 Provo date supported by the archive’s newspaper notice.",
-      "sources": [
-        "fs-clace",
-        "fs-walter",
-        "clace-notice"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "thomas-marriage-location",
-      "title": "Thomas and Norma’s marriage-location field",
-      "branch": "Downard",
-      "people": [
-        "thomas",
-        "norma"
-      ],
-      "detail": "FamilySearch’s expanded group attaches University of Utah Hospital to the June 26, 1942 marriage. The life history places the marriage in Salt Lake City and identifies that hospital as the death location. The archive retains Salt Lake City for marriage and the hospital for death. Living son Quinn is preserved although the public FamilySearch child list omits him.",
-      "next": "Check the original marriage certificate before attributing a specific building.",
-      "sources": [
-        "fs-thomas",
-        "norma-notice"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "lamson-extra-child",
-      "title": "Additional child in the earlier Joseph Jr. roster",
-      "branch": "Lambson",
-      "people": [
-        "joseph-lamson-jr",
-        "elizabeth-adams",
-        "joseph-lamson-son"
-      ],
-      "detail": "The earlier archive includes an undated Joseph Lamson as a son of Joseph Jr. and Elizabeth Adams. FamilySearch lists eight other children and omits this Joseph. Existing links are retained; the extra child is not silently removed.",
-      "next": "Reconcile the earlier roster with birth and probate records.",
-      "sources": [
-        "lambson-children",
-        "fs-joseph-lamson-jr"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "early-lambson-vitals",
-      "title": "Early Lambson dates and Marie’s reported parentage",
-      "branch": "Lambson",
-      "people": [
-        "barnabas",
-        "marie",
-        "elizabeth-rice",
-        "joseph-lambson"
-      ],
-      "detail": "The current display follows FamilySearch: Barnabas born about 1597 and died before February 1640; Marie died March 17, 1638; Elizabeth Rice died after December 27, 1708. Earlier archive estimates for Barnabas were about 1602 and about 1640. FamilySearch names Thomas Liggett (1575–1612) as Marie’s father; the earlier historical study treats this parentage as unproven. That parent link is not established in the archive. Joseph’s death remains unknown. The family-tree marriage to Elizabeth in 1663 also differs from the historical reconstruction’s about 1661.",
-      "next": "Check original parish, probate and marriage records; retain approximate and after/before qualifiers.",
-      "sources": [
-        "fs-barnabas",
-        "fs-marie",
-        "fs-elizabeth-rice",
-        "fs-joseph-lambson",
-        "lambson"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "per-greta-duplicate",
-      "title": "Possible duplicate Greta Stina spouse entries",
-      "branch": "Peterson",
-      "people": [
-        "per-andersson",
-        "greta-stina-jansdotter"
-      ],
-      "detail": "Per’s FamilySearch page attaches both Greta Stina Jonsson Jansdotter and Greta Stina Klang with 1812–1857 dates and the same November 19, 1835 marriage. Both groups include the same Per Erik Persson Eklund. The archive uses the requested LC8B-5TD profile and its six-child group. A second wife and a duplicate child have not been created.",
-      "next": "Compare Swedish parish marriage and household records before deciding whether the two profiles represent one person.",
-      "sources": [
-        "fs-per-andersson",
-        "fs-greta-stina-jansdotter"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "george-jennie-vital-dates",
-      "title": "George and Jennie’s conflicting narrative dates",
-      "branch": "Freestone",
-      "people": [
-        "george-freestone",
-        "jennie-lind",
-        "louis-alonzo-freestone",
-        "clarence-fall-freestone"
-      ],
-      "detail": "The current FamilySearch profile dates are August 13, 1838–August 24, 1920 for George and March 26, 1855–August 30, 1936 for Jennie. George’s long family narrative also gives August 18, 1838, an 1837 blessing transcription, August 20, 1920 and August 10, 1936. Its Alice marriage says December 25, while the structured group says December 24, 1861. The archive follows the main profile and structured marriage dates, preserving the other claims here. The family cards give Louis Alonzo’s birth as 1884 rather than the earlier 1885 and name Clarence Betts rather than Clarence Fall. Stable person IDs and former name aliases are retained. George’s Utah death locality remains only broadly established in the earlier family research.",
-      "next": "Compare the original birth, marriage, death and burial records; do not treat the narrative’s conflicting dates as separate people.",
-      "sources": [
-        "fs-george-freestone",
-        "fs-jennie-lind",
-        "freestone-history"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "ann-fall-birth",
-      "title": "Ann Fall’s birth year and christening date",
-      "branch": "Freestone",
-      "people": [
-        "ann-fall"
-      ],
-      "detail": "FamilySearch’s current birth date is August 7, 1814. The sketch on Thomas’s page calls August 7, 1814 a christening, while the pioneer database gives 1812. The current display follows FamilySearch as requested and keeps both earlier interpretations here.",
-      "next": "Inspect the parish register to distinguish baptism from birth.",
-      "sources": [
-        "fs-ann-fall",
-        "fs-thomas-freestone",
-        "ann-fall-roster"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "thomas-freestone-death",
-      "title": "Thomas Freestone’s death date and locality",
-      "branch": "Freestone",
-      "people": [
-        "thomas-freestone"
-      ],
-      "detail": "FamilySearch’s current vital heading gives July 1, 1858. The attached family sketches describe departure in July and different southern Utah localities, including the Parowan area and a Santa Clara account. His burial place is not established. The archive records the profile date and Utah without choosing a precise locality or repeating unverified circumstances as settled fact.",
-      "next": "Compare the original contemporary correspondence and any death or burial evidence.",
-      "sources": [
-        "fs-thomas-freestone",
-        "brief"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "ann-youngman-burial",
-      "title": "Ann Youngman’s burial locality",
-      "branch": "Freestone",
-      "people": [
-        "ann-youngman",
-        "george-freestone-1760"
-      ],
-      "detail": "FamilySearch lists St Mary The Virgin’s Church in Hutton, Somerset, while George Freestone’s later family-history diary describes his grandparents’ unmarked graves in Flixton, Suffolk. The archive retains the FamilySearch burial entry with an explicit locality-under-review label.",
-      "next": "Check the original burial entry and reconcile the Somerset and Suffolk references.",
-      "sources": [
-        "fs-ann-youngman",
-        "fs-george-freestone-1760",
-        "fs-george-freestone"
-      ],
-      "status": "Research in progress"
-    },
-    {
-      "id": "dorothy-generated-age",
-      "title": "Erroneous age in Thomas’s generated life summary",
-      "branch": "Freestone",
-      "people": [
-        "thomas-freestone-1728",
-        "dorothy-morries"
-      ],
-      "detail": "Thomas’s generated FamilySearch summary prints an impossible maternal age. The expanded family cards instead give Dorothy Morries as 1691–1770 and Thomas as born in 1728. The nonsensical generated age is not imported.",
-      "next": "Use the underlying parish records and dates rather than the generated age sentence.",
-      "sources": [
-        "fs-thomas-freestone-1728"
-      ],
-      "status": "Research in progress"
-    }
+  {
+    "id": "elnathan-overlapping-marriages",
+    "title": "Elnathan’s overlapping marriage dates",
+    "branch": "Lambson",
+    "people": [
+      "elnathan-lambson",
+      "jane-hayes"
+    ],
+    "detail": "FamilySearch gives the Jane Hayes marriage as 1751 and Jane’s death as July 16, 1761. Its expanded family group also gives April 20, 1759 in Fairfield for Lucine Griffin (1732–1803), with Rebecca (1763–1794), Naomi (1765–1844), Abigail (1768–1849), James (1770–1838), and Joseph (1774–1844). The 1759 date overlaps Jane’s lifetime. The archive retains the five existing paternal links but does not assign Lucine as their mother or publish this marriage as established. Joseph’s existing 1777 birth label also differs from the FamilySearch 1774 year. Joseph’s own profile L7B4-15N was reviewed November 11, 2026 and gives April 2, 1774–May 25, 1844. His earlier 1777 birth label has been corrected; the overlapping marriage chronology remains unresolved.",
+    "next": "Inspect the marriage and children’s original records before resolving dates or parentage.",
+    "sources": [
+      "fs-elnathan-lambson",
+      "fs-jane-hayes"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "rice-billings-marriage",
+    "title": "Elizabeth Rice’s reported later marriage",
+    "branch": "Lambson",
+    "people": [
+      "elizabeth-rice",
+      "joseph-lambson"
+    ],
+    "detail": "FamilySearch lists a second marriage to John Billings (1640–1704) on December 31, 1685 in Concord. The archive’s earlier historical reconstruction already flags the later-marriage chronology. Joseph’s death date is unknown, and the identity has not been checked in the original marriage record.",
+    "next": "Verify the original entry and identity before connecting the additional spouse.",
+    "sources": [
+      "fs-elizabeth-rice",
+      "lambson"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "bradley-relationships",
+    "title": "Bradley daughters and conflicting marriage details",
+    "branch": "Downard",
+    "people": [
+      "clace",
+      "walter",
+      "mack",
+      "oaka",
+      "barbara",
+      "maryj"
+    ],
+    "detail": "FamilySearch’s family groups list the three Bradley daughters under both Walter and Marshall Bradley. Its Clace narrative identifies Bradley as their father and Walter as their stepfather. The structured Walter–Clace marriage is September 12, 1921 in Provo, while the narrative says September 21. The Bradley marriage narrative places June 4, 1917 in Duchesne, while the structured group says Vernal. Existing Bradley parentage and Walter stepchild links are retained; no marriage place is selected for the Bradley wedding.",
+    "next": "Compare the original marriage certificates and birth records; retain the September 12 Provo date supported by the archive’s newspaper notice.",
+    "sources": [
+      "fs-clace",
+      "fs-walter",
+      "clace-notice"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "thomas-marriage-location",
+    "title": "Thomas and Norma’s marriage-location field",
+    "branch": "Downard",
+    "people": [
+      "thomas",
+      "norma"
+    ],
+    "detail": "FamilySearch’s expanded group attaches University of Utah Hospital to the June 26, 1942 marriage. The life history places the marriage in Salt Lake City and identifies that hospital as the death location. The archive retains Salt Lake City for marriage and the hospital for death. Living son Quinn is preserved although the public FamilySearch child list omits him.",
+    "next": "Check the original marriage certificate before attributing a specific building.",
+    "sources": [
+      "fs-thomas",
+      "norma-notice"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "lamson-extra-child",
+    "title": "Additional child in the earlier Joseph Jr. roster",
+    "branch": "Lambson",
+    "people": [
+      "joseph-lamson-jr",
+      "elizabeth-adams",
+      "joseph-lamson-son"
+    ],
+    "detail": "The earlier archive includes an undated Joseph Lamson as a child of Joseph Jr. and Elizabeth Adams. Both parents’ individually reviewed FamilySearch profiles list eight other children and omit him. The person record is preserved, with parent links explicitly unverified instead of presented as established.",
+    "next": "Reconcile the earlier roster with birth and probate records.",
+    "sources": [
+      "lambson-children",
+      "fs-joseph-lamson-jr"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "early-lambson-vitals",
+    "title": "Early Lambson dates and Marie’s reported parentage",
+    "branch": "Lambson",
+    "people": [
+      "barnabas",
+      "marie",
+      "elizabeth-rice",
+      "joseph-lambson"
+    ],
+    "detail": "The current display follows FamilySearch: Barnabas born about 1597 and died before February 1640; Marie died March 17, 1638; Elizabeth Rice died after December 27, 1708. Earlier archive estimates for Barnabas were about 1602 and about 1640. FamilySearch names Thomas Liggett (1575–1612) as Marie’s father; the earlier historical study treats this parentage as unproven. That parent link is not established in the archive. Joseph’s death remains unknown. The family-tree marriage to Elizabeth in 1663 also differs from the historical reconstruction’s about 1661.",
+    "next": "Check original parish, probate and marriage records; retain approximate and after/before qualifiers.",
+    "sources": [
+      "fs-barnabas",
+      "fs-marie",
+      "fs-elizabeth-rice",
+      "fs-joseph-lambson",
+      "lambson"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "per-greta-duplicate",
+    "title": "Possible duplicate Greta Stina spouse entries",
+    "branch": "Peterson",
+    "people": [
+      "per-andersson",
+      "greta-stina-jansdotter"
+    ],
+    "detail": "Per’s FamilySearch page attaches both Greta Stina Jonsson Jansdotter and Greta Stina Klang with 1812–1857 dates and the same November 19, 1835 marriage. Both groups include the same Per Erik Persson Eklund. The archive uses the requested LC8B-5TD profile and its six-child group. A second wife and a duplicate child have not been created.",
+    "next": "Compare Swedish parish marriage and household records before deciding whether the two profiles represent one person.",
+    "sources": [
+      "fs-per-andersson",
+      "fs-greta-stina-jansdotter"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "george-jennie-vital-dates",
+    "title": "George and Jennie’s conflicting narrative dates",
+    "branch": "Freestone",
+    "people": [
+      "george-freestone",
+      "jennie-lind",
+      "louis-alonzo-freestone",
+      "clarence-fall-freestone"
+    ],
+    "detail": "The current FamilySearch profile dates are August 13, 1838–August 24, 1920 for George and March 26, 1855–August 30, 1936 for Jennie. George’s long family narrative also gives August 18, 1838, an 1837 blessing transcription, August 20, 1920 and August 10, 1936. Its Alice marriage says December 25, while the structured group says December 24, 1861. The archive follows the main profile and structured marriage dates, preserving the other claims here. The family cards give Louis Alonzo’s birth as 1884 rather than the earlier 1885 and name Clarence Betts rather than Clarence Fall. Stable person IDs and former name aliases are retained. George’s Utah death locality remains only broadly established in the earlier family research.",
+    "next": "Compare the original birth, marriage, death and burial records; do not treat the narrative’s conflicting dates as separate people.",
+    "sources": [
+      "fs-george-freestone",
+      "fs-jennie-lind",
+      "freestone-history"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "ann-fall-birth",
+    "title": "Ann Fall’s birth year and christening date",
+    "branch": "Freestone",
+    "people": [
+      "ann-fall"
+    ],
+    "detail": "FamilySearch’s current birth date is August 7, 1814. The sketch on Thomas’s page calls August 7, 1814 a christening, while the pioneer database gives 1812. The current display follows FamilySearch as requested and keeps both earlier interpretations here.",
+    "next": "Inspect the parish register to distinguish baptism from birth.",
+    "sources": [
+      "fs-ann-fall",
+      "fs-thomas-freestone",
+      "ann-fall-roster"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "thomas-freestone-death",
+    "title": "Thomas Freestone’s death date and locality",
+    "branch": "Freestone",
+    "people": [
+      "thomas-freestone"
+    ],
+    "detail": "FamilySearch’s current vital heading gives July 1, 1858. The attached family sketches describe departure in July and different southern Utah localities, including the Parowan area and a Santa Clara account. His burial place is not established. The archive records the profile date and Utah without choosing a precise locality or repeating unverified circumstances as settled fact.",
+    "next": "Compare the original contemporary correspondence and any death or burial evidence.",
+    "sources": [
+      "fs-thomas-freestone",
+      "brief"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "ann-youngman-burial",
+    "title": "Ann Youngman’s burial locality",
+    "branch": "Freestone",
+    "people": [
+      "ann-youngman",
+      "george-freestone-1760"
+    ],
+    "detail": "FamilySearch lists St Mary The Virgin’s Church in Hutton, Somerset, while George Freestone’s later family-history diary describes his grandparents’ unmarked graves in Flixton, Suffolk. The archive retains the FamilySearch burial entry with an explicit locality-under-review label.",
+    "next": "Check the original burial entry and reconcile the Somerset and Suffolk references.",
+    "sources": [
+      "fs-ann-youngman",
+      "fs-george-freestone-1760",
+      "fs-george-freestone"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "dorothy-generated-age",
+    "title": "Erroneous age in Thomas’s generated life summary",
+    "branch": "Freestone",
+    "people": [
+      "thomas-freestone-1728",
+      "dorothy-morries"
+    ],
+    "detail": "Thomas’s generated FamilySearch summary prints an impossible maternal age. The expanded family cards instead give Dorothy Morries as 1691–1770 and Thomas as born in 1728. The nonsensical generated age is not imported.",
+    "next": "Use the underlying parish records and dates rather than the generated age sentence.",
+    "sources": [
+      "fs-thomas-freestone-1728"
+    ],
+    "status": "Research in progress"
+  },
+  {
+    "id": "emery-ida-wedding",
+    "title": "Emery and Ida’s marriage date corrected",
+    "status": "Resolved",
+    "branch": "Freestone",
+    "people": [
+      "emery-lind-freestone",
+      "ida-vilate-crouse"
+    ],
+    "detail": "Both individually reviewed FamilySearch profiles give February 20, 1928, in Vernal, Utah. The earlier archive displayed February 21. The archive now uses February 20 and connects Ida to their seven existing children.",
+    "next": "Retain the source comparison; consult the original marriage record when available.",
+    "sources": [
+      "fs-emery-lind-freestone",
+      "fs-ida-vilate-crouse"
+    ]
+  },
+  {
+    "id": "john-allen-birth",
+    "title": "John Allen Lambson’s birth date",
+    "status": "Conflicting",
+    "branch": "Lambson",
+    "people": [
+      "john-allen-lambson"
+    ],
+    "detail": "The current profile heading gives April 21, 1847. Its attached biographical narrative instead says April 22, 1848, at either Coldwater or Kinderhook. The profile date is retained as the selected comparison value, with the discrepancy unresolved.",
+    "next": "Compare the original birth, census and military records before choosing between the dates.",
+    "sources": [
+      "fs-john-allen-lambson"
+    ]
+  },
+  {
+    "id": "silas-king-birth",
+    "title": "Silas Milo King’s birth year",
+    "status": "Conflicting",
+    "branch": "Downard",
+    "people": [
+      "silas-milo-king"
+    ],
+    "detail": "The current profile heading gives December 5, 1885. The obituary transcription says December 5, 1876 and an age of 88. Those claims conflict. The archive labels the conflict and retains the profile-heading date provisionally.",
+    "next": "Find the original obituary, birth and death records.",
+    "sources": [
+      "fs-silas-milo-king"
+    ]
+  },
+  {
+    "id": "john-b-birth",
+    "title": "John B. Downard’s birth and voyage chronology",
+    "status": "Conflicting",
+    "branch": "Downard",
+    "people": [
+      "johnb"
+    ],
+    "detail": "The profile heading gives September 19, 1855. Its narrative instead gives September 19, 1862 while describing a death during the May–June 1862 voyage. The narrative date cannot fit that voyage chronology. The archive retains the heading date with an explicit conflict.",
+    "next": "Check the manifest, baptism and burial-at-sea evidence; do not merge this record with Edward/Edmund on the overland journey.",
+    "sources": [
+      "fs-johnb"
+    ]
+  },
+  {
+    "id": "annah-king-birth",
+    "title": "Anna Hannah Hicks King’s birth year",
+    "status": "Conflicting",
+    "branch": "Downard",
+    "people": [
+      "annah"
+    ],
+    "detail": "The profile heading and dated sentence give September 8, 1849. The opening obituary label gives 1848. The current display follows the dated heading; the earlier year is retained as a discrepancy.",
+    "next": "Compare the original obituary and birth or baptism record.",
+    "sources": [
+      "fs-annah"
+    ]
+  },
+  {
+    "id": "jagger-birth",
+    "title": "George Henry Jagger’s birth year",
+    "status": "Conflicting",
+    "branch": "Lambson",
+    "people": [
+      "george-henry-jagger"
+    ],
+    "detail": "The profile heading gives September 27, 1835. A draft-registration transcription in its narrative gives about 1829. The heading is retained provisionally, while the identity and year difference remain open.",
+    "next": "Compare the original draft and birth records and confirm that they identify the same man.",
+    "sources": [
+      "fs-george-henry-jagger"
+    ]
+  }
 ]
