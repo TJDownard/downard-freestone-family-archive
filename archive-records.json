@@ -15728,6 +15728,33 @@
   ],
   "stories": [
     {
+      "id": "coolidge-connection",
+      "title": "A Possible Cousin in the White House",
+      "period": "Colonial New England to the twentieth century",
+      "branch": "Lambson",
+      "people": [
+        "barnabas",
+        "martha-lamson-rice",
+        "joseph-lambson",
+        "norma"
+      ],
+      "places": [],
+      "status": "Research in progress",
+      "sources": [
+        "coolidge-ancestry",
+        "coolidge-foundation-genealogy",
+        "fs-barnabas",
+        "fs-martha-lamson-rice"
+      ],
+      "body": [
+        "Following the Lambson family backward from Utah brings us to Barnabas Lamson, also recorded as Lambson, whose children began separate branches of an early New England family. One of those branches may lead to a familiar name in American history: President Calvin Coolidge.",
+        "FamousKin’s published pedigree identifies Barnabas as Coolidge’s seventh-great-grandfather. It follows Barnabas’s daughter Martha through the Rice, Bent, and Brewer families before reaching Coolidge’s grandmother Sarah Almeda Brewer and his father John Calvin Coolidge.",
+        "Our recorded Lambson line follows Martha’s brother Joseph, eventually reaching Norma Lucille Lambson and the Downard family. If both lines are substantiated, Coolidge belongs among our distant cousins—a connection between the family history preserved here and a wider American story.",
+        "The Calvin Coolidge Presidential Foundation links to this ancestry chart but does not certify it. We are preserving the connection as a research lead while the intervening parent–child links are checked against original records."
+      ],
+      "related": "research.html#coolidge-connection"
+    },
+    {
       "id": "journey",
       "title": "The Downard Journey to Utah",
       "period": "1862",
