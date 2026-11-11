@@ -3785,5 +3785,26 @@
     "type": "Compiled genealogy",
     "url": "https://ancestors.familysearch.org/en/KWCJ-TPN/martha-hannah-healey-1867-1950",
     "reference": "FamilySearch KWCJ-TPN. Individual public profile, vital heading, life-history summary and visible family groups reviewed November 11, 2026. Comparison source; attached original records have not all been verified."
+  },
+  {
+    "id": "coolidge-ancestry",
+    "title": "Calvin Coolidge ancestry chart · FamousKin",
+    "type": "Compiled genealogy",
+    "reference": "Reviewed November 11, 2026. Barnabas Lambson appears at ahnentafel 662 (also 694); the listed descent through Martha Lambson, Martha Rice, John Bent, Martha Bent, Eliab Brewer, Israel Chase Brewer, Sarah Almeda Brewer and John Calvin Coolidge makes him the president’s seventh-great-grandfather in this compiled pedigree. Original records for the complete chain have not yet been independently checked.",
+    "url": "https://famouskin.com/ahnentafel.php?name=3275+calvin+coolidge"
+  },
+  {
+    "id": "coolidge-foundation-genealogy",
+    "title": "Genealogical resources · Calvin Coolidge Presidential Foundation",
+    "type": "Research guide",
+    "reference": "Reviewed November 11, 2026. The Foundation links to FamousKin’s 16-generation ancestry chart and other outside genealogical resources. It warns that these are not Foundation publications and can contain errors or omissions; the listing is not certification of this family connection.",
+    "url": "https://coolidgefoundation.org/genealogical-resources/"
+  },
+  {
+    "id": "coolidge-fabpedigree-lead",
+    "title": "Barnabas Lamson pedigree lead shared by the family",
+    "type": "Research lead",
+    "reference": "The archive owner shared this FabPedigree page on November 11, 2026 as a lead to a possible Coolidge connection. The page could not be independently retrieved during review. The story relies on the separately accessible FamousKin chart; this link is retained as discovery provenance.",
+    "url": "https://www.fabpedigree.com/s026/f563095.htm"
   }
 ]
