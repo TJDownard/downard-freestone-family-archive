@@ -1866,15 +1866,18 @@
         "lambson",
         "fs-glennlambson",
         "fs-rosella-blanchard",
-        "glenn-wwi-roster"
+        "glenn-wwi-roster",
+        "glenn-enlistment-herald",
+        "glenn-enlistment-tribune",
+        "glenn-return-tribune"
       ],
       "birth": "January 26, 1898 · Springville, Utah",
       "death": "June 18, 1934 · Bingham Canyon, Utah",
       "burial": "Mount Olivet Cemetery, Salt Lake City, Utah",
-      "text": "Glenn Cody married Mary Lucille Jamieson on September 11, 1922, in Salt Lake City. Their children were Norma Lucille, Vera Elaine, and Glenn Jamieson. A World War I roster published in 1924 lists Glenn C. Lambson of Springville in the cavalry and marks him as having served overseas. His name, initial, and Springville connection make this a probable match for Glenn Cody Lambson.",
+      "text": "Glenn Cody married Mary Lucille Jamieson on September 11, 1922, in Salt Lake City. Their children were Norma Lucille, Vera Elaine, and Glenn Jamieson. The family supplied citations to Army enlistment notices naming Glenn C. Lambson in two Salt Lake newspapers on May 9, 1918. A transcription from the Salt Lake Tribune of July 8, 1919, lists Private Glenn C. Lambson with Field Remount Squadron No. 309 among servicemen returning from overseas through New York. These contemporary reports add detail to the probable matching overseas-cavalry entry in the 1924 Utah military roster.",
       "name": "Glenn Cody Lambson",
       "dates": "1898–1934",
-      "notes": "The roster prints both enlistment and discharge as May 9, 1918. This unresolved date anomaly must not be interpreted as one day of service or silently corrected to a different year. His sister Clara recalled that he went to war in France; the roster identifies overseas service for the listed man but does not name France or a regiment. His exact unit, discharge date, and identification through a full-name service record still need corroboration.",
+      "notes": "The newspaper citations and return-notice transcription were supplied by the archive owner; their scans have not yet been independently inspected. The return entry gives his hometown as “Springfield,” whereas Glenn’s birth and the 1924 roster identify Springville. Preserve that discrepancy until the original notice and a service record can be compared. May 9, 1918 is the enlistment notices’ publication date, not an independently established enlistment date; July 8, 1919 is the return article’s publication date, not a confirmed arrival or discharge date. The 1924 roster prints both enlistment and discharge as May 9, 1918; that unresolved anomaly must not be interpreted as one day of service or silently corrected. His sister Clara recalled service in France; the newspaper extract and roster do not independently establish France, an exact discharge date, or his identity through a full-name service record.",
       "portrait": {
         "src": "glenn-lambson-portrait.png",
         "width": 1126,

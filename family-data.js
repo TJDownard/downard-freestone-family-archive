@@ -543,7 +543,7 @@ const lambsonGenerations = [
   },
   {
     id:'glennlambson', chapter:'glennwar',
-    story:'Born in Springville and died in Bingham Canyon. His sister Clara recalled wartime service in France. A 1924 roster lists a probable matching Glenn C. Lambson of Springville as cavalry with overseas service; the exact unit and discharge date remain unresolved.',
+    story:'Born in Springville and died in Bingham Canyon. Family-supplied newspaper citations report Army enlistment in May 1918 and list Private Glenn C. Lambson with Field Remount Squadron No. 309 in a July 1919 overseas-return report. The original notices, hometown discrepancy, and exact service dates still need review; France remains his sister Clara’s recollection.',
     spouse:{id:'marylucille'}
   },
   {
