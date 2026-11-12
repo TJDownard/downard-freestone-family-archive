@@ -1874,7 +1874,26 @@
       "text": "Glenn Cody married Mary Lucille Jamieson on September 11, 1922, in Salt Lake City. Their children were Norma Lucille, Vera Elaine, and Glenn Jamieson. A World War I roster published in 1924 lists Glenn C. Lambson of Springville in the cavalry and marks him as having served overseas. His name, initial, and Springville connection make this a probable match for Glenn Cody Lambson.",
       "name": "Glenn Cody Lambson",
       "dates": "1898–1934",
-      "notes": "The roster prints both enlistment and discharge as May 9, 1918. This unresolved date anomaly must not be interpreted as one day of service or silently corrected to a different year. His sister Clara recalled that he went to war in France; the roster identifies overseas service for the listed man but does not name France or a regiment. His exact unit, discharge date, and identification through a full-name service record still need corroboration."
+      "notes": "The roster prints both enlistment and discharge as May 9, 1918. This unresolved date anomaly must not be interpreted as one day of service or silently corrected to a different year. His sister Clara recalled that he went to war in France; the roster identifies overseas service for the listed man but does not name France or a regiment. His exact unit, discharge date, and identification through a full-name service record still need corroboration.",
+      "portrait": {
+        "src": "glenn-lambson-portrait.png",
+        "width": 1126,
+        "height": 1397,
+        "caption": "Glenn Cody Lambson · Colorized historical photograph supplied by the family",
+        "thumbnail": "glenn-lambson-portrait-160.webp",
+        "display": [
+          {
+            "src": "glenn-lambson-portrait-480.webp",
+            "width": 480,
+            "height": 596
+          },
+          {
+            "src": "glenn-lambson-portrait-960.webp",
+            "width": 960,
+            "height": 1191
+          }
+        ]
+      }
     },
     "marylucille": {
       "branch": "Lambson",
@@ -1905,7 +1924,26 @@
       "dates": "1860–1910",
       "aliases": [
         "Arba Lorenzo Lambson"
-      ]
+      ],
+      "portrait": {
+        "src": "arba-lambson-jr-portrait.png",
+        "width": 1178,
+        "height": 1335,
+        "caption": "Arba Lorenzo Lambson Jr. · Colorized historical photograph supplied by the family",
+        "thumbnail": "arba-lambson-jr-portrait-160.webp",
+        "display": [
+          {
+            "src": "arba-lambson-jr-portrait-480.webp",
+            "width": 480,
+            "height": 544
+          },
+          {
+            "src": "arba-lambson-jr-portrait-960.webp",
+            "width": 960,
+            "height": 1088
+          }
+        ]
+      }
     },
     "rosella-blanchard": {
       "branch": "Lambson",
@@ -16154,7 +16192,8 @@
     "elizabeth-ann-freestone",
     "rhoda-francis-freestone",
     "johannah-freestone",
-    "emma-sarah-freestone"
+    "emma-sarah-freestone",
+    "arba-lambson-jr"
   ],
   "scanPreviews": {
     "george": {
