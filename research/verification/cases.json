@@ -687,18 +687,21 @@
   },
   {
     "id": "glenn-wwi-service",
-    "title": "Identify Glenn’s cavalry service and resolve the repeated dates",
+    "title": "Verify Glenn’s remount squadron and resolve service dates",
     "status": "Probable",
     "branch": "Lambson",
     "people": [
       "glennlambson"
     ],
-    "detail": "The 1924 Utah military roster lists a starred Glenn C. Lambson of Springville under cavalry. Its key identifies the star as overseas duty. This is a probable match to Glenn Cody Lambson, born in Springville in 1898, and supports the family’s overseas-service recollection without independently establishing France. Both enlistment and discharge are printed as May 9, 1918. No corrected discharge year, regiment, or exact deployment location is assigned.",
-    "next": "Locate a full-name service card, enlistment or discharge document, and passenger or transport record. Compare birth details or a service number to establish identity, resolve the dates, and test Clara’s recollection of France.",
+    "detail": "The 1924 Utah roster lists a probable matching Glenn C. Lambson of Springville as cavalry with overseas service, but repeats May 9, 1918 for enlistment and discharge. The owner supplied two May 9, 1918 enlistment citations and a July 8, 1919 Salt Lake Tribune return-notice extract naming Private Glenn C. Lambson, Field Remount Squadron No. 309, with hometown Springfield. This adds a reported unit and an overseas-return lead; the scans and Springfield/Springville identification remain to be checked. Publication dates are not used as exact enlistment, arrival, or discharge dates. France remains Clara’s recollection. Supplied archive links awaiting citation matching: https://newspapers.lib.utah.edu/details?id=10174922&hl=lambson and https://newspapers.lib.utah.edu/details?id=14955791&hl=lambson.",
+    "next": "Inspect the three original newspaper notices; match supplied record IDs 10174922 and 14955791 to the citations and obtain a stable link to the return report. Compare the printed hometown, full-name service record, birth details, and any service number. Establish exact enlistment, New York arrival, and discharge dates; test Clara’s report of France.",
     "sources": [
       "glenn-wwi-roster",
       "lambson",
-      "fs-glennlambson"
+      "fs-glennlambson",
+      "glenn-enlistment-herald",
+      "glenn-enlistment-tribune",
+      "glenn-return-tribune"
     ]
   }
 ]
